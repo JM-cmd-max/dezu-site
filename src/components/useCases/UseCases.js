@@ -1,0 +1,106 @@
+import { useContext, useEffect, useState } from "react";
+import ColorContext from "../../context/ColorContext";
+import PageContext from "../../context/PageContext";
+import { Link } from 'react-router-dom';
+import WaterJetPage from './WaterJetPage';  // Import your page components here
+import PressurePage from './PressurePage';
+import CleaningPage from './CleaningPage';
+import EnvironmentalPage from './EnvironmentalPage';
+
+export default function UseCases() {
+  const { color, setColor } = useContext(ColorContext);
+  const { page, setPage, activeTab, setActiveTab } = useContext(PageContext);
+
+  const handleTabClick = (tabName, color, bgColor) => {
+    setActiveTab(tabName);
+    setColor({ color, bgColor });
+  };
+
+  useEffect(() => {
+    setPage('use-cases');
+
+    // Ensure activeTab is set to default "Waterjet Technology" if not already set
+    if (!activeTab) {
+      handleTabClick("Waterjet Technology", "#32CBBB", "#0C191D");
+    }
+  }, [setPage, activeTab]);
+
+  // Function to render the correct content based on activeTab
+  const renderContent = () => {
+    switch (activeTab) {
+      case "Waterjet Technology":
+        return <WaterJetPage />;
+      case "Pressure Technology":
+        return <PressurePage />;
+      case "Cleaning Technology":
+        return <CleaningPage />;
+      case "Environment Technology":
+        return <EnvironmentalPage />;
+      default:
+        return null;
+    }
+  };
+
+  return (
+    <div className="hero use-case-bg">
+      <div className="line-1"></div>
+      <div className="line-2"></div>
+      <div className="line-3"></div>
+      <div className="use-case-container">
+        <h2 className="use-case-heading rajdhani-medium">
+          A NEW ERA OF HYDRO
+        </h2>
+        <p className="use-case-text rajdhani-regular">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit diam quam nisi ut pellentesque nec cursus habitant nec lobortis ac placerat non, urna tempus luctus lobortis sed dui nisl.
+        </p>
+
+        <ol className="filter-tabs">
+          <li
+            className="tab-item rajdhani-semibold"
+            style={{
+              color: activeTab === "Waterjet Technology" ? "#32CBBB" : "white",
+              transition: "all 0.5s linear",
+            }}
+            onClick={() => handleTabClick("Waterjet Technology", "#32CBBB", "#0C191D")}
+          >
+            Waterjet Technology
+          </li>
+          <li
+            className="tab-item rajdhani-semibold"
+            style={{
+              color: activeTab === "Pressure Technology" ? "#FF5050" : "white",
+              transition: "all 0.5s linear",
+            }}
+            onClick={() => handleTabClick("Pressure Technology", "#FF5050", "#1D0C0C")}
+          >
+            Pressure Technology
+          </li>
+          <li
+            className="tab-item rajdhani-semibold"
+            style={{
+              color: activeTab === "Cleaning Technology" ? "#53FF50" : "white",
+              transition: "all 0.5s linear",
+            }}
+            onClick={() => handleTabClick("Cleaning Technology", "#53FF50", "#0C1D14")}
+          >
+            Cleaning Technology
+          </li>
+          <li
+            className="tab-item rajdhani-semibold"
+            style={{
+              color: activeTab === "Environment Technology" ? "#BC50FF" : "white",
+              transition: "all 0.5s linear",
+            }}
+            onClick={() => handleTabClick("Environment Technology", "#BC50FF", "#1A0C1D")}
+          >
+            Environment Technology
+          </li>
+        </ol>
+
+        {/* Render the content based on activeTab */}
+        {renderContent()}
+
+      </div>
+    </div>
+  );
+}
