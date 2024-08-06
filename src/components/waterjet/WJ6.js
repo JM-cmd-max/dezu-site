@@ -8,7 +8,7 @@ import StaticNSC from "../slider/StaticNSC";
 import PageContext from '../../context/PageContext';
 import Footer from "../footer/Footer";
 import Contact from "../contact/Contact";
-import WJ1S from "../dotparts/WJ1S";
+import WJ6S from "../dotparts/WJ6S";
 
 const WJ6 = () => {
   const { color } = useContext(ColorContext); // Get color from ColorContext
@@ -139,7 +139,7 @@ const WJ6 = () => {
 
           <div className="divider"></div>
 
-          <WJ1S/>
+          <WJ6S/>
 
         </div>
       </div>

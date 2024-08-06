@@ -29,28 +29,28 @@ function Slider() {
 
             <li>
               <img
-                src={require("../../assets/images/nlb.png")}
+                src={require("../../assets/images/univ/nlb.png")}
                 style={{ width: "150px" }}
                 alt="Disney"
               />
             </li>
             <li>
               <img
-                src={require("../../assets/images/spirstart.png")}
+                src={require("../../assets/images/univ/spirstart.png")}
                 style={{ width: "150px" }}
                 alt="Airbnb"
               />
             </li>
             <li>
               <img
-                src={require("../../assets/images/stoneage.png")}
+                src={require("../../assets/images/univ/stoneage.png")}
                 style={{ width: "150px" }}
                 alt="Apple"
               />
             </li>
             <li>
               <img
-                src={require("../../assets/images/conjet.png")}
+                src={require("../../assets/images/univ/conjet.png")}
                 style={{ width: "150px" }}
                 alt="Spark"
               />
@@ -63,28 +63,28 @@ function Slider() {
 
             <li>
               <img
-                src={require("../../assets/images/nlb.png")}
+                src={require("../../assets/images/univ/nlb.png")}
                 style={{ width: "150px" }}
                 alt="Disney"
               />
             </li>
             <li>
               <img
-                src={require("../../assets/images/spirstart.png")}
+                src={require("../../assets/images/univ/spirstart.png")}
                 style={{ width: "150px" }}
                 alt="Airbnb"
               />
             </li>
             <li>
               <img
-                src={require("../../assets/images/stoneage.png")}
+                src={require("../../assets/images/univ/stoneage.png")}
                 style={{ width: "150px" }}
                 alt="Apple"
               />
             </li>
             <li>
               <img
-                src={require("../../assets/images/conjet.png")}
+                src={require("../../assets/images/univ/conjet.png")}
                 style={{ width: "150px" }}
                 alt="Spark"
               />

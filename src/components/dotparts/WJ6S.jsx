@@ -7,14 +7,14 @@ export default function WJ1S() {
     const { page, setPage } = useContext(PageContext);
 
     const slides = [
-        require("../../assets/images/univ/x3.webp"),
-        require("../../assets/images/univ/x4.webp"),
-        require("../../assets/images/univ/x5.webp"),
+        require("../../assets/images/hydro/hwj6/SAB.png"),
+        require("../../assets/images/hydro/hwj6/SAA.png"),
+        require("../../assets/images/hydro/hwj6/SAS.png"),
     ];
 
     const slideTexts = [
         {
-            conjet: "CONJET ROBOT 557",
+            conjet: "STONEAGE BANSHEE",
             paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit diam quam nisi ut pellentesque nec cursus habitant nec lobortis ac placerat non, urna tempus luctus lobortis sed dui nisl.",
             listItems: [
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
@@ -24,7 +24,7 @@ export default function WJ1S() {
             ]
         },
         {
-            conjet: "CONJET ROBOT 101 NALTA",
+            conjet: "STONEAGE AUTOBOX 3L",
             paragraph: "Slide 2: Another description for the second slide.",
             listItems: [
                 "Second slide list item 1.",
@@ -34,7 +34,7 @@ export default function WJ1S() {
             ]
         },
         {
-            conjet: "NLB NCG24-535 HAND LANCE",
+            conjet: "STONEAGE SENTINEL",
             paragraph: "Slide 3: Yet another description for the third slide.",
             listItems: [
                 "Third slide list item 1.",

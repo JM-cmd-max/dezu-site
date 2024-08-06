@@ -9,9 +9,9 @@ function ProductContent() {
     const {page, setPage} = useContext(PageContext);
 
     const images = [
-      require("../assets/images/x3.webp"),
-      require("../assets/images/x4.webp"),
-      require("../assets/images/x5.webp"),
+      require("../assets/images/univ/x3.webp"),
+      require("../assets/images/univ/x4.webp"),
+      require("../assets/images/univ/x5.webp"),
     ];
    
   
@@ -32,7 +32,7 @@ function ProductContent() {
       <div className="section section-bg">
         <div className="column image-column">
         <p className='barcode left-spacing nlb-spacing'>NLB 225 SERIES WATER JETTING PUMP</p>
-          <img src={require("../assets/images/x1.webp")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
+          <img src={require("../assets/images/univ/x1.webp")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
         </div>
         <div className="column text-column rajdhani-semibold">
           <p  className='list-paragraph-1 left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit diam quam nisi ut pellentesque nec cursus habitant nec lobortis ac placerat non, urna tempus luctus lobortis sed dui nisl.</p>
@@ -59,7 +59,7 @@ function ProductContent() {
         </div>
         <div className="column image-column spir-barcode">
             <p className='barcode'>SPIR STAR HIGH PRESSURE HOSE</p>
-          <img src={require("../assets/images/x2.webp")} alt="Placeholder" className='p-image2'/>
+          <img src={require("../assets/images/univ/x2.webp")} alt="Placeholder" className='p-image2'/>
         </div>
       </div>
 

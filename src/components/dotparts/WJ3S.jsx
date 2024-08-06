@@ -8,14 +8,14 @@ export default function WJ1S() {
 
     // Updated slides array with only two images
     const slides = [
-        require("../../assets/images/x3.webp"),
-        require("../../assets/images/x4.webp"),
+        require("../../assets/images/hydro/hwj3/UHP nozzle.png"),
+        require("../../assets/images/hydro/hwj3/AB nozzle.png"),
     ];
 
     // Updated slideTexts array with only two sets of text
     const slideTexts = [
         {
-            conjet: "CONJET ROBOT 557",
+            conjet: "VertiDrive V700: UHP Nozzle",
             paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit diam quam nisi ut pellentesque nec cursus habitant nec lobortis ac placerat non, urna tempus luctus lobortis sed dui nisl.",
             listItems: [
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
@@ -25,7 +25,7 @@ export default function WJ1S() {
             ]
         },
         {
-            conjet: "CONJET ROBOT 558",
+            conjet: "VertiDrive V700: Abrasive Nozzle",
             paragraph: "Slide 2: Another description for the second slide.",
             listItems: [
                 "Second slide list item 1.",

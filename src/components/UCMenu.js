@@ -38,7 +38,7 @@ export default function MenuIcon() {
                 style={{ color: color.color }}
             > &lt;&lt; Use Cases
             </p>
-            <div className={`menu-icon ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
+            <div className={`menu-icon-fixed ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
                 <div className="bar1" style={{ backgroundColor: color.color }}></div>
                 <div className="bar2" style={{ backgroundColor: color.color }}></div>
                 <div className="bar3" style={{ backgroundColor: color.color }}></div>

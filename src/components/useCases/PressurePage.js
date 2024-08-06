@@ -144,37 +144,5 @@ export default function PressurePage(){
       (Insert Waterjet Product Use Case Description){" "}
       </p>
     </div>
-    <div className="card-and-info">
-      <div
-        className="card"
-        style={{
-          background: `linear-gradient(30deg, ${color["color"]}  10%, #000,  ${color["color"]} 90%)`,
-          transition: "all 0.5s linear",
-        }}
-      ></div>
-      <p className="info-text rajdhani-semibold" style={{ color: "white" }}>
-      Pressure Tech8{" "}
-      </p>
-      <p className="info-subtext rajdhani-regular" style={{ color: "white" }}>
-      (Insert Waterjet Product Use Case Description){" "}
-      </p>
-    </div>
-    <div className="card-and-info">
-      <div
-        className="card"
-        style={{
-          background: `linear-gradient(30deg, ${color["color"]}  10%, #000,  ${color["color"]} 90%)`,
-          transition: "background 0.5s linear",
-        }}
-      ></div>
-      <p className="info-text rajdhani-semibold" style={{ color: "white" }}>
-      Pressure Tech9{" "}
-      </p>
-      <p className="info-subtext rajdhani-regular" style={{ color: "white" }}>
-      (Insert Waterjet Product Use Case Description){" "}
-      </p>
-    </div>
-
-
   </div>
 }

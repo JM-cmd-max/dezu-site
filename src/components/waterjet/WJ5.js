@@ -10,7 +10,7 @@ import Footer from "../footer/Footer";
 import Contact from "../contact/Contact";
 import WJ3S from "../dotparts/WJ3S";
 
-const WJ3 = () => {
+const WJ5 = () => {
   const { color } = useContext(ColorContext); // Get color from ColorContext
 
   const [glitch, setGlitch] = useState(false);
@@ -59,6 +59,15 @@ const WJ3 = () => {
     setIsHovered(hovered);
   };
 
+
+
+  useEffect(() => {
+    // Scroll to top when the component mounts
+    window.scrollTo(0, 0);
+  }, []);
+
+
+  
   return (
     <div className="text-table-wglitch-wj3">
       <UCMenu />
@@ -95,8 +104,8 @@ const WJ3 = () => {
             </tbody>
           </table>
           <div className={`glitch ${glitch ? `glitch-active-${imageSet}` : `glitch-static-${imageSet}`}`}></div>
-          <h3 className="sub-heading orbitron">COATING ON STEEL SURFACES</h3>
-          <h1 className="main-heading rajdhani-medium">SURFACE PREPARATION</h1>
+          <h3 className="sub-heading orbitron">STEEL SURFACES</h3>
+          <h1 className="main-heading rajdhani-medium">HIGH PRESSURE CLEANING</h1>
         </div>
 
         <div className="divider"></div>
@@ -142,8 +151,23 @@ const WJ3 = () => {
       
       <div className="divider"></div>
 
-              <WJ3S />
-
+      <div className="product-content">
+      <div className="section section-bg">
+        <div className="column image-column">
+        <p className='barcode left-spacing nlb-spacing'>VertiDrive V700: HP Nozzle</p>
+          <img src={require("../../assets/images/hydro/hwj5/HP nozzle.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
+        </div>
+        <div className="column text-column rajdhani-semibold">
+          <p  className='list-paragraph-1 left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit diam quam nisi ut pellentesque nec cursus habitant nec lobortis ac placerat non, urna tempus luctus lobortis sed dui nisl.</p>
+          <ul>
+            <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
       
       </div>
       </div>
@@ -153,4 +177,4 @@ const WJ3 = () => {
   );
 };
 
-export default WJ3;
+export default WJ5;

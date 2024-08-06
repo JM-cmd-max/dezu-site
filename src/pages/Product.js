@@ -4,15 +4,15 @@ import Slider from "../components/slider/Slider";
 import Navbar from "../components/hero/components/Navbar";
 import "../styles/styles.css"; // Ensure your CSS file is correctly imported
 import ProductContent from "../components/ProductContent";
-import Static from "../components/slider/Static";
+import Static from "../components/slider/StaticNSC";
 import Footer from "../components/footer/Footer";
 import MenuIcon from "../components/MenuIcon";
-import defaultImage from "../assets/images/x5.webp";
-import roadsImage from "../assets/images/x1.webp";
-import runwaysImage from "../assets/images/x4.webp";
-import portsImage from "../assets/images/x2.webp";
-import quaysImage from "../assets/images/x3.webp";
-import parkingdecksImage from "../assets/images/x4.webp";
+import defaultImage from "../assets/images/univ/x5.webp";
+import roadsImage from "../assets/images/univ/x1.webp";
+import runwaysImage from "../assets/images/univ/x4.webp";
+import portsImage from "../assets/images/univ/x2.webp";
+import quaysImage from "../assets/images/univ/x3.webp";
+import parkingdecksImage from "../assets/images/univ/x4.webp";
 
 function Product() {
   const [backgroundImage, setBackgroundImage] = useState(defaultImage);

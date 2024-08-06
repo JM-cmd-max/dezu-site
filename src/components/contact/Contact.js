@@ -2,7 +2,7 @@ import React, { useRef, useEffect, useContext, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FaArrowUp } from 'react-icons/fa';
 import ColorContext from '../../context/ColorContext';
-import plane from '../../assets/images/paperplane.png';
+import plane from '../../assets/images/univ/paperplane.png';
 
 export default function Contact() {
   const { color } = useContext(ColorContext);

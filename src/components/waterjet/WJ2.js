@@ -1,10 +1,10 @@
 import React, { useState, useEffect, useContext } from 'react';
-import "../../styles/hglitch.css";
+import "../../styles/hwj1.css";
 import ColorContext from '../../context/ColorContext';
-import gridLinesImage from "../../assets/images/grid_lines.svg";
+import gridLinesImage from "../../assets/images/univ/grid_lines.svg";
 import Navbar from "../hero/components/Navbar";
 import UCMenu from "../UCMenu";
-import Static from "../slider/Static";
+import StaticNSC from "../slider/StaticNSC";
 import PageContext from '../../context/PageContext';
 import Footer from "../footer/Footer";
 import Contact from "../contact/Contact";
@@ -24,7 +24,7 @@ const WJ2 = () => {
 
   //SLIDE DOTS
   const slides = [
-    require("../../assets/images/x4.webp"),
+    require("../../assets/images/univ/x4.webp"),
 
   ];
   const handleDotClick = (index) => {
@@ -91,7 +91,7 @@ const WJ2 = () => {
             />
             <tbody>
               <tr>
-                <td className="featured-text">Featured Use Cases</td>
+                <td className="featured-text" style={{ color: color.color }}>Featured Use Cases</td>
               </tr>
               {linkTexts.map((link, index) => (
                 <tr key={index}>
@@ -120,7 +120,7 @@ const WJ2 = () => {
         </div>
 
         <div className="divider"></div>
-        <Static />
+        <StaticNSC />
         <div className="divider"></div>
 
 
@@ -128,7 +128,7 @@ const WJ2 = () => {
       <div className="section section-bg">
         <div className="column image-column">
         <p className='barcode left-spacing nlb-spacing'>NLB 225 SERIES WATER JETTING PUMP</p>
-          <img src={require("../../assets/images/x1.webp")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
+          <img src={require("../../assets/images/univ/x1.webp")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
         </div>
         <div className="column text-column rajdhani-semibold">
           <p  className='list-paragraph-1 left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit diam quam nisi ut pellentesque nec cursus habitant nec lobortis ac placerat non, urna tempus luctus lobortis sed dui nisl.</p>
@@ -155,7 +155,7 @@ const WJ2 = () => {
         </div>
         <div className="column image-column spir-barcode">
             <p className='barcode'>SPIR STAR HIGH PRESSURE HOSE</p>
-          <img src={require("../../assets/images/x2.webp")} alt="Placeholder" className='p-image2'/>
+          <img src={require("../../assets/images/univ/x2.webp")} alt="Placeholder" className='p-image2'/>
         </div>
       </div>
 

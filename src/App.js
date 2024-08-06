@@ -18,6 +18,8 @@ import WJ1 from "./components/waterjet/WJ1";
 import WJ2 from "./components/waterjet/WJ2";
 import WJ3 from "./components/waterjet/WJ3";
 import WJ4 from "./components/waterjet/WJ4";
+import WJ5 from "./components/waterjet/WJ5";
+import WJ6 from "./components/waterjet/WJ6";
 import PS1 from "./components/pressure/PS1";
 import PS2 from "./components/pressure/PS2";
 import UCMenu from "./components/UCMenu";
@@ -42,6 +44,8 @@ function App() {
               <Route path="/wj2" element={<WJ2 handlePage={setPage} />} />
               <Route path="/wj3" element={<WJ3 handlePage={setPage} />} />
               <Route path="/wj4" element={<WJ4 handlePage={setPage} />} />
+              <Route path="/wj5" element={<WJ5 handlePage={setPage} />} />
+              <Route path="/wj6" element={<WJ6 handlePage={setPage} />} />
               <Route path="/ps1" element={<PS1 handlePage={setPage} />} />
               <Route path="/ps2" element={<PS2 handlePage={setPage} />} />
 

@@ -126,12 +126,14 @@ export default function WaterJetPage(){
 
 
 {/* WJ5 */}
-      <p className="info-text rajdhani-semibold" style={{ color: "white" }}>
-        Waterjet Tech5{" "}
-      </p>
-      <p className="info-subtext rajdhani-regular" style={{ color: "white" }}>
-        (Insert Waterjet Product Use Case Description){" "}
-      </p>
+<Link to="/wj5" style={{ textDecoration: 'none', color: 'inherit' }}>
+        <p className="info-text rajdhani-semibold" style={{ color: "white" }}>
+          Waterjet Tech5{" "}
+        </p>
+        <p className="info-subtext rajdhani-regular" style={{ color: "white" }}>
+          (Insert Waterjet Product Use Case Description){" "}
+        </p>
+      </Link>
     </div>
     <div className="card-and-info">
       <div
@@ -141,24 +143,33 @@ export default function WaterJetPage(){
           transition: "all 0.5s linear",
         }}
       ></div>
-      <p className="info-text rajdhani-semibold" style={{ color: "white" }}>
-        Waterjet Tech6{" "}
-      </p>
-      <p className="info-subtext rajdhani-regular" style={{ color: "white" }}>
-        (Insert Waterjet Product Use Case Description){" "}
-      </p>
+
+
+
+
+{/* WJ6 */}
+<Link to="/wj6" style={{ textDecoration: 'none', color: 'inherit' }}>
+        <p className="info-text rajdhani-semibold" style={{ color: "white" }}>
+          Waterjet Tech6{" "}
+        </p>
+        <p className="info-subtext rajdhani-regular" style={{ color: "white" }}>
+          (Insert Waterjet Product Use Case Description){" "}
+        </p>
+      </Link>
     </div>
-
-
-
     <div className="card-and-info">
       <div
         className="card"
         style={{
-          background: `linear-gradient(30deg, ${color["color"]}  10%, #000,  ${color["color"]} 90%)`,
+          background: `linear-gradient(30deg, ${color.color} 10%, #000, ${color.color} 90%)`,
           transition: "all 0.5s linear",
         }}
       ></div>
+
+
+
+
+
       <p className="info-text rajdhani-semibold" style={{ color: "white" }}>
         Waterjet Tech7{" "}
       </p>
@@ -249,21 +260,7 @@ export default function WaterJetPage(){
 
 
 
-    <div className="card-and-info">
-      <div
-        className="card"
-        style={{
-          background: `linear-gradient(30deg, ${color["color"]}  10%, #000,  ${color["color"]} 90%)`,
-          transition: "all 0.5s linear",
-        }}
-      ></div>
-      <p className="info-text rajdhani-semibold" style={{ color: "white" }}>
-        Waterjet Tech13{" "}
-      </p>
-      <p className="info-subtext rajdhani-regular" style={{ color: "white" }}>
-      (Insert Waterjet Product Use Case Description){" "}
-      </p>
-    </div>
+
 
 
   </div>

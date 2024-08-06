@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 import '../styles/styles.css';
 import ColorContext from '../context/ColorContext';
 
-import EmailIcon from '../assets/images/EmailIcon';
-import LinkedInIcon from '../assets/images/LinkedinIcon';
-import InstagramIcon from '../assets/images/InstagramIcon';
+import EmailIcon from '../assets/images/univ/EmailIcon';
+import LinkedInIcon from '../assets/images/univ/LinkedinIcon';
+import InstagramIcon from '../assets/images/univ/InstagramIcon';
 
 export default function SVGIcons() {
   const { color } = useContext(ColorContext);
