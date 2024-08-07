@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useContext } from 'react';
-import "../../styles/hwj3.css";
+import "../../styles/hwj5.css";
 import ColorContext from '../../context/ColorContext';
 import gridLinesImage from "../../assets/images/univ/grid_lines.svg";
 import Navbar from "../hero/components/Navbar";
@@ -14,7 +14,7 @@ const WJ5 = () => {
   const { color } = useContext(ColorContext); // Get color from ColorContext
 
   const [glitch, setGlitch] = useState(false);
-  const [imageSet, setImageSet] = useState('hst'); // 'g' for g1-g4 and 's' for s1-s4
+  const [imageSet, setImageSet] = useState('hst5'); // 'g' for g1-g4 and 's' for s1-s4
   const [clickedLink, setClickedLink] = useState(null); // Track clicked link index
   const [nextLinkIndex, setNextLinkIndex] = useState(null); // Track next link index for automatic change
   const [timeoutId, setTimeoutId] = useState(null); // Track timeout ID for clearing
@@ -24,8 +24,8 @@ const WJ5 = () => {
 
 
   const linkTexts = [
-    { text: 'Storage Tanks', set: 'hst' },
-    { text: 'Cargo Oil Tanks', set: 'hcot' },
+    { text: 'Storage Tanks', set: 'hst5' },
+    { text: 'Cargo Oil Tanks', set: 'hcot5' },
   ];
 
   const handleGlitchChange = (newSet, index) => {
@@ -61,9 +61,16 @@ const WJ5 = () => {
 
 
 
+    // Scroll to top on component mount
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
+
+  // Automatically click the first featured link on page load
   useEffect(() => {
-    // Scroll to top when the component mounts
-    window.scrollTo(0, 0);
+    if (linkTexts.length > 0) {
+      handleGlitchChange(linkTexts[0].set, 0);
+    }
   }, []);
 
 

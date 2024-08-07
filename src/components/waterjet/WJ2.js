@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useContext } from 'react';
-import "../../styles/hwj1.css";
+import "../../styles/hwj2.css";
 import ColorContext from '../../context/ColorContext';
 import gridLinesImage from "../../assets/images/univ/grid_lines.svg";
 import Navbar from "../hero/components/Navbar";
@@ -14,7 +14,7 @@ const WJ2 = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const { page, setPage } = useContext(PageContext);
   const [glitch, setGlitch] = useState(false);
-  const [imageSet, setImageSet] = useState('hroad'); // 'g' for g1-g4 and 's' for s1-s4
+  const [imageSet, setImageSet] = useState('hr2'); // 'g' for g1-g4 and 's' for s1-s4
   const [clickedLink, setClickedLink] = useState(null); // Track clicked link index
   const [nextLinkIndex, setNextLinkIndex] = useState(null); // Track next link index for automatic change
   const [timeoutId, setTimeoutId] = useState(null); // Track timeout ID for clearing
@@ -37,15 +37,15 @@ const WJ2 = () => {
 
 
   const linkTexts = [
-    { text: 'Roads', set: 'hroad' },
-    { text: 'Bridges', set: 'hbridge' },
-    { text: 'Runways', set: 'hrunway' },
-    { text: 'Ports', set: 'hport' },
-    { text: 'Quays', set: 'hquay' },
-    { text: 'Parking Decks', set: 'hpdecks' },
-    { text: 'Dams', set: 'hdam' },
-    { text: 'Pillars', set: 'hpillar' },
-    { text: 'Tunnels', set: 'htunnel' }
+    { text: 'Roads', set: 'hr2' },
+    { text: 'Bridges', set: 'hb2' },
+    { text: 'Runways', set: 'hrw2' },
+    { text: 'Ports', set: 'hp2' },
+    { text: 'Quays', set: 'hq2' },
+    { text: 'Parking Decks', set: 'hpd2' },
+    { text: 'Dams', set: 'hd2' },
+    { text: 'Pillars', set: 'hpl2' },
+    { text: 'Tunnels', set: 'ht2' }
   ];
 
   const handleGlitchChange = (newSet, index) => {
@@ -78,6 +78,22 @@ const WJ2 = () => {
   const handleHover = (hovered) => {
     setIsHovered(hovered);
   };
+
+
+
+      // Scroll to top on component mount
+      useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
+
+      
+    // Automatically click the first featured link on page load
+    useEffect(() => {
+      if (linkTexts.length > 0) {
+        handleGlitchChange(linkTexts[0].set, 0);
+      }
+    }, []);
+
 
   return (
     <div className="text-table-wglitch">

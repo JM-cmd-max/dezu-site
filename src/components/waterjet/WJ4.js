@@ -64,7 +64,13 @@ const WJ4 = () => {
       window.scrollTo(0, 0);
     }, []);
 
-
+  // Automatically click the first featured link on page load
+  useEffect(() => {
+    if (linkTexts.length > 0) {
+      handleGlitchChange(linkTexts[0].set, 0);
+    }
+  }, []);
+  
 
   return (
     <div className="text-table-wglitch-wj3">

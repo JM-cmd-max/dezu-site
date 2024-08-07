@@ -2,7 +2,7 @@ import React, { useState, useEffect, useContext } from 'react';
 import '../../styles/styles.css';
 import PageContext from '../../context/PageContext';
 
-export default function WJ1S() {
+export default function WJ6S() {
     const [currentSlide, setCurrentSlide] = useState(0);
     const { page, setPage } = useContext(PageContext);
 
