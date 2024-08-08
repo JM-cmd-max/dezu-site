@@ -1,26 +1,26 @@
 import React, { useState, useEffect, useContext } from 'react';
-import "../../styles/hwj6.css";
+import "../../styles/hwj12.css";
 import ColorContext from '../../context/ColorContext';
 import gridLinesImage from "../../assets/images/univ/grid_lines.svg";
 import Navbar from "../hero/components/Navbar";
 import UCMenu from "../UCMenu";
-import StaticNSC from "../slider/StaticNSC";
+import StaticNS from "../slider/StaticNS";
 import PageContext from '../../context/PageContext';
 import Footer from "../footer/Footer";
 import Contact from "../contact/Contact";
-import WJ1S from "../dotparts/WJ1S";
+import WJ12S from "../dotparts/WJ12S";
 
-const WJ6 = () => {
+const WJ12 = () => {
   const { color } = useContext(ColorContext); // Get color from ColorContext
   const [glitch, setGlitch] = useState(false);
-  const [imageSet, setImageSet] = useState('hthe'); // 'g' for g1-g4 and 's' for s1-s4
+  const [imageSet, setImageSet] = useState('hhpc12'); // 'g' for g1-g4 and 's' for s1-s4
   const [clickedLink, setClickedLink] = useState(null); // Track clicked link index
   const [nextLinkIndex, setNextLinkIndex] = useState(null); // Track next link index for automatic change
   const [timeoutId, setTimeoutId] = useState(null); // Track timeout ID for clearing
   const [isHovered, setIsHovered] = useState(false); // Track hover state
 
   const linkTexts = [
-    { text: 'Tube Heat Exchangers', set: 'hthe' },
+    { text: 'High pressure cleaning', set: 'hhpc12' },
   ];
 
   const handleGlitchChange = (newSet, index) => {
@@ -54,9 +54,17 @@ const WJ6 = () => {
     setIsHovered(hovered);
   };
 
-  // Scroll to top on component mount
+  
+    // Scroll to top on component mount
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
+
+  // Automatically click the first featured link on page load
   useEffect(() => {
-    window.scrollTo(0, 0);
+    if (linkTexts.length > 0) {
+      handleGlitchChange(linkTexts[0].set, 0);
+    }
   }, []);
 
   return (
@@ -95,12 +103,12 @@ const WJ6 = () => {
             </tbody>
           </table>
           <div className={`glitch ${glitch ? `glitch-active-${imageSet}` : `glitch-static-${imageSet}`}`}></div>
-          <h3 className="sub-heading orbitron" style={{ color: color.color }}>CONCRETE REMOVAL</h3>
-          <h1 className="main-heading rajdhani-medium">HYDRO DEMOLITION</h1>
+          <h3 className="sub-heading orbitron" style={{ color: color.color }}>GENERAL CLEANING, DESCALING, AND REMOVAL</h3>
+          <h1 className="main-heading rajdhani-medium">HIGH PRESSURE CLEANING</h1>
         </div>
 
         <div className="divider"></div>
-        <StaticNSC />
+        <StaticNS />
         <div className="divider"></div>
 
         <div className="product-content">
@@ -139,7 +147,7 @@ const WJ6 = () => {
 
           <div className="divider"></div>
 
-          <WJ1S/>
+          <WJ12S/>
 
         </div>
       </div>
@@ -149,4 +157,4 @@ const WJ6 = () => {
   );
 };
 
-export default WJ6;
+export default WJ12;

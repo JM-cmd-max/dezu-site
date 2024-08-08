@@ -23,9 +23,11 @@ import WJ6 from "./components/waterjet/WJ6";
 import WJ7 from "./components/waterjet/WJ7";
 import WJ8 from "./components/waterjet/WJ8";
 import WJ9 from "./components/waterjet/WJ9";
-import PS1 from "./components/pressure/PS1";
-import PS2 from "./components/pressure/PS2";
-import UCMenu from "./components/UCMenu";
+import WJ10 from "./components/waterjet/WJ10";
+import WJ11 from "./components/waterjet/WJ11";
+import WJ12 from "./components/waterjet/WJ12";
+// import PS1 from "./components/pressure/PS1";
+// import PS2 from "./components/pressure/PS2";
 
 function App() {
   const [page, setPage] = useState("");
@@ -52,10 +54,11 @@ function App() {
               <Route path="/wj7" element={<WJ7 handlePage={setPage} />} />
               <Route path="/wj8" element={<WJ8 handlePage={setPage} />} />
               <Route path="/wj9" element={<WJ9 handlePage={setPage} />} />
-              <Route path="/ps1" element={<PS1 handlePage={setPage} />} />
-              <Route path="/ps2" element={<PS2 handlePage={setPage} />} />
-
-              <Route path="/ucmenu" element={<UCMenu handlePage={setPage} />} />
+              <Route path="/wj10" element={<WJ10 handlePage={setPage} />} />
+              <Route path="/wj11" element={<WJ11 handlePage={setPage} />} />
+              <Route path="/wj12" element={<WJ12 handlePage={setPage} />} />
+              {/* <Route path="/ps1" element={<PS1 handlePage={setPage} />} />
+              <Route path="/ps2" element={<PS2 handlePage={setPage} />} /> */}
             </Routes>
            
 

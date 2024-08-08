@@ -1,20 +1,19 @@
 import React, { useState, useEffect, useContext } from 'react';
-import "../../styles/hwj5.css";
+import "../../styles/hwj10.css";
 import ColorContext from '../../context/ColorContext';
 import gridLinesImage from "../../assets/images/univ/grid_lines.svg";
 import Navbar from "../hero/components/Navbar";
+// import MenuIcon from "../MenuIcon";
 import UCMenu from "../UCMenu";
-import StaticNSV from "../slider/StaticNSV";
+import StaticNSS from "../slider/StaticNSS";
 import PageContext from '../../context/PageContext';
 import Footer from "../footer/Footer";
 import Contact from "../contact/Contact";
-import WJ3S from "../dotparts/WJ3S";
 
-const WJ5 = () => {
+const WJ10 = () => {
   const { color } = useContext(ColorContext); // Get color from ColorContext
-
   const [glitch, setGlitch] = useState(false);
-  const [imageSet, setImageSet] = useState('hst5'); // 'g' for g1-g4 and 's' for s1-s4
+  const [imageSet, setImageSet] = useState('hpp10'); // 'g' for g1-g4 and 's' for s1-s4
   const [clickedLink, setClickedLink] = useState(null); // Track clicked link index
   const [nextLinkIndex, setNextLinkIndex] = useState(null); // Track next link index for automatic change
   const [timeoutId, setTimeoutId] = useState(null); // Track timeout ID for clearing
@@ -22,10 +21,14 @@ const WJ5 = () => {
 
 
 
+  
+
+
 
   const linkTexts = [
-    { text: 'Storage Tanks', set: 'hst5' },
-    { text: 'Cargo Oil Tanks', set: 'hcot5' },
+    { text: 'Power plant', set: 'hpp10' },
+    { text: 'Gas tank', set: 'hgt10' },
+    { text: 'Oil tank', set: 'hot10' },
   ];
 
   const handleGlitchChange = (newSet, index) => {
@@ -61,22 +64,21 @@ const WJ5 = () => {
 
 
 
-    // Scroll to top on component mount
+      // Scroll to top on component mount
+      useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
+
+    // Automatically click the first featured link on page load
     useEffect(() => {
-      window.scrollTo(0, 0);
+      if (linkTexts.length > 0) {
+        handleGlitchChange(linkTexts[0].set, 0);
+      }
     }, []);
 
-  // Automatically click the first featured link on page load
-  useEffect(() => {
-    if (linkTexts.length > 0) {
-      handleGlitchChange(linkTexts[0].set, 0);
-    }
-  }, []);
 
-
-  
   return (
-    <div className="text-table-wglitch-wj3">
+    <div className="text-table-wglitch-wj10">
       <UCMenu />
       <div className="center-container">
         <div>
@@ -111,12 +113,12 @@ const WJ5 = () => {
             </tbody>
           </table>
           <div className={`glitch ${glitch ? `glitch-active-${imageSet}` : `glitch-static-${imageSet}`}`}></div>
-          <h3 className="sub-heading orbitron">STEEL SURFACES</h3>
-          <h1 className="main-heading rajdhani-medium">HIGH PRESSURE CLEANING</h1>
+          <h3 className="sub-heading orbitron">HIGH PRESSURE METAL GRINDING</h3>
+          <h1 className="main-heading rajdhani-medium">COLD CUTTING</h1>
         </div>
 
         <div className="divider"></div>
-        <StaticNSV />
+        <StaticNSS />
         <div className="divider"></div>
 
 
@@ -127,7 +129,7 @@ const WJ5 = () => {
           <img src={require("../../assets/images/univ/x1.webp")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
         </div>
         <div className="column text-column rajdhani-semibold">
-          <p  className='list-paragraph-1 left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit diam quam nisi ut pellentesque nec cursus habitant nec lobortis ac placerat non, urna tempus luctus lobortis sed dui nisl.</p>
+          <p  className='list-paragraph-1 left-spacing-1'>powerhouse in hydro demolition, expertly engineered to deliver water efficiently to the accessory for precise material removal. Its robust design ensures consistent high-pressure performance, making it an ideal choice for demanding demolition projects. </p>
           <ul>
             <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
             <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
@@ -158,11 +160,22 @@ const WJ5 = () => {
       
       <div className="divider"></div>
 
+
+      
+
+
+
+
+
+
+
+
+
       <div className="product-content">
       <div className="section section-bg">
         <div className="column image-column">
-        <p className='barcode left-spacing nlb-spacing'>VertiDrive V700: HP Nozzle</p>
-          <img src={require("../../assets/images/hydro/hwj5/HP nozzle.png")} alt="Placeholder" className='p-image-sl p-image-sl-spacing'/>
+        <p className='barcode left-spacing nlb-spacing'>STONEAGE JACK TRACK</p>
+          <img src={require("../../assets/images/hydro/hwj10/SJT.png")} alt="Placeholder" className='p-image-sl p-image-sl-spacing'/>
         </div>
         <div className="column text-column rajdhani-semibold">
           <p  className='list-paragraph-1 left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit diam quam nisi ut pellentesque nec cursus habitant nec lobortis ac placerat non, urna tempus luctus lobortis sed dui nisl.</p>
@@ -175,6 +188,13 @@ const WJ5 = () => {
         </div>
       </div>
     </div>
+
+
+
+
+
+
+
       
       </div>
       </div>
@@ -184,4 +204,4 @@ const WJ5 = () => {
   );
 };
 
-export default WJ5;
+export default WJ10;

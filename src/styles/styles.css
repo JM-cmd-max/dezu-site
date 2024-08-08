@@ -15,6 +15,17 @@ body {
 
 
 
+/* PRESSURE GRADIENT BACKGROUND */
+.pressure-bg {
+  background: linear-gradient(to bottom, 
+  rgba(0, 0, 0, 1) 2%, 
+  rgb(58, 35, 35) 20%, 
+  rgb(58, 35, 35) 80%, 
+  rgba(0, 0, 0, 1) 98%);
+}
+
+
+
 .svg-container-1 {
   z-index: 1;
   position: absolute;
@@ -396,20 +407,20 @@ img {
 
 
 /* SECTION 1 | PRODUCT */
-.section-1 {
-  height: 900px; /* Adjust as needed */
+/* .section-1 {
+  height: 900px; 
   position: relative;
   z-index: 1;
-  background-color: #000; /* Black background */
+  background-color: #000;
   background: url() no-repeat center center;
-  background-size: 900px 600px; /* Custom width and height */
-  padding: 30px; /* Padding on the left and right */
+  background-size: 900px 600px; 
+  padding: 30px; 
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   margin-top: -100px;
-}
+} */
 
 
 
@@ -516,10 +527,46 @@ img {
 
 
 
+
+/* TABLE IN GLITCH WJ6 | 3 TABLES*/
+.text-table-wglitch-wj10 {
+  background-color: transparent; /* Transparent background */
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 120px;
+}
+
+.text-table-wglitch-wj10  table {
+  border-collapse: collapse;
+  margin-left: 1585px;
+  margin-top: 50px;
+  margin-bottom: 320px;
+}
+
+.text-table-wglitch-wj10  td {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-bottom: 1px solid #fff; /* White border between rows */
+  cursor: pointer;
+  color: #fff; /* White color */
+  transition: color 0.3s;
+  font-size: 20px;
+}
+
+.text-table-wglitch-wj10  td:hover,
+.text-table-wglitch-wj10  td:active {
+  color: #32CBBB;
+}
+
+
+
+
+
 /* GRID LINES */
 .grid-lines-overlay {
   width: 90%;
   height: 20%;
+  /* z-index: -2; */
   position: absolute;
   top: 100px !important;
   left: 100px !important;
@@ -528,6 +575,8 @@ img {
   mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0.5) 70%, rgba(0, 0, 0, 0) 100%);
   mask-size: cover;
 }
+
+
 
 
 
@@ -917,6 +966,22 @@ img {
 
 
 
+
+/* SLIDER DOT | SOLO IMAGE */
+.p-image-sl{
+  width: 900px;
+}
+
+.p-image-sl-spacing{
+ margin-left: 200px;
+ margin-top: 0px;
+ margin-bottom: -90px;
+}
+
+
+
+
+
 /* PRODUCT IMAGES */
 .p-image1{
   width: 550px;
@@ -940,7 +1005,6 @@ img {
 
 /* PRODUCT BULLET LISTS PARAGRAPHS */
 .list-paragraph-1{
-  margin-top: -170px;
   margin-bottom: 0px;
   width: 700px;
   margin-left: -130px;
