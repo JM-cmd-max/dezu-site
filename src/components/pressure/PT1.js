@@ -111,7 +111,7 @@ const PT1 = () => {
         <div className="divider"></div>
 
         <div className="product-content">
-          <div className="section section-bg">
+          <div className="section section-bg-prst1">
             <div className="column image-column">
               <p className='barcode left-spacing nlb-spacing'>NLB 225 SERIES WATER JETTING PUMP</p>
               <img src={require("../../assets/images/pressure/prst1/PTPS.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
@@ -128,7 +128,7 @@ const PT1 = () => {
           </div>
 
           <div className="divider"></div>
-          <div className="section section-bg">
+          <div className="section section-bg-prst2">
             <div className="column text-column rajdhani-semibold">
               <p className='list-paragraph-2 left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit diam quam nisi ut pellentesque nec cursus habitant nec lobortis ac placerat non, urna tempus luctus lobortis sed dui nisl.</p>
               <ul>
