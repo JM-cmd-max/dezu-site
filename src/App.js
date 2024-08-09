@@ -26,7 +26,8 @@ import WJ9 from "./components/waterjet/WJ9";
 import WJ10 from "./components/waterjet/WJ10";
 import WJ11 from "./components/waterjet/WJ11";
 import WJ12 from "./components/waterjet/WJ12";
-// import PS1 from "./components/pressure/PS1";
+
+import PT1 from "./components/pressure/PT1";
 // import PS2 from "./components/pressure/PS2";
 
 function App() {
@@ -57,8 +58,9 @@ function App() {
               <Route path="/wj10" element={<WJ10 handlePage={setPage} />} />
               <Route path="/wj11" element={<WJ11 handlePage={setPage} />} />
               <Route path="/wj12" element={<WJ12 handlePage={setPage} />} />
-              {/* <Route path="/ps1" element={<PS1 handlePage={setPage} />} />
-              <Route path="/ps2" element={<PS2 handlePage={setPage} />} /> */}
+
+              <Route path="/pt1" element={<PT1 handlePage={setPage} />} />
+              {/* <Route path="/ps2" element={<PS2 handlePage={setPage} />} /> */}
             </Routes>
            
 

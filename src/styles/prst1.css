@@ -3,7 +3,8 @@
     height: 700px;
     margin-left: 10px;
     margin-top: -600px;
-    position: relative;
+    /* position: relative; */
+    z-index: -2;
   }
   
 

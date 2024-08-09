@@ -17,12 +17,15 @@ body {
 
 /* PRESSURE GRADIENT BACKGROUND */
 .pressure-bg {
-  background: linear-gradient(to bottom, 
-  rgba(0, 0, 0, 1) 2%, 
-  rgb(58, 35, 35) 20%, 
-  rgb(58, 35, 35) 80%, 
-  rgba(0, 0, 0, 1) 98%);
+  background: linear-gradient(to bottom,
+    rgba(0, 0, 0, 0.253) 10%,
+    rgba(43, 26, 26, 0.8) 30%,
+    rgba(58, 35, 35, 1) 50%,
+    rgba(39, 23, 23, 0.644) 70%,
+    rgba(0, 0, 0, 1) 90%
+  );
 }
+
 
 
 

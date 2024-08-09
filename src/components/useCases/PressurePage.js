@@ -37,7 +37,7 @@ export default function PressurePage(){
         }}
       ></div>
 
-      <Link to="/ps1" style={{ textDecoration: 'none', color: 'inherit' }}>
+      <Link to="/pt1" style={{ textDecoration: 'none', color: 'inherit' }}>
         <p className="info-text rajdhani-semibold" style={{ color: "white" }}>
         Pressure Tech1{" "}
         </p>
