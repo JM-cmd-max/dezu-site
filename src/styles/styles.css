@@ -53,7 +53,7 @@ body {
   background-color: #202124;
 }
 
-.use-case-btn {
+/* .use-case-btn {
   display: inline-block;
   color: #32cbbb;
   font-size: 1rem;
@@ -68,7 +68,7 @@ body {
   cursor: pointer;
   text-decoration: underline;
   text-decoration-color: cyan; 
-}
+} */
 
 .nav-bar {
   height: 100px;
@@ -439,6 +439,7 @@ img {
   border-collapse: collapse;
   margin-left: 1585px;
   margin-top: 50px;
+  margin-bottom: 20px;
 }
 
 .text-table-wglitch  td {
@@ -453,7 +454,7 @@ img {
 
 .text-table-wglitch  td:hover,
 .text-table-wglitch  td:active {
-  color: #32CBBB;
+  /* color: #32CBBB; */
 }
 
 
@@ -487,7 +488,7 @@ img {
 
 .text-table-wglitch-wj3  td:hover,
 .text-table-wglitch-wj3  td:active {
-  color: #32CBBB;
+  /* color: #32CBBB; */
 }
 
 
@@ -524,7 +525,7 @@ img {
 
 .text-table-wglitch-wj6  td:hover,
 .text-table-wglitch-wj6  td:active {
-  color: #32CBBB;
+  /* color: #32CBBB; */
 }
 
 
@@ -1749,7 +1750,6 @@ h1 {
 
 
 
-
 /* SECTION | IMAGE -> TEXT */
 .section-bg-prst1 {
   background-color: transparent;
@@ -1768,4 +1768,23 @@ h1 {
   padding: 20px;
   margin-top: -20px;
   margin-bottom: -30px;
+}
+
+
+.section-bg-prst3 {
+  background-color: transparent;
+  color: white;
+  padding: 20px;
+  margin-top: -40px;
+}
+
+
+
+/* SECTION | TEXT -> IMAGE | on prst4*/
+.section-bg-prst4 {
+  background-color: transparent;
+  color: white;
+  padding: 20px;
+  margin-top: -20px;
+  margin-bottom: 80px;
 }

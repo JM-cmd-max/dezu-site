@@ -1,7 +1,7 @@
 import "./App.css";
 import "./layout/Layout";
 import Layout from "./layout/Layout"
-import Footer from "./components/footer/Footer";
+// import Footer from "./components/footer/Footer";
 import Home from "./pages/Home";
 import UseCase from "./pages/UseCase";
 
@@ -28,7 +28,12 @@ import WJ11 from "./components/waterjet/WJ11";
 import WJ12 from "./components/waterjet/WJ12";
 
 import PT1 from "./components/pressure/PT1";
-// import PS2 from "./components/pressure/PS2";
+import PT2 from "./components/pressure/PT2";
+import PT3 from "./components/pressure/PT3";
+import PT4 from "./components/pressure/PT4";
+import PT5 from "./components/pressure/PT5";
+import PT6 from "./components/pressure/PT6";
+import PT7 from "./components/pressure/PT7";
 
 function App() {
   const [page, setPage] = useState("");
@@ -60,7 +65,12 @@ function App() {
               <Route path="/wj12" element={<WJ12 handlePage={setPage} />} />
 
               <Route path="/pt1" element={<PT1 handlePage={setPage} />} />
-              {/* <Route path="/ps2" element={<PS2 handlePage={setPage} />} /> */}
+              <Route path="/pt2" element={<PT2 handlePage={setPage} />} />
+              <Route path="/pt3" element={<PT3 handlePage={setPage} />} />
+              <Route path="/pt4" element={<PT4 handlePage={setPage} />} />
+              <Route path="/pt5" element={<PT5 handlePage={setPage} />} />
+              <Route path="/pt6" element={<PT6 handlePage={setPage} />} />
+              <Route path="/pt7" element={<PT7 handlePage={setPage} />} />
             </Routes>
            
 
