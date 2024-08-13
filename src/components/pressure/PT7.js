@@ -4,7 +4,7 @@ import ColorContext from '../../context/ColorContext';
 import gridLinesImage from "../../assets/images/univ/grid_lines.svg";
 import Navbar from "../hero/components/Navbar";
 import UCMenu from "../UCMenu";
-import Haskel from "../slider/Haskel";
+import Newtek from "../slider/Newtek";
 import PageContext from '../../context/PageContext';
 import Footer from "../footer/Footer";
 import Contact from "../contact/Contact";
@@ -118,19 +118,19 @@ const PT7 = () => {
               ))}
             </tbody>
           </table>
-          <div className={`glitch ${glitch ? `glitch-active-${imageSet}` : `glitch-static-${imageSet}`}`}></div>
-          <h3 className="sub-heading orbitron" style={{ color: color?.color }}>GENERAL CLEANING, DESCALING, AND REMOVAL</h3>
-          <h1 className="main-heading rajdhani-medium">HIGH PRESSURE CLEANING</h1>
+          <div className={`glitch7 ${glitch ? `glitch-active-${imageSet}` : `glitch-static-${imageSet}`}`}></div>
+          <h3 className="sub-heading orbitron" style={{ color: color?.color }}>PRESSURIZED OXYGEN APPLICATIONS</h3>
+          <h1 className="main-heading rajdhani-medium">OXYGEN SOLUTIONS</h1>
         </div>
 
         <div className="divider"></div>
-        <Haskel />
+        <Newtek />
         <div className="divider"></div>
 
         <div className="product-content">
           <div className="section section-bg-prst3">
             <div className="column image-column">
-              <p className='barcode left-spacing nlb-spacing'>NLB 225 SERIES WATER JETTING PUMP</p>
+              <p className='barcode left-spacing nlb-spacing'>PSA OXYGEN PLANT</p>
               <img src={require("../../assets/images/pressure/prst7/PSOP.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
             </div>
             <div className="column text-column rajdhani-semibold">

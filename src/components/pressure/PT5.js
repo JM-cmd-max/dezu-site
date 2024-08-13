@@ -4,7 +4,7 @@ import ColorContext from '../../context/ColorContext';
 import gridLinesImage from "../../assets/images/univ/grid_lines.svg";
 import Navbar from "../hero/components/Navbar";
 import UCMenu from "../UCMenu";
-import Haskel from "../slider/Haskel";
+import Hylok from "../slider/Hylok";
 import PageContext from '../../context/PageContext';
 import Footer from "../footer/Footer";
 import Contact from "../contact/Contact";
@@ -19,7 +19,7 @@ const PT5 = () => {
   const [isHovered, setIsHovered] = useState(false);
 
   const linkTexts = [
-    { text: 'High pressure cleaning', set: 'psot5' },
+    { text: 'Ship oil tankerS', set: 'psot5' },
   ];
 
   // Handle glitch change and link click
@@ -117,18 +117,18 @@ const PT5 = () => {
             </tbody>
           </table>
           <div className={`glitch ${glitch ? `glitch-active-${imageSet}` : `glitch-static-${imageSet}`}`}></div>
-          <h3 className="sub-heading orbitron" style={{ color: color?.color }}>GENERAL CLEANING, DESCALING, AND REMOVAL</h3>
-          <h1 className="main-heading rajdhani-medium">HIGH PRESSURE CLEANING</h1>
+          <h3 className="sub-heading orbitron" style={{ color: color?.color }}>HIGH PRESSURE FITTINGS</h3>
+          <h1 className="main-heading rajdhani-medium">LIQUEFIED NATURAL GAS</h1>
         </div>
 
         <div className="divider"></div>
-        <Haskel />
+        <Hylok />
         <div className="divider"></div>
 
         <div className="product-content">
           <div className="section section-bg-prst3">
             <div className="column image-column">
-              <p className='barcode left-spacing nlb-spacing'>NLB 225 SERIES WATER JETTING PUMP</p>
+              <p className='barcode left-spacing nlb-spacing'>INSTRUMENT FITTINGS</p>
               <img src={require("../../assets/images/pressure/prst5/NWJP.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
             </div>
             <div className="column text-column rajdhani-semibold">

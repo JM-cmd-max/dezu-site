@@ -1,5 +1,13 @@
 
-  
+.glitch7 {
+  /* width: 900px; */
+  height: 700px;
+  margin-left: 10px;
+  margin-top: -800px;
+  margin-bottom: 90px;
+  /* position: relative; */
+  z-index: -2;
+}
 
 
   /* PRESSURE SHIPYARDS */
@@ -14,29 +22,25 @@
   
   @keyframes glitch-psy7 {
     10%, 100% {
-      background: url('../assets/images/pressure/prst2/phe22.png') no-repeat center center;
+      background: url('../assets/images/pressure/prst7/psy72.png') no-repeat center center;
       background-size: contain;
     }
     25% {
-      background: url('../assets/images/pressure/prst2/phe22.png') no-repeat center center;
+      background: url('../assets/images/pressure/prst7/psy73.png') no-repeat center center;
       background-size: contain;
       opacity: 1;
     }
     50% {
-      background: url('../assets/images/pressure/prst2/phe24.png') no-repeat center center;
+      background: url('../assets/images/pressure/prst7/psy74.png') no-repeat center center;
       background-size: contain;
       opacity: 1;
     }
     99% {
-      background: url('../assets/images/pressure/prst2/phe25.png') no-repeat center center;
+      background: url('../assets/images/pressure/prst7/psy75.png') no-repeat center center;
       background-size: contain;
       opacity: 1;
     }
   }
-
-
-
-
 
    /* PRESSURE OIL REFINERIES */
    .glitch-static-por7 {
@@ -50,21 +54,21 @@
   
   @keyframes glitch-por7 {
     10%, 100% {
-      background: url('../assets/images/pressure/prst2/phe22.png') no-repeat center center;
+      background: url('../assets/images/pressure/prst7/por72.png') no-repeat center center;
       background-size: contain;
     }
     25% {
-      background: url('../assets/images/pressure/prst2/phe22.png') no-repeat center center;
+      background: url('../assets/images/pressure/prst7/por73.png') no-repeat center center;
       background-size: contain;
       opacity: 1;
     }
     50% {
-      background: url('../assets/images/pressure/prst2/phe24.png') no-repeat center center;
+      background: url('../assets/images/pressure/prst7/por74.png') no-repeat center center;
       background-size: contain;
       opacity: 1;
     }
     99% {
-      background: url('../assets/images/pressure/prst2/phe25.png') no-repeat center center;
+      background: url('../assets/images/pressure/prst7/por75.png') no-repeat center center;
       background-size: contain;
       opacity: 1;
     }
@@ -84,21 +88,21 @@
   
   @keyframes glitch-psf7 {
     10%, 100% {
-      background: url('../assets/images/pressure/prst2/phe22.png') no-repeat center center;
+      background: url('../assets/images/pressure/prst7/psf72.png') no-repeat center center;
       background-size: contain;
     }
     25% {
-      background: url('../assets/images/pressure/prst2/phe22.png') no-repeat center center;
+      background: url('../assets/images/pressure/prst7/psf73.png') no-repeat center center;
       background-size: contain;
       opacity: 1;
     }
     50% {
-      background: url('../assets/images/pressure/prst2/phe24.png') no-repeat center center;
+      background: url('../assets/images/pressure/prst7/psf74.png') no-repeat center center;
       background-size: contain;
       opacity: 1;
     }
     99% {
-      background: url('../assets/images/pressure/prst2/phe25.png') no-repeat center center;
+      background: url('../assets/images/pressure/prst7/psf75.png') no-repeat center center;
       background-size: contain;
       opacity: 1;
     }

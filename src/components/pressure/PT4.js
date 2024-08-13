@@ -4,7 +4,7 @@ import ColorContext from '../../context/ColorContext';
 import gridLinesImage from "../../assets/images/univ/grid_lines.svg";
 import Navbar from "../hero/components/Navbar";
 import UCMenu from "../UCMenu";
-import Haskel from "../slider/Haskel";
+import StaticNSC from "../slider/StaticNSC";
 import PageContext from '../../context/PageContext';
 import Footer from "../footer/Footer";
 import Contact from "../contact/Contact";
@@ -19,7 +19,7 @@ const PT4 = () => {
   const [isHovered, setIsHovered] = useState(false); // Track hover state
 
   const linkTexts = [
-    { text: 'High pressure cleaning', set: 'pop4' },
+    { text: 'OFFSHORE PLANTS', set: 'pop4' },
   ];
 
   const handleGlitchChange = (newSet, index) => {
@@ -102,18 +102,18 @@ const PT4 = () => {
             </tbody>
           </table>
           <div className={`glitch ${glitch ? `glitch-active-${imageSet}` : `glitch-static-${imageSet}`}`}></div>
-          <h3 className="sub-heading orbitron" style={{ color: color.color }}>GENERAL CLEANING, DESCALING, AND REMOVAL</h3>
-          <h1 className="main-heading rajdhani-medium">HIGH PRESSURE CLEANING</h1>
+          <h3 className="sub-heading orbitron" style={{ color: color.color }}>SPECIALIZED PRESSURE HANDLING</h3>
+          <h1 className="main-heading rajdhani-medium">OIL RIG PRESSURE VALVES</h1>
         </div>
 
         <div className="divider"></div>
-        <Haskel />
+        <StaticNSC />
         <div className="divider"></div>
 
         <div className="product-content">
       <div className="section section-bg-prst1">
         <div className="column image-column">
-        <p className='barcode left-spacing nlb-spacing'>NLB 225 SERIES WATER JETTING PUMP</p>
+        <p className='barcode left-spacing nlb-spacing'>HY-LOK DOUBLE VALVE</p>
           <img src={require("../../assets/images/pressure/prst4/HLDV.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
         </div>
         <div className="column text-column rajdhani-semibold">
@@ -140,7 +140,7 @@ const PT4 = () => {
           </ul>
         </div>
         <div className="column image-column spir-barcode">
-            <p className='barcode'>SPIR STAR HIGH PRESSURE HOSE</p>
+            <p className='barcode'>HY-LOK BLEED VALVE</p>
           <img src={require("../../assets/images/pressure/prst4/HLBV.png")} alt="Placeholder" className='p-image2'/>
         </div>
       </div>
@@ -151,7 +151,7 @@ const PT4 = () => {
       <div className="product-content">
       <div className="section section-bg-prst3">
         <div className="column image-column">
-        <p className='barcode left-spacing nlb-spacing'>VertiDrive V700: HP Nozzle</p>
+        <p className='barcode left-spacing nlb-spacing'>HY-LOK BALL VALVE</p>
           <img src={require("../../assets/images/pressure/prst4/HLBL.png")} alt="Placeholder" className='p-image-sl p-image-sl-spacing'/>
         </div>
         <div className="column text-column rajdhani-semibold">

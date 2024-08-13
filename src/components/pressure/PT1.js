@@ -19,7 +19,7 @@ const PT1 = () => {
   const [isHovered, setIsHovered] = useState(false); // Track hover state
 
   const linkTexts = [
-    { text: 'High pressure cleaning', set: 'pop1' },
+    { text: 'Offshore plants', set: 'pop1' },
   ];
 
   const handleGlitchChange = (newSet, index) => {
@@ -102,8 +102,8 @@ const PT1 = () => {
             </tbody>
           </table>
           <div className={`glitch ${glitch ? `glitch-active-${imageSet}` : `glitch-static-${imageSet}`}`}></div>
-          <h3 className="sub-heading orbitron" style={{ color: color.color }}>GENERAL CLEANING, DESCALING, AND REMOVAL</h3>
-          <h1 className="main-heading rajdhani-medium">HIGH PRESSURE CLEANING</h1>
+          <h3 className="sub-heading orbitron" style={{ color: color.color }}>SPECIALIZED SYSTEMS AND SUPPORT</h3>
+          <h1 className="main-heading rajdhani-medium">HYDRAULICS AND PRESSURE </h1>
         </div>
 
         <div className="divider"></div>
@@ -113,11 +113,11 @@ const PT1 = () => {
         <div className="product-content">
           <div className="section section-bg-prst1">
             <div className="column image-column">
-              <p className='barcode left-spacing nlb-spacing'>NLB 225 SERIES WATER JETTING PUMP</p>
+              <p className='barcode left-spacing nlb-spacing'>TEST PACK SYSTEMS</p>
               <img src={require("../../assets/images/pressure/prst1/PTPS.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
             </div>
             <div className="column text-column rajdhani-semibold">
-              <p className='list-paragraph-1 left-spacing-1'>powerhouse in hydro demolition, expertly engineered to deliver water efficiently to the accessory for precise material removal. Its robust design ensures consistent high-pressure performance, making it an ideal choice for demanding demolition projects. </p>
+              <p className='list-paragraph-1 left-spacing-1'>Provide a hydraulic power source for pressure generation and remote operation, ideal for pressure testing applications. Their advanced design ensures precise and reliable performance in various testing scenarios.</p>
               <ul>
                 <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
                 <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
@@ -139,7 +139,7 @@ const PT1 = () => {
               </ul>
             </div>
             <div className="column image-column spir-barcode">
-              <p className='barcode'>SPIR STAR HIGH PRESSURE HOSE</p>
+              <p className='barcode'>HASKEL MODEL J24352</p>
               <img src={require("../../assets/images/pressure/prst1/PHM.png")} alt="Placeholder" className='p-image2'/>
             </div>
           </div>

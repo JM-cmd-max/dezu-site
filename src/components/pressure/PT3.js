@@ -19,7 +19,7 @@ const PT3 = () => {
   const [isHovered, setIsHovered] = useState(false);
 
   const linkTexts = [
-    { text: 'High pressure cleaning', set: 'php3' },
+    { text: 'HYDROGEN PLANTS', set: 'php3' },
   ];
 
   // Handle glitch change and link click
@@ -117,8 +117,8 @@ const PT3 = () => {
             </tbody>
           </table>
           <div className={`glitch ${glitch ? `glitch-active-${imageSet}` : `glitch-static-${imageSet}`}`}></div>
-          <h3 className="sub-heading orbitron" style={{ color: color?.color }}>GENERAL CLEANING, DESCALING, AND REMOVAL</h3>
-          <h1 className="main-heading rajdhani-medium">HIGH PRESSURE CLEANING</h1>
+          <h3 className="sub-heading orbitron" style={{ color: color?.color }}>PRESSURE GENERATION AND USAGE</h3>
+          <h1 className="main-heading rajdhani-medium">HYDROGEN EQUIPMENT</h1>
         </div>
 
         <div className="divider"></div>
@@ -128,7 +128,7 @@ const PT3 = () => {
         <div className="product-content">
           <div className="section section-bg-prst3">
             <div className="column image-column">
-              <p className='barcode left-spacing nlb-spacing'>NLB 225 SERIES WATER JETTING PUMP</p>
+              <p className='barcode left-spacing nlb-spacing'>HASKEL BUTECH VALVES</p>
               <img src={require("../../assets/images/pressure/prst3/HBV.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
             </div>
             <div className="column text-column rajdhani-semibold">
