@@ -28,64 +28,115 @@ export default function CleaningPage(){
 
     
     return <div className="card-container">
-    <div className="card-and-info">
-      <div
-        className="card"
-        style={{
-          background: `linear-gradient(30deg, ${color.color} 10%, #000, ${color.color} 90%)`,
-          transition: "all 0.5s linear",
-        }}
-      ></div>
+    <Link to="/ct1" style={{ textDecoration: 'none', color: 'inherit' }}>
+          <div className="card-and-info">
+            <div
+              className="card"
+              style={{
+                background: `linear-gradient(30deg, ${color.color} 10%, #000, ${color.color} 90%)`,
+                transition: "all 0.5s linear",
+                height: '350px', // Ensure card has height
+                width: '300px', // Ensure card has width
+                position: 'relative',
+                cursor: 'pointer', // Ensure card looks clickable
+              }}
+            ></div>
+            <div>
+              <p className="info-text rajdhani-semibold" style={{ color: "white" }}>
+                Cleaning Tech1{" "}
+              </p>
+              <p className="info-subtext rajdhani-regular" style={{ color: "white" }}>
+                (Insert Waterjet Product Use Case Description){" "}
+              </p>
+            </div>
+          </div>
+        </Link>
 
-      <Link to="/wj2" style={{ textDecoration: 'none', color: 'inherit' }}>
-        <p className="info-text rajdhani-semibold" style={{ color: "white" }}>
-          Cleaning Tech1{" "}
-        </p>
-        <p className="info-subtext rajdhani-regular" style={{ color: "white" }}>
-          (Insert Waterjet Product Use Case Description){" "}
-        </p>
-      </Link>
-    </div>
 
-    <div className="card-and-info">
-      <div
-        className="card"
-        style={{
-          background: `linear-gradient(30deg, ${color.color} 10%, #000, ${color.color} 90%)`,
-          transition: "all 0.5s linear",
-        }}
-      ></div>
-      <Link to="/wj1" style={{ textDecoration: 'none', color: 'inherit' }}>
-        <p className="info-text rajdhani-semibold" style={{ color: "white" }}>
-        Cleaning Tech2{" "}
-        </p>
-        <p className="info-subtext rajdhani-regular" style={{ color: "white" }}>
-          (Insert Waterjet Product Use Case Description){" "}
-        </p>
-      </Link>
-    </div>
 
-    <div className="card-and-info">
-      <div
-        className="card"
-        style={{
-          background: `linear-gradient(30deg, ${color.color} 10%, #000, ${color.color} 90%)`,
-          transition: "all 0.5s linear",
-        }}
-      ></div>
-      <Link to="/product" style={{ textDecoration: 'none', color: 'inherit' }}>
-        <p className="info-text rajdhani-semibold" style={{ color: "white" }}>
-        Cleaning Tech3{" "}
-        </p>
-        <p className="info-subtext rajdhani-regular" style={{ color: "white" }}>
-          (Insert Waterjet Product Use Case Description){" "}
-        </p>
-      </Link>
-    </div>
+
+
+
+        <Link to="/ct2" style={{ textDecoration: 'none', color: 'inherit' }}>
+          <div className="card-and-info">
+            <div
+              className="card"
+              style={{
+                background: `linear-gradient(30deg, ${color.color} 10%, #000, ${color.color} 90%)`,
+                transition: "all 0.5s linear",
+                height: '350px', // Ensure card has height
+                width: '300px', // Ensure card has width
+                position: 'relative',
+                cursor: 'pointer', // Ensure card looks clickable
+              }}
+            ></div>
+            <div>
+              <p className="info-text rajdhani-semibold" style={{ color: "white" }}>
+                Cleaning Tech2{" "}
+              </p>
+              <p className="info-subtext rajdhani-regular" style={{ color: "white" }}>
+                (Insert Waterjet Product Use Case Description){" "}
+              </p>
+            </div>
+          </div>
+        </Link>
+
+
+
+
+
+        <Link to="/ct3" style={{ textDecoration: 'none', color: 'inherit' }}>
+          <div className="card-and-info">
+            <div
+              className="card"
+              style={{
+                background: `linear-gradient(30deg, ${color.color} 10%, #000, ${color.color} 90%)`,
+                transition: "all 0.5s linear",
+                height: '350px', // Ensure card has height
+                width: '300px', // Ensure card has width
+                position: 'relative',
+                cursor: 'pointer', // Ensure card looks clickable
+              }}
+            ></div>
+            <div>
+              <p className="info-text rajdhani-semibold" style={{ color: "white" }}>
+                Cleaning Tech3{" "}
+              </p>
+              <p className="info-subtext rajdhani-regular" style={{ color: "white" }}>
+                (Insert Waterjet Product Use Case Description){" "}
+              </p>
+            </div>
+          </div>
+        </Link>
 
     
 
 
+
+
+        <Link to="/ct4" style={{ textDecoration: 'none', color: 'inherit' }}>
+          <div className="card-and-info">
+            <div
+              className="card"
+              style={{
+                background: `linear-gradient(30deg, ${color.color} 10%, #000, ${color.color} 90%)`,
+                transition: "all 0.5s linear",
+                height: '350px', // Ensure card has height
+                width: '300px', // Ensure card has width
+                position: 'relative',
+                cursor: 'pointer', // Ensure card looks clickable
+              }}
+            ></div>
+            <div>
+              <p className="info-text rajdhani-semibold" style={{ color: "white" }}>
+                Cleaning Tech4{" "}
+              </p>
+              <p className="info-subtext rajdhani-regular" style={{ color: "white" }}>
+                (Insert Waterjet Product Use Case Description){" "}
+              </p>
+            </div>
+          </div>
+        </Link>
 
 
   </div>

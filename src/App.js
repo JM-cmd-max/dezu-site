@@ -35,6 +35,11 @@ import PT5 from "./components/pressure/PT5";
 import PT6 from "./components/pressure/PT6";
 import PT7 from "./components/pressure/PT7";
 
+import CT1 from "./components/cleaning/CT1";
+import CT2 from "./components/cleaning/CT2";
+import CT3 from "./components/cleaning/CT3";
+import CT4 from "./components/cleaning/CT4";
+
 function App() {
   const [page, setPage] = useState("");
   const [color, setColor] = useState({ color: " #32CBBB", bgColor: "#0C191D" });
@@ -71,6 +76,11 @@ function App() {
               <Route path="/pt5" element={<PT5 handlePage={setPage} />} />
               <Route path="/pt6" element={<PT6 handlePage={setPage} />} />
               <Route path="/pt7" element={<PT7 handlePage={setPage} />} />
+
+              <Route path="/ct1" element={<CT1 handlePage={setPage} />} />
+              <Route path="/ct2" element={<CT2 handlePage={setPage} />} />
+              <Route path="/ct3" element={<CT3 handlePage={setPage} />} />
+              <Route path="/ct4" element={<CT4 handlePage={setPage} />} />
             </Routes>
            
 

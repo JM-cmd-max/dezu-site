@@ -18,11 +18,25 @@ body {
 /* PRESSURE GRADIENT BACKGROUND */
 .pressure-bg {
   background: linear-gradient(to bottom,
-    rgba(0, 0, 0, 0.253) 10%,
+    rgba(0, 0, 0, 0.301) 10%,
     rgba(43, 26, 26, 0.8) 30%,
     rgba(58, 35, 35, 1) 50%,
     rgba(39, 23, 23, 0.644) 70%,
     rgba(0, 0, 0, 1) 90%
+  );
+  height: 100%;
+}
+
+
+
+/* CLEANING GRADIENT BACKGROUND */
+.cleaning-bg {
+  background: linear-gradient(to bottom,
+    rgba(5, 0, 8, 0.342) 10%,
+    rgba(37, 26, 43, 0.8) 30%,
+    rgb(56, 30, 70) 50%,
+    rgba(29, 20, 34, 0.644) 70%,
+    rgb(0, 0, 0) 90%
   );
 }
 
@@ -970,7 +984,7 @@ img {
 
 
 
-/* SLIDER DOT | BARCODE SPACING */
+/* SLIDER DOT | BARCODE TEXT SPACING */
 .conjet-spacing{
   margin-top: -20px;
   margin-left: -260px;
@@ -1767,7 +1781,7 @@ h1 {
 }
 
 
-/* SECTION | IMAGE -> TEXT */
+/* SECTION | IMAGE -> TEXT | 1ST ROW on PRST */
 .section-bg-prst1 {
   background-color: transparent;
   color: white;
@@ -1778,7 +1792,7 @@ h1 {
 
 
 
-/* SECTION | TEXT -> IMAGE */
+/* SECTION | TEXT -> IMAGE | 2ND ROW on PRST */
 .section-bg-prst2 {
   background-color: transparent;
   color: white;
@@ -1788,17 +1802,8 @@ h1 {
 }
 
 
-.section-bg-prst3 {
-  background-color: transparent;
-  color: white;
-  padding: 20px;
-  margin-top: -40px;
-}
-
-
-
-/* SECTION | TEXT -> IMAGE | on prst4*/
-.section-bg-prst4 {
+/* SECTION | TEXT -> IMAGE | 2nd ROW on PRST4 | DIFF ALIGNMENT */
+.section-bg-prst21 {
   background-color: transparent;
   color: white;
   padding: 20px;
@@ -1808,10 +1813,22 @@ h1 {
 
 
 
+/* SECTION | IMAGE -> TEXT | 3rd LAST/END ROW on PRST */
+.section-bg-prst3 {
+  background-color: transparent;
+  color: white;
+  padding: 20px;
+  margin-top: -40px;
+}
 
 
-/* SECTION | IMAGE -> TEXT | 1st TEXTS */
-.section-imgtxt2{
+
+
+
+
+
+/* SECTION | IMAGE -> TEXT | 1st TEXTS on WJ */
+.section-imgtxt1{
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -1821,8 +1838,8 @@ h1 {
 }
 
 
-/* SECTION | IMAGE -> TEXT | 2nd TEXTS */
-.section-imgtxt{
+/* SECTION | TEXT -> IMAGE | 2nd TEXTS on WJ */
+.section-imgtxt2{
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -1832,6 +1849,8 @@ h1 {
 }
 
 
+
+/* SECTION | IMAGE -> TEXT | SOLO SECTION on WJ */
 .section-imgtxt3{
   flex: 1;
   display: flex;
@@ -1839,4 +1858,35 @@ h1 {
   align-items: center;
   justify-content: center;
   margin-top: -10px;
+}
+
+
+
+
+
+/* SECTION | IMAGE -> TEXT | 1st SECTION on CLEANING */
+.section-ct1{
+  margin-bottom: 100px;
+  background-color: transparent;
+}
+
+
+/* SECTION | TEXT -> IMAGE | 2nd SECTION on CLEANING */
+.section-ct2{
+  margin-bottom: 100px;
+  background-color: transparent;
+}
+
+
+/* SECTION | IMAGE -> TEXT | 3rd SECTION on CLEANING */
+.section-ct3{
+  margin-bottom: 100px;
+  background-color: transparent;
+}
+
+
+/* SECTION | TEXT -> IMAGE | 4th SECTION on CLEANING */
+.section-ct4{
+  margin-bottom: 100px;
+  background-color: transparent;
 }

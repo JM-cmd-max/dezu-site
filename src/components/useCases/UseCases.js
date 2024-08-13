@@ -78,20 +78,20 @@ export default function UseCases() {
           <li
             className="tab-item rajdhani-semibold"
             style={{
-              color: activeTab === "Cleaning Technology" ? "#53FF50" : "white",
+              color: activeTab === "Cleaning Technology" ? "#BC50FF" : "white",
               transition: "all 0.5s linear",
             }}
-            onClick={() => handleTabClick("Cleaning Technology", "#53FF50", "#0C1D14")}
+            onClick={() => handleTabClick("Cleaning Technology", "#BC50FF", "#0C1D14")}
           >
             Cleaning Technology
           </li>
           <li
             className="tab-item rajdhani-semibold"
             style={{
-              color: activeTab === "Environment Technology" ? "#BC50FF" : "white",
+              color: activeTab === "Environment Technology" ? "#53FF50" : "white",
               transition: "all 0.5s linear",
             }}
-            onClick={() => handleTabClick("Environment Technology", "#BC50FF", "#1A0C1D")}
+            onClick={() => handleTabClick("Environment Technology", "#53FF50", "#1A0C1D")}
           >
             Environment Technology
           </li>

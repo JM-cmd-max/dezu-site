@@ -1,28 +1,30 @@
 import React, { useState, useEffect, useContext } from 'react';
-import "../../styles/hwj3.css";
+import "../../styles/hwj4.css";
 import ColorContext from '../../context/ColorContext';
 import gridLinesImage from "../../assets/images/univ/grid_lines.svg";
 import Navbar from "../hero/components/Navbar";
 import UCMenu from "../UCMenu";
-import StaticNSV from "../slider/StaticNSV";
+import StaticN from "../slider/StaticN";
 import PageContext from '../../context/PageContext';
 import Footer from "../footer/Footer";
 import Contact from "../contact/Contact";
-import WJ3S from "../dotparts/WJ3S";
+import CT4S from "../dotparts/CT4S";
 
-const WJ3 = () => {
+const CT4 = () => {
   const { color } = useContext(ColorContext); // Get color from ColorContext
-
   const [glitch, setGlitch] = useState(false);
-  const [imageSet, setImageSet] = useState('hst3'); // 'g' for g1-g4 and 's' for s1-s4
+  const [imageSet, setImageSet] = useState('hr4'); // 'g' for g1-g4 and 's' for s1-s4
   const [clickedLink, setClickedLink] = useState(null); // Track clicked link index
   const [nextLinkIndex, setNextLinkIndex] = useState(null); // Track next link index for automatic change
   const [timeoutId, setTimeoutId] = useState(null); // Track timeout ID for clearing
   const [isHovered, setIsHovered] = useState(false); // Track hover state
 
+
+
+
   const linkTexts = [
-    { text: 'Storage Tanks', set: 'hst3' },
-    { text: 'Cargo Oil Tanks', set: 'hcot3' },
+    { text: 'Roads', set: 'hr4' },
+    { text: 'Runways', set: 'hrw4' },
   ];
 
   const handleGlitchChange = (newSet, index) => {
@@ -57,11 +59,11 @@ const WJ3 = () => {
   };
 
 
-      // Scroll to top on component mount
-      useEffect(() => {
-        window.scrollTo(0, 0);
-      }, []);
 
+    // Scroll to top on component mount
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
 
   // Automatically click the first featured link on page load
   useEffect(() => {
@@ -69,15 +71,16 @@ const WJ3 = () => {
       handleGlitchChange(linkTexts[0].set, 0);
     }
   }, []);
+  
 
   return (
-    <div className="text-table-wglitch-wj3">
+    <div className="text-table-wglitch-wj3 cleaning-bg">
       <UCMenu />
       <div className="center-container">
         <div>
           <table className="rajdhani-regular">
             <div
-              className="grid-lines-overlay"
+              className="grid-lines-overlay-wj4"
               style={{ zIndex: -2, backgroundImage: `url(${gridLinesImage})`, backgroundSize: '100%', opacity: 0.5 }}
             />
             <tbody>
@@ -106,53 +109,63 @@ const WJ3 = () => {
             </tbody>
           </table>
           <div className={`glitch ${glitch ? `glitch-active-${imageSet}` : `glitch-static-${imageSet}`}`}></div>
-          <h3 className="sub-heading orbitron">COATING ON STEEL SURFACES</h3>
-          <h1 className="main-heading rajdhani-medium">SURFACE PREPARATION</h1>
+          <h3 className="sub-heading orbitron" style={{ color: color.color }}>SPECIALIZED PRESSURE HANDLING</h3>
+          <h1 className="main-heading rajdhani-medium">OIL RIG PRESSURE VALVES</h1>
         </div>
 
         <div className="divider"></div>
-        <StaticNSV />
+        <StaticN />
         <div className="divider"></div>
+
+
+
+
+
+
+
 
         <div className="product-content">
-          <div className="section section-bg">
-            <div className="column image-column">
-              <p className='barcode left-spacing nlb-spacing'>NLB 225 SERIES WATER JETTING PUMP</p>
-              <img src={require("../../assets/images/univ/x1.webp")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
-            </div>
-            <div className="section-imgtxt1 text-column rajdhani-semibold">
-              <p className='list-paragraph-1 left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit diam quam nisi ut pellentesque nec cursus habitant nec lobortis ac placerat non, urna tempus luctus lobortis sed dui nisl.</p>
-              <ul>
-                <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="divider"></div>
-          <div className="section section-bg">
-            <div className="section-imgtxt2 text-column rajdhani-semibold">
-              <p className='list-paragraph-2 left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit diam quam nisi ut pellentesque nec cursus habitant nec lobortis ac placerat non, urna tempus luctus lobortis sed dui nisl.</p>
-              <ul>
-                <li className='bullet-list left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li className='bullet-list left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li className='bullet-list left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li className='bullet-list left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-              </ul>
-            </div>
-            <div className="column image-column spir-barcode">
-              <p className='barcode'>SPIR STAR HIGH PRESSURE HOSE</p>
-              <img src={require("../../assets/images/univ/x2.webp")} alt="Placeholder" className='p-image2'/>
-            </div>
-          </div>
-
-          <div className="divider"></div>
-
-          <WJ3S />
-
+        <div className="section section-ct1">
+        <div className="column image-column">
+        <p className='barcode left-spacing nlb-spacing'>HY-LOK DOUBLE VALVE</p>
+          <img src={require("../../assets/images/pressure/prst4/HLDV.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
         </div>
+        <div className="column text-column rajdhani-semibold">
+          <p  className='list-paragraph-1 left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit diam quam nisi ut pellentesque nec cursus habitant nec lobortis ac placerat non, urna tempus luctus lobortis sed dui nisl.</p>
+          <ul>
+            <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+          </ul>
+        </div>
+      </div>
+
+
+      <div className="divider"></div>
+      <div className="section section-ct2">
+      <div className="column text-column rajdhani-semibold">
+          <p  className='list-paragraph-2 left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit diam quam nisi ut pellentesque nec cursus habitant nec lobortis ac placerat non, urna tempus luctus lobortis sed dui nisl.</p>
+          <ul>
+            <li className='bullet-list left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li className='bullet-list left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li className='bullet-list left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li className='bullet-list left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+          </ul>
+        </div>
+        <div className="column image-column spir-barcode">
+            <p className='barcode'>HY-LOK BLEED VALVE</p>
+          <img src={require("../../assets/images/pressure/prst4/HLBV.png")} alt="Placeholder" className='p-image2'/>
+        </div>
+      </div>
+
+      
+      <div className="divider"></div>
+
+      
+
+    <CT4S />
+      </div>
       </div>
       <Contact />
       <Footer />
@@ -160,4 +173,4 @@ const WJ3 = () => {
   );
 };
 
-export default WJ3;
+export default CT4;

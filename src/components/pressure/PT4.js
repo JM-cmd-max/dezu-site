@@ -129,7 +129,7 @@ const PT4 = () => {
 
 
       <div className="divider"></div>
-      <div className="section section-bg-prst4">
+      <div className="section section-bg-prst21">
       <div className="column text-column rajdhani-semibold">
           <p  className='list-paragraph-2 left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit diam quam nisi ut pellentesque nec cursus habitant nec lobortis ac placerat non, urna tempus luctus lobortis sed dui nisl.</p>
           <ul>

@@ -1,31 +1,26 @@
 import React, { useState, useEffect, useContext } from 'react';
-import "../../styles/hwj5.css";
+import "../../styles/prst4.css";
 import ColorContext from '../../context/ColorContext';
 import gridLinesImage from "../../assets/images/univ/grid_lines.svg";
 import Navbar from "../hero/components/Navbar";
 import UCMenu from "../UCMenu";
-import StaticNSV from "../slider/StaticNSV";
+import StaticNSC from "../slider/StaticNSC";
 import PageContext from '../../context/PageContext';
 import Footer from "../footer/Footer";
 import Contact from "../contact/Contact";
-import WJ3S from "../dotparts/WJ3S";
+import CT3S from "../dotparts/CT3S";
 
-const WJ5 = () => {
+const CT3 = () => {
   const { color } = useContext(ColorContext); // Get color from ColorContext
-
   const [glitch, setGlitch] = useState(false);
-  const [imageSet, setImageSet] = useState('hst5'); // 'g' for g1-g4 and 's' for s1-s4
+  const [imageSet, setImageSet] = useState('pop4'); // 'g' for g1-g4 and 's' for s1-s4
   const [clickedLink, setClickedLink] = useState(null); // Track clicked link index
   const [nextLinkIndex, setNextLinkIndex] = useState(null); // Track next link index for automatic change
   const [timeoutId, setTimeoutId] = useState(null); // Track timeout ID for clearing
   const [isHovered, setIsHovered] = useState(false); // Track hover state
 
-
-
-
   const linkTexts = [
-    { text: 'Storage Tanks', set: 'hst5' },
-    { text: 'Cargo Oil Tanks', set: 'hcot5' },
+    { text: 'OFFSHORE PLANTS', set: 'pop4' },
   ];
 
   const handleGlitchChange = (newSet, index) => {
@@ -59,8 +54,7 @@ const WJ5 = () => {
     setIsHovered(hovered);
   };
 
-
-
+  
     // Scroll to top on component mount
     useEffect(() => {
       window.scrollTo(0, 0);
@@ -73,10 +67,8 @@ const WJ5 = () => {
     }
   }, []);
 
-
-  
   return (
-    <div className="text-table-wglitch-wj3">
+    <div className="text-table-wglitch-wj6 cleaning-bg">
       <UCMenu />
       <div className="center-container">
         <div>
@@ -104,65 +96,26 @@ const WJ5 = () => {
                     >
                       {link.text}
                     </span>
-                    {clickedLink === index && <div className="loading-line"></div>}
+                    {clickedLink === index && <div className="loading-line" style={{ backgroundColor: color.color }}></div>}
                   </td>
                 </tr>
               ))}
             </tbody>
           </table>
           <div className={`glitch ${glitch ? `glitch-active-${imageSet}` : `glitch-static-${imageSet}`}`}></div>
-          <h3 className="sub-heading orbitron">STEEL SURFACES</h3>
-          <h1 className="main-heading rajdhani-medium">HIGH PRESSURE CLEANING</h1>
+          <h3 className="sub-heading orbitron" style={{ color: color.color }}>SPECIALIZED PRESSURE HANDLING</h3>
+          <h1 className="main-heading rajdhani-medium">OIL RIG PRESSURE VALVES</h1>
         </div>
 
         <div className="divider"></div>
-        <StaticNSV />
+        <StaticNSC />
         <div className="divider"></div>
-
 
         <div className="product-content">
-      <div className="section section-bg">
+        <div className="section section-ct1">
         <div className="column image-column">
-        <p className='barcode left-spacing nlb-spacing'>NLB 225 SERIES WATER JETTING PUMP</p>
-          <img src={require("../../assets/images/univ/x1.webp")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
-        </div>
-        <div className="section-imgtxt1 text-column rajdhani-semibold">
-          <p  className='list-paragraph-1 left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit diam quam nisi ut pellentesque nec cursus habitant nec lobortis ac placerat non, urna tempus luctus lobortis sed dui nisl.</p>
-          <ul>
-            <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-            <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-            <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-            <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-          </ul>
-        </div>
-      </div>
-
-
-      <div className="divider"></div>
-      <div className="section section-bg">
-      <div className="section-imgtxt2 text-column rajdhani-semibold">
-          <p  className='list-paragraph-2 left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit diam quam nisi ut pellentesque nec cursus habitant nec lobortis ac placerat non, urna tempus luctus lobortis sed dui nisl.</p>
-          <ul>
-            <li className='bullet-list left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-            <li className='bullet-list left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-            <li className='bullet-list left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-            <li className='bullet-list left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-          </ul>
-        </div>
-        <div className="column image-column spir-barcode">
-            <p className='barcode'>SPIR STAR HIGH PRESSURE HOSE</p>
-          <img src={require("../../assets/images/univ/x2.webp")} alt="Placeholder" className='p-image2'/>
-        </div>
-      </div>
-
-      
-      <div className="divider"></div>
-
-      <div className="product-content">
-      <div className="section section-bg">
-        <div className="column image-column">
-        <p className='barcode left-spacing nlb-spacing'>VertiDrive V700: HP Nozzle</p>
-          <img src={require("../../assets/images/hydro/hwj5/HP nozzle.png")} alt="Placeholder" className='p-image-sl p-image-sl-spacing'/>
+        <p className='barcode left-spacing nlb-spacing'>HY-LOK DOUBLE VALVE</p>
+          <img src={require("../../assets/images/pressure/prst4/HLDV.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
         </div>
         <div className="column text-column rajdhani-semibold">
           <p  className='list-paragraph-1 left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit diam quam nisi ut pellentesque nec cursus habitant nec lobortis ac placerat non, urna tempus luctus lobortis sed dui nisl.</p>
@@ -174,14 +127,83 @@ const WJ5 = () => {
           </ul>
         </div>
       </div>
+
+
+      <div className="divider"></div>
+      <div className="section section-ct2">
+      <div className="column text-column rajdhani-semibold">
+          <p  className='list-paragraph-2 left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit diam quam nisi ut pellentesque nec cursus habitant nec lobortis ac placerat non, urna tempus luctus lobortis sed dui nisl.</p>
+          <ul>
+            <li className='bullet-list left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li className='bullet-list left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li className='bullet-list left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li className='bullet-list left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+          </ul>
+        </div>
+        <div className="column image-column spir-barcode">
+            <p className='barcode'>HY-LOK BLEED VALVE</p>
+          <img src={require("../../assets/images/pressure/prst4/HLBV.png")} alt="Placeholder" className='p-image2'/>
+        </div>
+      </div>
+
+      
+      <div className="divider"></div>
+
+      <div className="product-content">
+      <div className="section section-ct3">
+        <div className="column image-column">
+        <p className='barcode left-spacing nlb-spacing'>HY-LOK BALL VALVE</p>
+          <img src={require("../../assets/images/pressure/prst4/HLBL.png")} alt="Placeholder" className='p-image-sl p-image-sl-spacing'/>
+        </div>
+        <div className="column text-column rajdhani-semibold">
+          <p  className='list-paragraph-1 left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit diam quam nisi ut pellentesque nec cursus habitant nec lobortis ac placerat non, urna tempus luctus lobortis sed dui nisl.</p>
+          <ul>
+            <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+          </ul>
+        </div>
+      </div>
+      <div className="divider"></div>
+
+
+
+
+
+
     </div>
+    <div className="divider"></div>
+      <div className="section section-ct4">
+      <div className="column text-column rajdhani-semibold">
+          <p  className='list-paragraph-2 left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit diam quam nisi ut pellentesque nec cursus habitant nec lobortis ac placerat non, urna tempus luctus lobortis sed dui nisl.</p>
+          <ul>
+            <li className='bullet-list left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li className='bullet-list left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li className='bullet-list left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li className='bullet-list left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+          </ul>
+        </div>
+        <div className="column image-column spir-barcode">
+            <p className='barcode'>HY-LOK BLEED VALVE</p>
+          <img src={require("../../assets/images/pressure/prst4/HLBV.png")} alt="Placeholder" className='p-image2'/>
+        </div>
+      </div>
+
+
+
+
+      <div className="divider"></div>
+      <CT3S/>
+
       
       </div>
       </div>
       <Contact />
       <Footer />
     </div>
+
   );
 };
 
-export default WJ5;
+export default CT3;
