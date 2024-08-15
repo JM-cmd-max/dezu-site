@@ -40,6 +40,12 @@ import CT2 from "./components/cleaning/CT2";
 import CT3 from "./components/cleaning/CT3";
 import CT4 from "./components/cleaning/CT4";
 
+import EV1 from "./components/environmental/EV1";
+import EV2 from "./components/environmental/EV2";
+import EV3 from "./components/environmental/EV3";
+import EV4 from "./components/environmental/EV4";
+import EV5 from "./components/environmental/EV5";
+
 function App() {
   const [page, setPage] = useState("");
   const [color, setColor] = useState({ color: " #32CBBB", bgColor: "#0C191D" });
@@ -81,6 +87,12 @@ function App() {
               <Route path="/ct2" element={<CT2 handlePage={setPage} />} />
               <Route path="/ct3" element={<CT3 handlePage={setPage} />} />
               <Route path="/ct4" element={<CT4 handlePage={setPage} />} />
+
+              <Route path="/ev1" element={<EV1 handlePage={setPage} />} />
+              <Route path="/ev2" element={<EV2 handlePage={setPage} />} />
+              <Route path="/ev3" element={<EV3 handlePage={setPage} />} />
+              <Route path="/ev4" element={<EV4 handlePage={setPage} />} />
+              <Route path="/ev5" element={<EV5 handlePage={setPage} />} />
             </Routes>
            
 

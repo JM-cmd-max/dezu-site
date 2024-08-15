@@ -112,7 +112,7 @@ const PT1 = () => {
 
         <div className="product-content">
           <div className="section section-bg-prst1">
-            <div className="column image-column">
+            <div className="column ">
               <p className='barcode left-spacing nlb-spacing'>TEST PACK SYSTEMS</p>
               <img src={require("../../assets/images/pressure/prst1/PTPS.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
             </div>
@@ -138,9 +138,9 @@ const PT1 = () => {
                 <li className='bullet-list left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
               </ul>
             </div>
-            <div className="column image-column spir-barcode">
+            <div className="column spir-barcode">
               <p className='barcode'>HASKEL MODEL J24352</p>
-              <img src={require("../../assets/images/pressure/prst1/PHM.png")} alt="Placeholder" className='p-image2'/>
+              <img src={require("../../assets/images/pressure/prst1/PHM.png")} alt="Placeholder" className='p-image1'/>
             </div>
           </div>
 

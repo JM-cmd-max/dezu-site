@@ -155,7 +155,7 @@ const PT6 = () => {
             </div>
             <div className="column image-column spir-barcode">
               <p className='barcode'>INSTRUMENT CABINET</p>
-              <img src={require("../../assets/images/pressure/prst6/IC.png")} alt="Placeholder" className='p-image2'/>
+              <img src={require("../../assets/images/pressure/prst6/IC.png")} alt="Placeholder" className='p-image1'/>
             </div>
           </div>
         </div>

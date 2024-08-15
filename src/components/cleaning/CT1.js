@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useContext } from 'react';
-import "../../styles/hwj4.css";
+import "../../styles/clt1.css";
 import ColorContext from '../../context/ColorContext';
 import gridLinesImage from "../../assets/images/univ/grid_lines.svg";
 import Navbar from "../hero/components/Navbar";
@@ -10,10 +10,10 @@ import Footer from "../footer/Footer";
 import Contact from "../contact/Contact";
 import CT1S from "../dotparts/CT1S";
 
-const WJ4 = () => {
+const CT1 = () => {
   const { color } = useContext(ColorContext); // Get color from ColorContext
   const [glitch, setGlitch] = useState(false);
-  const [imageSet, setImageSet] = useState('hr4'); // 'g' for g1-g4 and 's' for s1-s4
+  const [imageSet, setImageSet] = useState('cif1'); // 'g' for g1-g4 and 's' for s1-s4
   const [clickedLink, setClickedLink] = useState(null); // Track clicked link index
   const [nextLinkIndex, setNextLinkIndex] = useState(null); // Track next link index for automatic change
   const [timeoutId, setTimeoutId] = useState(null); // Track timeout ID for clearing
@@ -23,8 +23,8 @@ const WJ4 = () => {
 
 
   const linkTexts = [
-    { text: 'Roads', set: 'hr4' },
-    { text: 'Runways', set: 'hrw4' },
+    { text: 'Industrial facility', set: 'cif1' },
+    { text: 'Factories', set: 'cf1' },
   ];
 
   const handleGlitchChange = (newSet, index) => {
@@ -108,7 +108,7 @@ const WJ4 = () => {
               ))}
             </tbody>
           </table>
-          <div className={`glitch ${glitch ? `glitch-active-${imageSet}` : `glitch-static-${imageSet}`}`}></div>
+          <div className={`glitch-ct1 ${glitch ? `glitch-active-${imageSet}` : `glitch-static-${imageSet}`}`}></div>
           <h3 className="sub-heading orbitron" style={{ color: color.color }}>SPECIALIZED PRESSURE HANDLING</h3>
           <h1 className="main-heading rajdhani-medium">OIL RIG PRESSURE VALVES</h1>
         </div>
@@ -128,7 +128,7 @@ const WJ4 = () => {
         <div className="section section-ct1">
         <div className="column image-column">
         <p className='barcode left-spacing nlb-spacing'>HY-LOK DOUBLE VALVE</p>
-          <img src={require("../../assets/images/pressure/prst4/HLDV.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
+          <img src={require("../../assets/images/cleaning/ct1/ct11.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
         </div>
         <div className="column text-column rajdhani-semibold">
           <p  className='list-paragraph-1 left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit diam quam nisi ut pellentesque nec cursus habitant nec lobortis ac placerat non, urna tempus luctus lobortis sed dui nisl.</p>
@@ -155,7 +155,7 @@ const WJ4 = () => {
         </div>
         <div className="column image-column spir-barcode">
             <p className='barcode'>HY-LOK BLEED VALVE</p>
-          <img src={require("../../assets/images/pressure/prst4/HLBV.png")} alt="Placeholder" className='p-image2'/>
+          <img src={require("../../assets/images/cleaning/ct1/ct12.png")} alt="Placeholder" className='p-image1'/>
         </div>
       </div>
 
@@ -163,10 +163,10 @@ const WJ4 = () => {
       <div className="divider"></div>
 
       <div className="product-content">
-      <div className="section section-ct3">
+      <div className="section section-ct1">
         <div className="column image-column">
-        <p className='barcode left-spacing nlb-spacing'>HY-LOK BALL VALVE</p>
-          <img src={require("../../assets/images/pressure/prst4/HLBL.png")} alt="Placeholder" className='p-image-sl p-image-sl-spacing'/>
+        <p className='barcode left-spacing nlb-spacing'>HY-LOK DOUBLE VALVE</p>
+          <img src={require("../../assets/images/cleaning/ct1/ct13.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
         </div>
         <div className="column text-column rajdhani-semibold">
           <p  className='list-paragraph-1 left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit diam quam nisi ut pellentesque nec cursus habitant nec lobortis ac placerat non, urna tempus luctus lobortis sed dui nisl.</p>
@@ -203,4 +203,4 @@ const WJ4 = () => {
   );
 };
 
-export default WJ4;
+export default CT1;

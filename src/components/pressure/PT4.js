@@ -141,7 +141,7 @@ const PT4 = () => {
         </div>
         <div className="column image-column spir-barcode">
             <p className='barcode'>HY-LOK BLEED VALVE</p>
-          <img src={require("../../assets/images/pressure/prst4/HLBV.png")} alt="Placeholder" className='p-image2'/>
+          <img src={require("../../assets/images/pressure/prst4/HLBV.png")} alt="Placeholder" className='p-image1'/>
         </div>
       </div>
 

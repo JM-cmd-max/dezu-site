@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useContext } from 'react';
-import "../../styles/hwj4.css";
+import "../../styles/clt4.css";
 import ColorContext from '../../context/ColorContext';
 import gridLinesImage from "../../assets/images/univ/grid_lines.svg";
 import Navbar from "../hero/components/Navbar";
@@ -13,7 +13,7 @@ import CT4S from "../dotparts/CT4S";
 const CT4 = () => {
   const { color } = useContext(ColorContext); // Get color from ColorContext
   const [glitch, setGlitch] = useState(false);
-  const [imageSet, setImageSet] = useState('hr4'); // 'g' for g1-g4 and 's' for s1-s4
+  const [imageSet, setImageSet] = useState('cst4'); // 'g' for g1-g4 and 's' for s1-s4
   const [clickedLink, setClickedLink] = useState(null); // Track clicked link index
   const [nextLinkIndex, setNextLinkIndex] = useState(null); // Track next link index for automatic change
   const [timeoutId, setTimeoutId] = useState(null); // Track timeout ID for clearing
@@ -23,8 +23,8 @@ const CT4 = () => {
 
 
   const linkTexts = [
-    { text: 'Roads', set: 'hr4' },
-    { text: 'Runways', set: 'hrw4' },
+    { text: 'Streets', set: 'cst4' },
+    { text: 'Sidewalks', set: 'csw4' },
   ];
 
   const handleGlitchChange = (newSet, index) => {
@@ -128,7 +128,7 @@ const CT4 = () => {
         <div className="section section-ct1">
         <div className="column image-column">
         <p className='barcode left-spacing nlb-spacing'>HY-LOK DOUBLE VALVE</p>
-          <img src={require("../../assets/images/pressure/prst4/HLDV.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
+          <img src={require("../../assets/images/cleaning/ct4/ct41.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
         </div>
         <div className="column text-column rajdhani-semibold">
           <p  className='list-paragraph-1 left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit diam quam nisi ut pellentesque nec cursus habitant nec lobortis ac placerat non, urna tempus luctus lobortis sed dui nisl.</p>
@@ -155,7 +155,7 @@ const CT4 = () => {
         </div>
         <div className="column image-column spir-barcode">
             <p className='barcode'>HY-LOK BLEED VALVE</p>
-          <img src={require("../../assets/images/pressure/prst4/HLBV.png")} alt="Placeholder" className='p-image2'/>
+          <img src={require("../../assets/images/cleaning/ct4/ct42.png")} alt="Placeholder" className='p-image1'/>
         </div>
       </div>
 

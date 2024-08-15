@@ -118,12 +118,12 @@ const WJ4 = () => {
 
 
         <div className="product-content">
-      <div className="section section-bg">
+        <div className="section section-bg-prst3">
         <div className="column image-column">
         <p className='barcode left-spacing nlb-spacing'>NLB StarJet SRV-7</p>
-          <img src={require("../../assets/images/hydro/hwj4/hw4.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
+          <img src={require("../../assets/images/hydro/hwj4/hw4.png")} alt="Placeholder" className='p-image-sl p-image-sl-spacing'/>
         </div>
-        <div className="section-imgtxt3 text-column rajdhani-semibold">
+        <div className="column text-column rajdhani-semibold">
           <p  className='list-paragraph-1 left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit diam quam nisi ut pellentesque nec cursus habitant nec lobortis ac placerat non, urna tempus luctus lobortis sed dui nisl.</p>
           <ul>
             <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>

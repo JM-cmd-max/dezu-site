@@ -129,7 +129,7 @@ const PT5 = () => {
           <div className="section section-bg-prst3">
             <div className="column image-column">
               <p className='barcode left-spacing nlb-spacing'>INSTRUMENT FITTINGS</p>
-              <img src={require("../../assets/images/pressure/prst5/NWJP.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
+              <img src={require("../../assets/images/pressure/prst5/NWJP.png")} alt="Placeholder" className='p-image-pt5 p-image1-spacing'/>
             </div>
             <div className="column text-column rajdhani-semibold">
               <p className='list-paragraph-1 left-spacing-1'>powerhouse in hydro demolition, expertly engineered to deliver water efficiently to the accessory for precise material removal. Its robust design ensures consistent high-pressure performance, making it an ideal choice for demanding demolition projects. </p>

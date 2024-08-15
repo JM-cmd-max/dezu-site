@@ -7,9 +7,9 @@ export default function CT1S() {
     const { page, setPage } = useContext(PageContext);
 
     const slides = [
-        require("../../assets/images/univ/x3.webp"),
-        require("../../assets/images/univ/x4.webp"),
-        require("../../assets/images/univ/x5.webp"),
+        require("../../assets/images/cleaning/ct1/ct14.png"),
+        require("../../assets/images/cleaning/ct1/ct14.png"),
+        require("../../assets/images/cleaning/ct1/ct14.png"),
     ];
 
     const slideTexts = [

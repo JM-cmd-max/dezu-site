@@ -8,9 +8,14 @@
   scroll-behavior: smooth;
 } */
 
-body {
+/* body {
   font-size: 62.5%;
   font-family: "Montserrat", sans-serif;
+} */
+
+/* landing use case button  nav */
+.use-case-btn{
+  color: white;
 }
 
 
@@ -20,8 +25,8 @@ body {
   background: linear-gradient(to bottom,
     rgba(0, 0, 0, 0.301) 10%,
     rgba(43, 26, 26, 0.8) 30%,
-    rgba(58, 35, 35, 1) 50%,
-    rgba(39, 23, 23, 0.644) 70%,
+    rgb(56, 0, 0) 50%,
+    rgba(46, 0, 0, 0.644) 70%,
     rgba(0, 0, 0, 1) 90%
   );
   height: 100%;
@@ -32,10 +37,23 @@ body {
 /* CLEANING GRADIENT BACKGROUND */
 .cleaning-bg {
   background: linear-gradient(to bottom,
-    rgba(5, 0, 8, 0.342) 10%,
-    rgba(37, 26, 43, 0.8) 30%,
-    rgb(56, 30, 70) 50%,
-    rgba(29, 20, 34, 0.644) 70%,
+    rgb(5, 0, 8) 10%,
+    rgb(18, 4, 26) 30%,
+    rgb(32, 0, 49) 50%,
+    rgb(21, 3, 31) 70%,
+    rgb(0, 0, 0) 90%
+  );
+}
+
+
+
+/* ENVIRONMENTAL GRADIENT BACKGROUND */
+.environmental-bg {
+  background: linear-gradient(to bottom,
+    rgba(0, 8, 0, 0.356) 10%,
+    rgba(29, 44, 27, 0.8) 30%,
+    rgb(2, 53, 7) 50%,
+    rgba(25, 43, 26, 0.644) 70%,
     rgb(0, 0, 0) 90%
   );
 }
@@ -395,6 +413,9 @@ body {
   margin: 20px 0;
 }
 
+
+
+/* COLUMN FOR HEADING BARCODE WITH IMAGE */
 .column {
   flex: 1;
   display: flex;
@@ -402,6 +423,19 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+
+/* COLUMN FOR HEADING WITH PARAGRAPHS */
+.column1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -20px;
+}
+
+
 
 .centered {
   text-align: center;
@@ -421,23 +455,6 @@ img {
 }
 
 
-
-
-/* SECTION 1 | PRODUCT */
-/* .section-1 {
-  height: 900px; 
-  position: relative;
-  z-index: 1;
-  background-color: #000;
-  background: url() no-repeat center center;
-  background-size: 900px 600px; 
-  padding: 30px; 
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  margin-top: -100px;
-} */
 
 
 
@@ -718,9 +735,10 @@ img {
 
 
 
-/* DEFAULT TEXT COLOR */
+/* BARCODE HEADING TEXT COLOR */
 .column p, .column ul li {
-  color: #fff; 
+  color: #ffffff;
+  text-transform: uppercase;
 }
 
 
@@ -734,22 +752,33 @@ img {
   display: flex;
   flex-direction: row;
   width: 100%;
-  height: auto; /* Adjust height as needed */
+  height: auto; 
   background-color: black;
   color: white;
 }
 
-.column {
+
+
+.section {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto; 
+  background-color: black;
+  color: white;
+}
+
+/* .column {
   flex: 1;
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 
-.image-column img {
+/* .image-column img {
   max-width: 100%;
   max-height: 100%;
-}
+} */
 
 
 
@@ -783,26 +812,29 @@ img {
   height: 100%;
 }
 
-.section {
+/* .section {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
-}
+} */
 
+
+
+/* SECTION BACKGROUNDS | TRANSPARENT */
 .section-bg {
   background-color: transparent;
   color: white;
   padding: 20px;
 }
 
-.column {
+/* .column {
   flex: 1;
-}
+} */
 
-.text-column {
+/* .text-column {
   padding: 20px;
-}
+} */
 
 .slider-column {
   display: flex;
@@ -821,6 +853,8 @@ img {
   width: auto;
 }
 
+
+/* DOT IMAGE SIZE */
 .slide {
   display: none;
   width: 400px;
@@ -832,11 +866,11 @@ img {
   display: block;
 }
 
-.slide img {
+/* .slide img {
   width: 100%;
   max-width: 800px;
   object-fit: cover;
-}
+} */
 
 
 
@@ -1008,16 +1042,26 @@ img {
 
 
 
-/* PRODUCT IMAGES */
+/* HYDRO | 1st SECTION IMAGE under BARCODE*/
 .p-image1{
   width: 550px;
 }
 
-.p-image1-spacing{
+
+.p-image-pt5{
+  width: 720px;
+}
+
+/* HYDRO WJ4 | solo SECTION IMAGE under BARCODE*/
+.p-image-solo{
+  width: 750px;
+}
+
+/* .p-image1-spacing{
  margin-left: 200px;
  margin-top: 40px;
  margin-bottom: 70px;
-}
+} */
 
 
 /* PRODUCT BULLET LISTS */
@@ -1034,6 +1078,7 @@ img {
   margin-bottom: 0px;
   width: 700px;
   margin-left: -130px;
+  text-transform: uppercase;
 }
 
 .list-paragraph-2{
@@ -1041,6 +1086,7 @@ img {
   margin-bottom: 0px;
   width: 700px;
   margin-left: -130px;
+  text-transform: uppercase;
 }
 
 .list-paragraph-3{
@@ -1049,20 +1095,23 @@ img {
   width: 700px;
   margin-left: -130px;
   text-align: justify;
+  text-transform: uppercase;
 }
 
 
 
-/* LEFT SPACING */
+/* LEFT SPACING | 1st SECTION BARCODE HEADING*/
 .left-spacing{
   margin-left: 100px;
+  /* margin-top: 20px; */
 }
 
-
+/* LEFT SPACING | 1st SECTION HEADING AND LIST*/
 .left-spacing-1{
   margin-left: -20px;
 }
 
+/* LEFT SPACING | 2ND SECTION HEADING AND LIST*/
 .left-spacing-2{
   margin-left: 40px;
 }

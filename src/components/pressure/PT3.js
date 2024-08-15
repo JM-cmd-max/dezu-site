@@ -127,7 +127,7 @@ const PT3 = () => {
 
         <div className="product-content">
           <div className="section section-bg-prst3">
-            <div className="column image-column">
+            <div className="column">
               <p className='barcode left-spacing nlb-spacing'>HASKEL BUTECH VALVES</p>
               <img src={require("../../assets/images/pressure/prst3/HBV.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
             </div>
