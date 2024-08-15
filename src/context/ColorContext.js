@@ -4,23 +4,23 @@ const ColorContext = React.createContext();
 
 export const ColorProvider = ({ children }) => {
   const [color, setColor] = useState({
-    color: "#32CBBB",
-    bgColor: "#0C191D",
+    color: localStorage.getItem('kColor') ?? "#32CBBB",
+    bgColor: localStorage.getItem('kBgColor') ?? "#0C191D",
   });
 
-  useEffect(() => {
-    const storedColor = localStorage.getItem("color");
-    const storedBgColor = localStorage.getItem("bgColor");
+  // useEffect(() => {
+  //   const storedColor = localStorage.getItem("color");
+  //   const storedBgColor = localStorage.getItem("bgColor");
 
-    if (storedColor && storedBgColor) {
-      setColor({ color: storedColor, bgColor: storedBgColor });
-    }
-  }, []);
+  //   if (storedColor && storedBgColor) {
+  //     setColor({ color: storedColor, bgColor: storedBgColor });
+  //   }
+  // }, []);
 
-  useEffect(() => {
-    localStorage.setItem("color", color.color);
-    localStorage.setItem("bgColor", color.bgColor);
-  }, [color]);
+  // useEffect(() => {
+  //   localStorage.setItem("color", color.color);
+  //   localStorage.setItem("bgColor", color.bgColor);
+  // }, [color]);
 
   return (
     <ColorContext.Provider value={{ color, setColor }}>

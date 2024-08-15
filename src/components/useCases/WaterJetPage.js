@@ -11,6 +11,8 @@ export default function WaterJetPage() {
     const handleTabClick = (tabName, color, bgColor) => {
       setActiveTab(tabName);
       setColor({ color, bgColor });
+      localStorage.setItem('kColor', color);
+      localStorage.setItem('kBgColor', bgColor);
     };
   
     useEffect(() => {

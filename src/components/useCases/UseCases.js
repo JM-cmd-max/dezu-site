@@ -12,17 +12,20 @@ export default function UseCases() {
   const { page, setPage, activeTab, setActiveTab } = useContext(PageContext);
 
   const handleTabClick = (tabName, color, bgColor) => {
-    setActiveTab(tabName);
     setColor({ color, bgColor });
+    localStorage.setItem('kColor', color);
+    localStorage.setItem('kBgColor', bgColor);
+    localStorage.setItem('page', tabName);
+    setActiveTab(localStorage.getItem('page') ?? tabName);
   };
 
   useEffect(() => {
     setPage('use-cases');
 
     // Ensure activeTab is set to default "Waterjet Technology" if not already set
-    if (!activeTab) {
-      handleTabClick("Waterjet Technology", "#32CBBB", "#0C191D");
-    }
+    // if (!activeTab) {
+    //   handleTabClick("Waterjet Technology", "#32CBBB", "#0C191D");
+    // }
   }, [setPage, activeTab]);
 
   // Function to render the correct content based on activeTab

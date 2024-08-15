@@ -11,7 +11,7 @@ import ContactPage from "./pages/ContactPage";
 import { Route, Routes } from "react-router-dom";
 import { BrowserRouter as Router } from "react-router-dom";
 // import Navbar from "./components/hero/components/Navbar";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { PageProvider } from "./context/PageContext";
 import { ColorProvider } from "./context/ColorContext";
 import WJ1 from "./components/waterjet/WJ1";
@@ -48,7 +48,8 @@ import EV5 from "./components/environmental/EV5";
 
 function App() {
   const [page, setPage] = useState("");
-  const [color, setColor] = useState({ color: " #32CBBB", bgColor: "#0C191D" });
+  const [color, setColor] = useState({ color: localStorage.getItem('color'), bgColor: "#0C191D" });
+
 
   return (
     <ColorProvider value={{ color, setColor }}>
