@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useContext } from 'react';
-import "../../styles/prst3.css";
+import "../../styles/envr2.css";
 import ColorContext from '../../context/ColorContext';
 import gridLinesImage from "../../assets/images/univ/grid_lines.svg";
 import Navbar from "../hero/components/Navbar";
@@ -12,14 +12,14 @@ import Contact from "../contact/Contact";
 const EV2 = () => {
   const { color, setColor } = useContext(ColorContext); // Get color and setColor from ColorContext
   const [glitch, setGlitch] = useState(false);
-  const [imageSet, setImageSet] = useState('php3');
+  const [imageSet, setImageSet] = useState('eeb2');
   const [clickedLink, setClickedLink] = useState(null);
   const [nextLinkIndex, setNextLinkIndex] = useState(null);
   const [timeoutId, setTimeoutId] = useState(null);
   const [isHovered, setIsHovered] = useState(false);
 
   const linkTexts = [
-    { text: 'HYDROGEN PLANTS', set: 'php3' },
+    { text: 'Echo barriers', set: 'eeb2' },
   ];
 
   // Handle glitch change and link click
@@ -129,7 +129,7 @@ const EV2 = () => {
           <div className="section section-bg-prst3">
             <div className="column image-column">
               <p className='barcode left-spacing nlb-spacing'>HASKEL BUTECH VALVES</p>
-              <img src={require("../../assets/images/pressure/prst3/HBV.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
+              <img src={require("../../assets/images/environmental/envr2/ev21.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
             </div>
             <div className="column text-column rajdhani-semibold">
               <p className='list-paragraph-1 left-spacing-1'>powerhouse in hydro demolition, expertly engineered to deliver water efficiently to the accessory for precise material removal. Its robust design ensures consistent high-pressure performance, making it an ideal choice for demanding demolition projects. </p>
