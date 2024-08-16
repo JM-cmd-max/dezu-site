@@ -132,12 +132,12 @@ const PT5 = () => {
               <img src={require("../../assets/images/pressure/prst5/NWJP.png")} alt="Placeholder" className='p-image-pt5 p-image1-spacing'/>
             </div>
             <div className="column text-column rajdhani-semibold">
-              <p className='list-paragraph-1 left-spacing-1'>powerhouse in hydro demolition, expertly engineered to deliver water efficiently to the accessory for precise material removal. Its robust design ensures consistent high-pressure performance, making it an ideal choice for demanding demolition projects. </p>
+              <p className='list-paragraph-1 left-spacing-1'>Engineered for durability and reliability, offering corrosion-resistant and leak-proof solutions for marine environments. Designed for easy installation and high-pressure conditions, these fittings ensure secure connections and long-lasting performance on oil tankers.</p>
               <ul>
-                <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                <li className='bullet-list left-spacing-1'>Corrosion Resistant: Withstands harsh marine environments effectively</li>
+                <li className='bullet-list left-spacing-1'>Leak-Proof Design: Ensures secure and reliable connections</li>
+                <li className='bullet-list left-spacing-1'>Durable Build: Engineered for long-term heavy-duty use</li>
+                <li className='bullet-list left-spacing-1'>High Pressure: Handles extreme pressure conditions safely</li>
               </ul>
             </div>
           </div>

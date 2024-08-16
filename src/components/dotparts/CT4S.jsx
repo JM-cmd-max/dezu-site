@@ -2,45 +2,45 @@ import React, { useState, useEffect, useContext } from 'react';
 import '../../styles/styles.css';
 import PageContext from '../../context/PageContext';
 
-export default function CT4S() {
+export default function WJ1S() {
     const [currentSlide, setCurrentSlide] = useState(0);
     const { page, setPage } = useContext(PageContext);
 
     const slides = [
-        require("../../assets/images/univ/x3.webp"),
-        require("../../assets/images/univ/x4.webp"),
-        require("../../assets/images/univ/x5.webp"),
+        require("../../assets/images/cleaning/ct4/ct43.png"),
+        require("../../assets/images/cleaning/ct4/ct43.png"),
+        require("../../assets/images/cleaning/ct4/ct43.png"),
     ];
 
     const slideTexts = [
         {
             conjet: "CONJET ROBOT 557",
-            paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit diam quam nisi ut pellentesque nec cursus habitant nec lobortis ac placerat non, urna tempus luctus lobortis sed dui nisl.",
+            paragraph: "Advanced accessory for automated robotic hydro demolition, allowing operators to achieve precise control and efficient material removal using a sophisticated controller. Its cutting-edge design ensures effective performance in challenging environments, blending automation with user-friendly operation.",
             listItems: [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "Automated Operation: Advanced robotic automation for demolition",
+                "Controller Integration: Intuitive controller for precise operation",
+                "Robust Construction: Withstands harsh industrial conditions effectively",
+                "Efficient Material Removal: Powerful jets for effective material removal",
             ]
         },
         {
             conjet: "CONJET ROBOT 101 NALTA",
-            paragraph: "Slide 2: Another description for the second slide.",
+            paragraph: "Offers precise, efficient hydro demolition with its semi-automated control and advanced technology. Its rugged construction and intuitive design ensure reliable performance and reduced operator fatigue in demanding industrial environments.",
             listItems: [
-                "Second slide list item 1.",
-                "Second slide list item 2.",
-                "Second slide list item 3.",
-                "Second slide list item 4.",
+                "Advanced Technology: Incorporates state-of-the-art technology for precise, efficient hydro demolition",
+                "Rugged Construction: Built to endure harsh conditions for lasting performance",
+                "Semi-Automated Control: Enables precise operation with a controller, enhancing efficiency and accuracy",
+                "Versatile Applications: Ideal for various hydro demolition tasks, both manual and automated",
             ]
         },
         {
             conjet: "NLB NCG24-535 HAND LANCE",
-            paragraph: "Slide 3: Yet another description for the third slide.",
+            paragraph: "Premium tool for semi-automated hydro demolition, offering enhanced precision and efficiency with its advanced controller. Its robust construction, ergonomic design, and high-pressure capabilities make it ideal for demanding industrial tasks.",
             listItems: [
-                "Third slide list item 1.",
-                "Third slide list item 2.",
-                "Third slide list item 3.",
-                "Third slide list item 4.",
+                "Ergonomic Design: Reduces fatigue and enhances comfort during use",
+                "High-Pressure Capability: Delivers powerful jets for effective material removal",
+                "Durable Construction: Engineered to endure rigorous industrial environments.",
+                "Semi-Automated Control: Allows precise control with a controller, improving efficiency",
             ]
         },
     ];
@@ -83,7 +83,7 @@ export default function CT4S() {
                     </div>
                 </div>
                 <div className="column text-column rajdhani-semibold">
-                    <p className='list-paragraph-3'>
+                    <p className='list-dotparts-wj1'>
                         {slideTexts[currentSlide].paragraph.split('\n').map((text, index) => (
                             <React.Fragment key={index}>
                                 {text}

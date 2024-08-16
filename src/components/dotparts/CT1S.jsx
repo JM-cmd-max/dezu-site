@@ -27,20 +27,20 @@ export default function CT1S() {
             conjet: "CONJET ROBOT 101 NALTA",
             paragraph: "Slide 2: Another description for the second slide.",
             listItems: [
-                "Second slide list item 1.",
-                "Second slide list item 2.",
-                "Second slide list item 3.",
-                "Second slide list item 4.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             ]
         },
         {
             conjet: "NLB NCG24-535 HAND LANCE",
             paragraph: "Slide 3: Yet another description for the third slide.",
             listItems: [
-                "Third slide list item 1.",
-                "Third slide list item 2.",
-                "Third slide list item 3.",
-                "Third slide list item 4.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             ]
         },
     ];
@@ -56,8 +56,8 @@ export default function CT1S() {
     return (
         <div className="App">
             <div className="section section-bg">
-                <div className="column text-column rajdhani-semibold">
-                    <p className='list-paragraph-3'>
+                <div className="column rajdhani-semibold">
+                    <p className='list-paragraph-heading'>
                         {slideTexts[currentSlide].paragraph.split('\n').map((text, index) => (
                             <React.Fragment key={index}>
                                 {text}
@@ -67,14 +67,14 @@ export default function CT1S() {
                     </p>
                     <ul>
                         {slideTexts[currentSlide].listItems.map((item, index) => (
-                            <li key={index} className='bullet-list left-spacing-3'>{item}</li>
+                            <li key={index} className='bullet-list '>{item}</li>
                         ))}
                     </ul>
                 </div>
-                <div className="column slider-column">
-                    <div className='slider-container'>
-                        <div className="slider">
-                            <p className='barcode conjet-spacing'>{slideTexts[currentSlide].conjet}</p>
+                <div className="column">
+                    <div className=''>
+                        <div className="">
+                            <p className='barcode'>{slideTexts[currentSlide].conjet}</p>
                             {slides.map((image, index) => (
                                 <div
                                     key={index}

@@ -37,7 +37,7 @@
 /* CLEANING GRADIENT BACKGROUND */
 .cleaning-bg {
   background: linear-gradient(to bottom,
-    rgb(5, 0, 8) 10%,
+    rgba(5, 0, 8, 0.329) 10%,
     rgb(18, 4, 26) 30%,
     rgb(32, 0, 49) 50%,
     rgb(21, 3, 31) 70%,
@@ -836,22 +836,24 @@ img {
   padding: 20px;
 } */
 
-.slider-column {
+/* .slider-column {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
+} */
 
-.slider {
+
+/* DOTPARTS | IMAGE POSITIONING */
+/* .slider {
   position: relative;
   width: 500px; 
   height: auto; 
-}
+} */
 
-.slider-container{
+/* .slider-container{
   width: auto;
-}
+} */
 
 
 /* DOT IMAGE SIZE */
@@ -966,12 +968,21 @@ img {
   margin-right: 180px;
 }
 
+
+/* STATIC IMAGE SIZE */
 .static-image {
   width: 200px; /* Adjust width as needed */
   height: 100%; /* Maintain aspect ratio */
   margin: 0 10px 100px; /* Add spacing between images and bottom margin */
-
 }
+
+
+
+.static-image-klenco {
+  width: 100px; /* Adjust width as needed */
+  margin: 0 10px 100px; 
+}
+
 
 .spir{
   margin-top: 2px;
@@ -1019,10 +1030,10 @@ img {
 
 
 /* SLIDER DOT | BARCODE TEXT SPACING */
-.conjet-spacing{
+/* .conjet-spacing{
   margin-top: -20px;
   margin-left: -260px;
-}
+} */
 
 
 
@@ -1064,11 +1075,12 @@ img {
 } */
 
 
-/* PRODUCT BULLET LISTS */
+/* DOTPARTS SECTION | BULLET LISTS */
 .bullet-list {
   list-style-type: disc; 
-  margin-left: -200px;
   margin-top: 60px;
+  margin-left: 20px;
+  text-align: left;
 }
 
 
@@ -1097,6 +1109,47 @@ img {
   text-align: justify;
   text-transform: uppercase;
 }
+
+
+
+
+
+
+
+
+
+
+
+/* DOTPARTS SECTION | PARAGRAPGH LIST HEADING */
+.list-paragraph-heading{
+  margin-top: -70px;
+  margin-bottom: 0px;
+  margin-left: 30px;
+  width: 700px;
+  text-align: justify;
+  text-transform: uppercase;
+}
+
+
+/* DOTPARTS SECTION | PARAGRAPGH LIST HEADING WJ1 */
+.list-dotparts-wj1{
+  margin-top: -70px;
+  margin-bottom: 0px;
+  margin-left: -200px;
+  width: 750px;
+  text-align: justify;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1827,6 +1880,13 @@ h1 {
 .newtek{
   margin-left: 550px;
   margin-top: 20px;
+}
+
+
+/* STATIC klenco */
+.klenco{
+  margin-left: 650px;
+  margin-top: 30px;
 }
 
 

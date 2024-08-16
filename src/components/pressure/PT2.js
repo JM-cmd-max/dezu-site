@@ -132,12 +132,12 @@ const PT2 = () => {
               <img src={require("../../assets/images/pressure/prst2/FPS.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
             </div>
             <div className="column text-column rajdhani-semibold">
-              <p className='list-paragraph-1 left-spacing-1'>powerhouse in hydro demolition, expertly engineered to deliver water efficiently to the accessory for precise material removal. Its robust design ensures consistent high-pressure performance, making it an ideal choice for demanding demolition projects. </p>
+              <p className='list-paragraph-1 left-spacing-1'>Designed for high-pressure fluid transfer and pressurization applications, offering efficient and reliable performance. These systems ensure precise fluid management and robust pressure boosting for various industrial needs.</p>
               <ul>
-                <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                <li className='bullet-list left-spacing-1'>High Pressure Transfer: Efficiently handles high-pressure fluid movement</li>
+                <li className='bullet-list left-spacing-1'>Pressurization Applications: Boosts pressure for diverse applications</li>
+                <li className='bullet-list left-spacing-1'>Reliable Performance: Ensures consistent and dependable operation</li>
+                <li className='bullet-list left-spacing-1'>Advanced Technology: Utilizes cutting-edge fluid power solutions</li>
               </ul>
             </div>
           </div>
@@ -145,12 +145,12 @@ const PT2 = () => {
           <div className="divider"></div>
           <div className="section section-bg-prst2">
             <div className="column text-column rajdhani-semibold">
-              <p className='list-paragraph-2 left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit diam quam nisi ut pellentesque nec cursus habitant nec lobortis ac placerat non, urna tempus luctus lobortis sed dui nisl.</p>
+              <p className='list-paragraph-2 left-spacing-2'>Engineered to deliver high-pressure gas boosting with exceptional reliability and efficiency. Its compact, durable design makes it ideal for various industrial applications, providing consistent performance and easy maintenance for long-term use.</p>
               <ul>
-                <li className='bullet-list left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li className='bullet-list left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li className='bullet-list left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li className='bullet-list left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                <li className='bullet-list left-spacing-2'>High Pressure: Boosts gas to extreme pressures efficiently</li>
+                <li className='bullet-list left-spacing-2'>Durable Construction: Built to withstand rigorous use</li>
+                <li className='bullet-list left-spacing-2'>Compact Design: Saves space while delivering power</li>
+                <li className='bullet-list left-spacing-2'>Versatile Applications: Suitable for various gas types</li>
               </ul>
             </div>
             <div className="column spir-barcode">

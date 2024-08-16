@@ -7,9 +7,9 @@ export default function CT3S() {
     const { page, setPage } = useContext(PageContext);
 
     const slides = [
-        require("../../assets/images/univ/x3.webp"),
-        require("../../assets/images/univ/x4.webp"),
-        require("../../assets/images/univ/x5.webp"),
+        require("../../assets/images/cleaning/ct3/ct35.png"),
+        require("../../assets/images/cleaning/ct3/ct35.png"),
+        require("../../assets/images/cleaning/ct3/ct35.png"),
     ];
 
     const slideTexts = [
@@ -56,10 +56,10 @@ export default function CT3S() {
     return (
         <div className="App">
             <div className="section section-bg">
-                <div className="column slider-column">
-                    <div className='slider-container'>
-                        <div className="slider">
-                            <p className='barcode conjet-spacing'>{slideTexts[currentSlide].conjet}</p>
+                <div className="column">
+                    <div className=''>
+                        <div className="">
+                            <p className='barcode'>{slideTexts[currentSlide].conjet}</p>
                             {slides.map((image, index) => (
                                 <div
                                     key={index}
@@ -82,7 +82,7 @@ export default function CT3S() {
                         </div>
                     </div>
                 </div>
-                <div className="column text-column rajdhani-semibold">
+                <div className="column rajdhani-semibold">
                     <p className='list-paragraph-3'>
                         {slideTexts[currentSlide].paragraph.split('\n').map((text, index) => (
                             <React.Fragment key={index}>

@@ -124,12 +124,12 @@ const WJ4 = () => {
           <img src={require("../../assets/images/hydro/hwj4/hw4.png")} alt="Placeholder" className='p-image-sl p-image-sl-spacing'/>
         </div>
         <div className="column text-column rajdhani-semibold">
-          <p  className='list-paragraph-1 left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit diam quam nisi ut pellentesque nec cursus habitant nec lobortis ac placerat non, urna tempus luctus lobortis sed dui nisl.</p>
+          <p  className='list-paragraph-1 left-spacing-1'>Powerful prime mover designed to pump water to hydro demolition accessories. Its robust performance and high efficiency ensure reliable water delivery for optimal accessory operation.</p>
           <ul>
-            <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-            <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-            <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-            <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li className='bullet-list left-spacing-1'>High Pressure: Delivers powerful water flow efficiently</li>
+            <li className='bullet-list left-spacing-1'>Reliable Performance: Consistent operation for demanding tasks.</li>
+            <li className='bullet-list left-spacing-1'>Efficient Pumping: Maximizes water delivery to accessories</li>
+            <li className='bullet-list left-spacing-1'>Versatile Application: Suitable for various hydro demolition needs</li>
           </ul>
         </div>
       </div>

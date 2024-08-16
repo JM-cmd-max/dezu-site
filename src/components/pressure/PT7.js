@@ -134,12 +134,12 @@ const PT7 = () => {
               <img src={require("../../assets/images/pressure/prst7/PSOP.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
             </div>
             <div className="column text-column rajdhani-semibold">
-              <p className='list-paragraph-1 left-spacing-1'>powerhouse in hydro demolition, expertly engineered to deliver water efficiently to the accessory for precise material removal. Its robust design ensures consistent high-pressure performance, making it an ideal choice for demanding demolition projects. </p>
+              <p className='list-paragraph-1 left-spacing-1'>Delivers high-purity oxygen with robust metal construction for enhanced durability and reliability. Its efficient and compact design ensures optimal performance and easy maintenance, making it ideal for diverse industrial applications.</p>
               <ul>
-                <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                <li className='bullet-list left-spacing-1'>Metal Construction: Durable design for long-term reliability</li>
+                <li className='bullet-list left-spacing-1'>High Purity Oxygen: Produces oxygen with excellent purity levels</li>
+                <li className='bullet-list left-spacing-1'>Easy Maintenance: Simplifies servicing and upkeep procedures</li>
+                <li className='bullet-list left-spacing-1'>Versatile Applications: Suitable for various industrial oxygen needs</li>
               </ul>
             </div>
           </div>

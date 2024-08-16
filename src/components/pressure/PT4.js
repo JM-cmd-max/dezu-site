@@ -131,10 +131,10 @@ const PT4 = () => {
       <div className="divider"></div>
       <div className="section section-bg-prst21">
       <div className="column text-column rajdhani-semibold">
-          <p  className='list-paragraph-2 left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit diam quam nisi ut pellentesque nec cursus habitant nec lobortis ac placerat non, urna tempus luctus lobortis sed dui nisl.</p>
+          <p  className='list-paragraph-2 left-spacing-2'>Enhance safety by incorporating two isolation valves with an intermediate bleed feature. This configuration ensures secure operation and easy maintenance, offering reliable leak prevention and protection in demanding environments</p>
           <ul>
-            <li className='bullet-list left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-            <li className='bullet-list left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li className='bullet-list left-spacing-2'>Intermediate Bleed Function: Allows safe venting between valves</li>
+            <li className='bullet-list left-spacing-2'>Durable Construction: Built to withstand harsh conditions effectively</li>
             <li className='bullet-list left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
             <li className='bullet-list left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
           </ul>
@@ -155,12 +155,12 @@ const PT4 = () => {
           <img src={require("../../assets/images/pressure/prst4/HLBL.png")} alt="Placeholder" className='p-image-sl p-image-sl-spacing'/>
         </div>
         <div className="column text-column rajdhani-semibold">
-          <p  className='list-paragraph-1 left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit diam quam nisi ut pellentesque nec cursus habitant nec lobortis ac placerat non, urna tempus luctus lobortis sed dui nisl.</p>
+          <p  className='list-paragraph-1 left-spacing-1'>Offer superior flow control and durability for a wide range of piping applications. Their high-quality materials and leak-proof design ensure long-term reliability, while their compact size and ease of operation make them ideal for both standard and challenging environments.</p>
           <ul>
-            <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-            <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-            <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-            <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li className='bullet-list left-spacing-1'>Precision Control: Provides accurate and smooth flow regulation</li>
+            <li className='bullet-list left-spacing-1'>Easy Operation: Simple to adjust and maintain efficiently</li>
+            <li className='bullet-list left-spacing-1'>Leak-Proof Design: Ensures secure, reliable operation without leaks</li>
+            <li className='bullet-list left-spacing-1'>Easy Operation: Simple to adjust and maintain efficiently</li>
           </ul>
         </div>
       </div>

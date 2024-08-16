@@ -4,7 +4,7 @@ import ColorContext from '../../context/ColorContext';
 import gridLinesImage from "../../assets/images/univ/grid_lines.svg";
 import Navbar from "../hero/components/Navbar";
 import UCMenu from "../UCMenu";
-import StaticN from "../slider/StaticN";
+import Klenco from "../slider/Klenco";
 import PageContext from '../../context/PageContext';
 import Footer from "../footer/Footer";
 import Contact from "../contact/Contact";
@@ -23,8 +23,8 @@ const CT4 = () => {
 
 
   const linkTexts = [
-    { text: 'Streets', set: 'cst4' },
-    { text: 'Sidewalks', set: 'csw4' },
+    { text: 'Roads', set: 'cst4' },
+    { text: 'Bridges', set: 'csw4' },
   ];
 
   const handleGlitchChange = (newSet, index) => {
@@ -108,13 +108,13 @@ const CT4 = () => {
               ))}
             </tbody>
           </table>
-          <div className={`glitch ${glitch ? `glitch-active-${imageSet}` : `glitch-static-${imageSet}`}`}></div>
+          <div className={`glitch-ct1 ${glitch ? `glitch-active-${imageSet}` : `glitch-static-${imageSet}`}`}></div>
           <h3 className="sub-heading orbitron" style={{ color: color.color }}>SPECIALIZED PRESSURE HANDLING</h3>
           <h1 className="main-heading rajdhani-medium">OIL RIG PRESSURE VALVES</h1>
         </div>
 
         <div className="divider"></div>
-        <StaticN />
+        <Klenco />
         <div className="divider"></div>
 
 
@@ -164,8 +164,14 @@ const CT4 = () => {
 
       
 
+
+
+
+
+
     <CT4S />
       </div>
+
       </div>
       <Contact />
       <Footer />

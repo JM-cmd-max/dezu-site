@@ -4,7 +4,7 @@ import ColorContext from '../../context/ColorContext';
 import gridLinesImage from "../../assets/images/univ/grid_lines.svg";
 import Navbar from "../hero/components/Navbar";
 import UCMenu from "../UCMenu";
-import StaticNSC from "../slider/StaticNSC";
+import Klenco from "../slider/Klenco";
 import PageContext from '../../context/PageContext';
 import Footer from "../footer/Footer";
 import Contact from "../contact/Contact";
@@ -108,7 +108,7 @@ const CT3 = () => {
         </div>
 
         <div className="divider"></div>
-        <StaticNSC />
+        <Klenco />
         <div className="divider"></div>
 
         <div className="product-content">

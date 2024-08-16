@@ -117,12 +117,12 @@ const PT1 = () => {
               <img src={require("../../assets/images/pressure/prst1/PTPS.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
             </div>
             <div className="column text-column rajdhani-semibold">
-              <p className='list-paragraph-1 left-spacing-1'>Provide a hydraulic power source for pressure generation and remote operation, ideal for pressure testing applications. Their advanced design ensures precise and reliable performance in various testing scenarios.</p>
+              <p className='list-paragraph-1 left-spacing-1'>Designed for precise and reliable high-pressure testing across various applications. Its robust, compact design offers efficient performance while simplifying maintenance for prolonged durability.</p>
               <ul>
-                <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                <li className='bullet-list left-spacing-1'>High Pressure: Delivers precise, high-pressure testing efficiently</li>
+                <li className='bullet-list left-spacing-1'>Durable Construction: Built to endure demanding conditions</li>
+                <li className='bullet-list left-spacing-1'>Compact Design: Optimizes space without compromising performance</li>
+                <li className='bullet-list left-spacing-1'>Easy Maintenance: Streamlines upkeep and extends lifespan</li>
               </ul>
             </div>
           </div>
@@ -130,12 +130,12 @@ const PT1 = () => {
           <div className="divider"></div>
           <div className="section section-bg-prst2">
             <div className="column text-column rajdhani-semibold">
-              <p className='list-paragraph-2 left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit diam quam nisi ut pellentesque nec cursus habitant nec lobortis ac placerat non, urna tempus luctus lobortis sed dui nisl.</p>
+              <p className='list-paragraph-2 left-spacing-2'>Provide a hydraulic power source for pressure generation and remote operation, ideal for pressure testing applications. Their advanced design ensures precise and reliable performance in various testing scenarios.</p>
               <ul>
-                <li className='bullet-list left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li className='bullet-list left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li className='bullet-list left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li className='bullet-list left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                <li className='bullet-list left-spacing-2'>Hydraulic Power Source: Delivers consistent pressure for testing</li>
+                <li className='bullet-list left-spacing-2'>Pressure Generation: Efficiently generates high pressure levels</li>
+                <li className='bullet-list left-spacing-2'>Remote Operation: Operated from a distance for convenience</li>
+                <li className='bullet-list left-spacing-2'>Reliable Performance: Ensures accurate and dependable testing results</li>
               </ul>
             </div>
             <div className="column spir-barcode">

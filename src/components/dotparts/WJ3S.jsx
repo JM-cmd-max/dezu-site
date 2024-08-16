@@ -16,22 +16,22 @@ export default function WJ3S() {
     const slideTexts = [
         {
             conjet: "VertiDrive V700: UHP Nozzle",
-            paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit diam quam nisi ut pellentesque nec cursus habitant nec lobortis ac placerat non, urna tempus luctus lobortis sed dui nisl.",
+            paragraph: "Offers advanced robotic water blasting with an operator-controlled UHP nozzle. Its magnetic crawling system and precision design provide efficient, high-performance blasting on vertical surfaces.",
             listItems: [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "Magnetic Crawling: Sticks securely to vertical surfaces.",
+                "UHP Nozzle: Delivers ultra-high-pressure water jets",
+                "Remote Control: Operator-controlled for precise maneuvering",
+                "Advanced Design: Efficient performance in challenging environments",
             ]
         },
         {
             conjet: "VertiDrive V700: Abrasive Nozzle",
-            paragraph: "Slide 2: Another description for the second slide.",
+            paragraph: "Features an abrasive nozzle for robotic blasting, offering precise control via an operator's controller. Its magnetic system and rugged design ensure efficient performance on vertical surfaces.",
             listItems: [
-                "Second slide list item 1.",
-                "Second slide list item 2.",
-                "Second slide list item 3.",
-                "Second slide list item 4.",
+                "Enhanced Safety: Minimizes operator exposure to hazards",
+                "Abrasive Nozzle: Effective for high-impact blasting",
+                "Remote Control: Precision operation with operator's controller",
+                "Durable Construction: Handles demanding blasting tasks efficiently",
             ]
         }
     ];

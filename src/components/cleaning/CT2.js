@@ -4,7 +4,7 @@ import ColorContext from '../../context/ColorContext';
 import gridLinesImage from "../../assets/images/univ/grid_lines.svg";
 import Navbar from "../hero/components/Navbar";
 import UCMenu from "../UCMenu";
-import Newtek from "../slider/Newtek";
+import Klenco from "../slider/Klenco";
 import PageContext from '../../context/PageContext';
 import Footer from "../footer/Footer";
 import Contact from "../contact/Contact";
@@ -126,7 +126,7 @@ const CT2 = () => {
         </div>
 
         <div className="divider"></div>
-        <Newtek />
+        <Klenco />
         <div className="divider"></div>
 
         <div className="product-content">

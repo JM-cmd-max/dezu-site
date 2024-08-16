@@ -132,12 +132,12 @@ const PT6 = () => {
               <img src={require("../../assets/images/pressure/prst6/AM.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
             </div>
             <div className="column text-column rajdhani-semibold">
-              <p className='list-paragraph-1 left-spacing-1'>powerhouse in hydro demolition, expertly engineered to deliver water efficiently to the accessory for precise material removal. Its robust design ensures consistent high-pressure performance, making it an ideal choice for demanding demolition projects. </p>
+              <p className='list-paragraph-1 left-spacing-1'>Designed for efficient and reliable air distribution in various industrial applications. Their compact, durable construction and easy installation process make them ideal for optimizing airflow while ensuring leak-free operation and long-term performance.</p>
               <ul>
-                <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                <li className='bullet-list left-spacing-1'>Compact Design: Efficiently integrates into tight spaces</li>
+                <li className='bullet-list left-spacing-1'>Durable Construction: Built to withstand rugged environments</li>
+                <li className='bullet-list left-spacing-1'>Leak-Free Operation: Ensures secure and reliable connections</li>
+                <li className='bullet-list left-spacing-1'>Versatile Configuration: Adapts to various air distribution needs</li>
               </ul>
             </div>
           </div>
@@ -145,12 +145,12 @@ const PT6 = () => {
           <div className="divider"></div>
           <div className="section section-bg-prst2">
             <div className="column text-column rajdhani-semibold">
-              <p className='list-paragraph-2 left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit diam quam nisi ut pellentesque nec cursus habitant nec lobortis ac placerat non, urna tempus luctus lobortis sed dui nisl.</p>
+              <p className='list-paragraph-2 left-spacing-2'>Offer durable and secure storage solutions for sensitive instruments. With a modular design and temperature control features, these cabinets ensure optimal protection and easy access in various industrial settings.</p>
               <ul>
-                <li className='bullet-list left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li className='bullet-list left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li className='bullet-list left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li className='bullet-list left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                <li className='bullet-list left-spacing-2'>Robust Construction: Ensures durability in harsh environments</li>
+                <li className='bullet-list left-spacing-2'>Secure Storage: Protects instruments with locking features</li>
+                <li className='bullet-list left-spacing-2'>Modular Design: Allows flexible and customizable setups</li>
+                <li className='bullet-list left-spacing-2'>Temperature Control: Maintains optimal conditions for instruments</li>
               </ul>
             </div>
             <div className="column image-column spir-barcode">

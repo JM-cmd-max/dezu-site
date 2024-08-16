@@ -132,12 +132,12 @@ const PT3 = () => {
               <img src={require("../../assets/images/pressure/prst3/HBV.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
             </div>
             <div className="column text-column rajdhani-semibold">
-              <p className='list-paragraph-1 left-spacing-1'>powerhouse in hydro demolition, expertly engineered to deliver water efficiently to the accessory for precise material removal. Its robust design ensures consistent high-pressure performance, making it an ideal choice for demanding demolition projects. </p>
+              <p className='list-paragraph-1 left-spacing-1'>Essential components for handling hydrogen across pressure generation, compression, storage, transfer, and testing applications. These high-quality products ensure safe and efficient management of hydrogen in various industrial processes.</p>
               <ul>
-                <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                <li className='bullet-list left-spacing-1'>Compression: Supports efficient hydrogen compression</li>
+                <li className='bullet-list left-spacing-1'>Storage Solutions: Facilitates secure hydrogen storage</li>
+                <li className='bullet-list left-spacing-1'>Safe Transfer: Ensures reliable hydrogen transfer</li>
+                <li className='bullet-list left-spacing-1'>Testing Applications: Enables accurate hydrogen system testing</li>
               </ul>
             </div>
           </div>

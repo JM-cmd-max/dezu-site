@@ -9,6 +9,7 @@ import PageContext from '../../context/PageContext';
 import Footer from "../footer/Footer";
 import Contact from "../contact/Contact";
 import WJ3S from "../dotparts/WJ3S";
+import H2Sec from "../h2sections/H2section";
 
 const WJ5 = () => {
   const { color } = useContext(ColorContext); // Get color from ColorContext

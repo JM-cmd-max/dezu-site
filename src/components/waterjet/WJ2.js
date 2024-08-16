@@ -8,6 +8,7 @@ import StaticNSC from "../slider/StaticNSC";
 import PageContext from '../../context/PageContext';
 import Footer from "../footer/Footer";
 import Contact from "../contact/Contact";
+import H2Sec from "../h2sections/H2section";
 
 const WJ2 = () => {
   const { color } = useContext(ColorContext); // Get color from ColorContext
@@ -139,41 +140,8 @@ const WJ2 = () => {
         <StaticNSC />
         <div className="divider"></div>
 
-
-        <div className="product-content">
-        <div className="section section-bg-prst1">
-            <div className="column">
-              <p className='barcode left-spacing nlb-spacing'>NLB 225 SERIES WATER JETTING PUMP</p>
-              <img src={require("../../assets/images/univ/x1.webp")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
-            </div>
-            <div className="column1 text-column rajdhani-semibold">
-              <p className='list-paragraph-1 left-spacing-1'>powerhouse in hydro demolition, expertly engineered to deliver water efficiently to the accessory for precise material removal. Its robust design ensures consistent high-pressure performance, making it an ideal choice for demanding demolition projects. </p>
-              <ul>
-                <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-              </ul>
-            </div>
-          </div>
-
-
-      <div className="divider"></div>
-      <div className="section section-bg-prst2">
-      <div className="section-imgtxt2 rajdhani-semibold">
-          <p  className='list-paragraph-2 left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit diam quam nisi ut pellentesque nec cursus habitant nec lobortis ac placerat non, urna tempus luctus lobortis sed dui nisl.</p>
-          <ul>
-            <li className='bullet-list left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-            <li className='bullet-list left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-            <li className='bullet-list left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-            <li className='bullet-list left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-          </ul>
-        </div>
-        <div className="column spir-barcode">
-            <p className='barcode'>SPIR STAR HIGH PRESSURE HOSE</p>
-          <img src={require("../../assets/images/univ/x2.webp")} alt="Placeholder" className='p-image2'/>
-        </div>
-      </div>
+              <H2Sec />
+        
 
       
       <div className="divider"></div>
@@ -183,16 +151,16 @@ const WJ2 = () => {
       <div className="product-content">
         <div className="section section-bg-prst3">
         <div className="column image-column">
-        <p className='barcode left-spacing nlb-spacing'>HY-LOK BALL VALVE</p>
+        <p className='barcode left-spacing nlb-spacing'>Conjet Robot 101 Nalta</p>
           <img src={require("../../assets/images/univ/x4.png")} alt="Placeholder" className='p-image-sl p-image-sl-spacing'/>
         </div>
         <div className="column text-column rajdhani-semibold">
-          <p  className='list-paragraph-1 left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit diam quam nisi ut pellentesque nec cursus habitant nec lobortis ac placerat non, urna tempus luctus lobortis sed dui nisl.</p>
+          <p  className='list-paragraph-1 left-spacing-1'>Offers precise, efficient hydro demolition with its semi-automated control and advanced technology. Its rugged construction and intuitive design ensure reliable performance and reduced operator fatigue in demanding industrial environments.</p>
           <ul>
-            <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-            <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-            <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-            <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li className='bullet-list left-spacing-1'>Advanced Technology: Incorporates state-of-the-art technology for precise, efficient hydro demolition</li>
+            <li className='bullet-list left-spacing-1'>Rugged Construction: Built to endure harsh conditions for lasting performance</li>
+            <li className='bullet-list left-spacing-1'>Semi-Automated Control: Enables precise operation with a controller, enhancing efficiency and accuracy</li>
+            <li className='bullet-list left-spacing-1'>Versatile Applications: Ideal for various hydro demolition tasks, both manual and automated</li>
           </ul>
         </div>
       </div>
@@ -200,7 +168,6 @@ const WJ2 = () => {
       </div>
       <Contact />
       <Footer />
-    </div>
     </div>
   );
 };
