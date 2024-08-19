@@ -26,39 +26,45 @@ export default function WaterJetPage() {
 
     return (
       <div className="card-container">
-        <Link to="/wj1" style={{ textDecoration: 'none', color: 'inherit' }}>
-          <div className="card-and-info">
-            <div
-              className="card"
-              style={{
-                background: `linear-gradient(30deg, ${color.color} 10%, #000, ${color.color} 90%)`,
-                transition: "all 0.5s linear",
-                height: '350px', // Ensure card has height
-                width: '300px', // Ensure card has width
-                position: 'relative',
-                cursor: 'pointer', // Ensure card looks clickable
-              }}
-            ></div>
-            <div>
-              <p className="info-text rajdhani-semibold" style={{ color: "white" }}>
-                Waterjet Tech1{" "}
-              </p>
-              <p className="info-subtext rajdhani-regular" style={{ color: "white" }}>
-                (Insert Waterjet Product Use Case Description){" "}
-              </p>
-            </div>
-          </div>
-        </Link>
+<Link to="/wj1" style={{ textDecoration: 'none', color: 'inherit' }}>
+  <div className="card-and-info">
+    <div
+      className="card"
+      style={{
+        backgroundImage: `url(${require('../../assets/images/hydro/hcf/wf1.png')})`, // Replace with your image path
+        backgroundSize: 'cover', // Ensures the image covers the entire card
+        backgroundPosition: 'center', // Centers the image within the card
+        transition: "all 0.5s linear",
+        height: '334px', // Ensure card has height
+        width: '299px', // Ensure card has width
+        position: 'relative',
+        cursor: 'pointer', // Ensure card looks clickable
+      }}
+    ></div>
+    <div>
+      <p className="info-text rajdhani-semibold" style={{ color: "white" }}>
+        Waterjet Tech1{" "}
+      </p>
+      <p className="info-subtext rajdhani-regular" style={{ color: "white" }}>
+        (Insert Waterjet Product Use Case Description){" "}
+      </p>
+    </div>
+  </div>
+</Link>
 
-        <Link to="/wj2" style={{ textDecoration: 'none', color: 'inherit' }}>
+
+        
+<Link to="/wj2" style={{ textDecoration: 'none', color: 'inherit' }}>
           <div className="card-and-info">
             <div
               className="card"
               style={{
-                background: `linear-gradient(30deg, ${color.color} 10%, #000, ${color.color} 90%)`,
+                backgroundImage: `url(${require('../../assets/images/hydro/hcf/wf2.png')})`, // Replace with your image path
+                backgroundSize: 'cover', // Ensures the image covers the entire card
+                backgroundPosition: 'center', // Centers the image within the card
                 transition: "all 0.5s linear",
-                height: '350px', // Ensure card has height
-                width: '300px', // Ensure card has width
+                height: '334px', // Ensure card has height
+                width: '299px', // Ensure card has width
                 position: 'relative',
                 cursor: 'pointer', // Ensure card looks clickable
               }}
@@ -79,10 +85,12 @@ export default function WaterJetPage() {
             <div
               className="card"
               style={{
-                background: `linear-gradient(30deg, ${color.color} 10%, #000, ${color.color} 90%)`,
+                backgroundImage: `url(${require('../../assets/images/hydro/hcf/wf3.png')})`, // Replace with your image path
+                backgroundSize: 'cover', // Ensures the image covers the entire card
+                backgroundPosition: 'center', // Centers the image within the card
                 transition: "all 0.5s linear",
-                height: '350px', // Ensure card has height
-                width: '300px', // Ensure card has width
+                height: '334px', // Ensure card has height
+                width: '299px', // Ensure card has width
                 position: 'relative',
                 cursor: 'pointer', // Ensure card looks clickable
               }}
@@ -103,10 +111,12 @@ export default function WaterJetPage() {
             <div
               className="card"
               style={{
-                background: `linear-gradient(30deg, ${color.color} 10%, #000, ${color.color} 90%)`,
+                backgroundImage: `url(${require('../../assets/images/hydro/hcf/wf4.png')})`, // Replace with your image path
+                backgroundSize: 'cover', // Ensures the image covers the entire card
+                backgroundPosition: 'center', // Centers the image within the card
                 transition: "all 0.5s linear",
-                height: '350px', // Ensure card has height
-                width: '300px', // Ensure card has width
+                height: '334px', // Ensure card has height
+                width: '299px', // Ensure card has width
                 position: 'relative',
                 cursor: 'pointer', // Ensure card looks clickable
               }}
@@ -127,10 +137,12 @@ export default function WaterJetPage() {
             <div
               className="card"
               style={{
-                background: `linear-gradient(30deg, ${color.color} 10%, #000, ${color.color} 90%)`,
+                backgroundImage: `url(${require('../../assets/images/hydro/hcf/wf5.png')})`, // Replace with your image path
+                backgroundSize: 'cover', // Ensures the image covers the entire card
+                backgroundPosition: 'center', // Centers the image within the card
                 transition: "all 0.5s linear",
-                height: '350px', // Ensure card has height
-                width: '300px', // Ensure card has width
+                height: '334px', // Ensure card has height
+                width: '299px', // Ensure card has width
                 position: 'relative',
                 cursor: 'pointer', // Ensure card looks clickable
               }}
@@ -151,10 +163,12 @@ export default function WaterJetPage() {
             <div
               className="card"
               style={{
-                background: `linear-gradient(30deg, ${color.color} 10%, #000, ${color.color} 90%)`,
+                backgroundImage: `url(${require('../../assets/images/hydro/hcf/wf6.png')})`, // Replace with your image path
+                backgroundSize: 'cover', // Ensures the image covers the entire card
+                backgroundPosition: 'center', // Centers the image within the card
                 transition: "all 0.5s linear",
-                height: '350px', // Ensure card has height
-                width: '300px', // Ensure card has width
+                height: '334px', // Ensure card has height
+                width: '299px', // Ensure card has width
                 position: 'relative',
                 cursor: 'pointer', // Ensure card looks clickable
               }}
@@ -175,10 +189,12 @@ export default function WaterJetPage() {
             <div
               className="card"
               style={{
-                background: `linear-gradient(30deg, ${color.color} 10%, #000, ${color.color} 90%)`,
+                backgroundImage: `url(${require('../../assets/images/hydro/hcf/wf7.png')})`, // Replace with your image path
+                backgroundSize: 'cover', // Ensures the image covers the entire card
+                backgroundPosition: 'center', // Centers the image within the card
                 transition: "all 0.5s linear",
-                height: '350px', // Ensure card has height
-                width: '300px', // Ensure card has width
+                height: '334px', // Ensure card has height
+                width: '299px', // Ensure card has width
                 position: 'relative',
                 cursor: 'pointer', // Ensure card looks clickable
               }}
@@ -200,10 +216,12 @@ export default function WaterJetPage() {
             <div
               className="card"
               style={{
-                background: `linear-gradient(30deg, ${color.color} 10%, #000, ${color.color} 90%)`,
+                backgroundImage: `url(${require('../../assets/images/hydro/hcf/wf8.png')})`, // Replace with your image path
+                backgroundSize: 'cover', // Ensures the image covers the entire card
+                backgroundPosition: 'center', // Centers the image within the card
                 transition: "all 0.5s linear",
-                height: '350px', // Ensure card has height
-                width: '300px', // Ensure card has width
+                height: '334px', // Ensure card has height
+                width: '299px', // Ensure card has width
                 position: 'relative',
                 cursor: 'pointer', // Ensure card looks clickable
               }}
@@ -225,10 +243,12 @@ export default function WaterJetPage() {
             <div
               className="card"
               style={{
-                background: `linear-gradient(30deg, ${color.color} 10%, #000, ${color.color} 90%)`,
+                backgroundImage: `url(${require('../../assets/images/hydro/hcf/wf9.png')})`, // Replace with your image path
+                backgroundSize: 'cover', // Ensures the image covers the entire card
+                backgroundPosition: 'center', // Centers the image within the card
                 transition: "all 0.5s linear",
-                height: '350px', // Ensure card has height
-                width: '300px', // Ensure card has width
+                height: '334px', // Ensure card has height
+                width: '299px', // Ensure card has width
                 position: 'relative',
                 cursor: 'pointer', // Ensure card looks clickable
               }}
@@ -250,10 +270,12 @@ export default function WaterJetPage() {
             <div
               className="card"
               style={{
-                background: `linear-gradient(30deg, ${color.color} 10%, #000, ${color.color} 90%)`,
+                backgroundImage: `url(${require('../../assets/images/hydro/hcf/wf10.png')})`, // Replace with your image path
+                backgroundSize: 'cover', // Ensures the image covers the entire card
+                backgroundPosition: 'center', // Centers the image within the card
                 transition: "all 0.5s linear",
-                height: '350px', // Ensure card has height
-                width: '300px', // Ensure card has width
+                height: '334px', // Ensure card has height
+                width: '299px', // Ensure card has width
                 position: 'relative',
                 cursor: 'pointer', // Ensure card looks clickable
               }}
@@ -275,10 +297,12 @@ export default function WaterJetPage() {
             <div
               className="card"
               style={{
-                background: `linear-gradient(30deg, ${color.color} 10%, #000, ${color.color} 90%)`,
+                backgroundImage: `url(${require('../../assets/images/hydro/hcf/wf11.png')})`, // Replace with your image path
+                backgroundSize: 'cover', // Ensures the image covers the entire card
+                backgroundPosition: 'center', // Centers the image within the card
                 transition: "all 0.5s linear",
-                height: '350px', // Ensure card has height
-                width: '300px', // Ensure card has width
+                height: '334px', // Ensure card has height
+                width: '299px', // Ensure card has width
                 position: 'relative',
                 cursor: 'pointer', // Ensure card looks clickable
               }}
@@ -300,10 +324,12 @@ export default function WaterJetPage() {
             <div
               className="card"
               style={{
-                background: `linear-gradient(30deg, ${color.color} 10%, #000, ${color.color} 90%)`,
+                backgroundImage: `url(${require('../../assets/images/hydro/hcf/wf12.png')})`, // Replace with your image path
+                backgroundSize: 'cover', // Ensures the image covers the entire card
+                backgroundPosition: 'center', // Centers the image within the card
                 transition: "all 0.5s linear",
-                height: '350px', // Ensure card has height
-                width: '300px', // Ensure card has width
+                height: '334px', // Ensure card has height
+                width: '299px', // Ensure card has width
                 position: 'relative',
                 cursor: 'pointer', // Ensure card looks clickable
               }}

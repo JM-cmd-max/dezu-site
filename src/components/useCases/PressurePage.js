@@ -37,12 +37,14 @@ export default function PressurePage(){
             <div
               className="card"
               style={{
-                background: `linear-gradient(30deg, ${color.color} 10%, #000, ${color.color} 90%)`,
+                backgroundImage: `url(${require('../../assets/images/pressure/pcf/pf1.png')})`,
+                backgroundSize: 'cover', 
+                backgroundPosition: 'center', 
                 transition: "all 0.5s linear",
-                height: '350px', // Ensure card has height
-                width: '300px', // Ensure card has width
+                height: '334px', 
+                width: '299px',
                 position: 'relative',
-                cursor: 'pointer', // Ensure card looks clickable
+                cursor: 'pointer',
               }}
             ></div>
             <div>
@@ -64,12 +66,14 @@ export default function PressurePage(){
             <div
               className="card"
               style={{
-                background: `linear-gradient(30deg, ${color.color} 10%, #000, ${color.color} 90%)`,
+                backgroundImage: `url(${require('../../assets/images/pressure/pcf/pf2.png')})`,
+                backgroundSize: 'cover', 
+                backgroundPosition: 'center', 
                 transition: "all 0.5s linear",
-                height: '350px', // Ensure card has height
-                width: '300px', // Ensure card has width
+                height: '334px', 
+                width: '299px',
                 position: 'relative',
-                cursor: 'pointer', // Ensure card looks clickable
+                cursor: 'pointer',
               }}
             ></div>
             <div>
@@ -90,12 +94,14 @@ export default function PressurePage(){
             <div
               className="card"
               style={{
-                background: `linear-gradient(30deg, ${color.color} 10%, #000, ${color.color} 90%)`,
+                backgroundImage: `url(${require('../../assets/images/pressure/pcf/pf3.png')})`,
+                backgroundSize: 'cover', 
+                backgroundPosition: 'center', 
                 transition: "all 0.5s linear",
-                height: '350px', // Ensure card has height
-                width: '300px', // Ensure card has width
+                height: '334px', 
+                width: '299px',
                 position: 'relative',
-                cursor: 'pointer', // Ensure card looks clickable
+                cursor: 'pointer',
               }}
             ></div>
             <div>
@@ -116,12 +122,14 @@ export default function PressurePage(){
             <div
               className="card"
               style={{
-                background: `linear-gradient(30deg, ${color.color} 10%, #000, ${color.color} 90%)`,
+                backgroundImage: `url(${require('../../assets/images/pressure/pcf/pf4.png')})`,
+                backgroundSize: 'cover', 
+                backgroundPosition: 'center', 
                 transition: "all 0.5s linear",
-                height: '350px', // Ensure card has height
-                width: '300px', // Ensure card has width
+                height: '334px', 
+                width: '299px',
                 position: 'relative',
-                cursor: 'pointer', // Ensure card looks clickable
+                cursor: 'pointer',
               }}
             ></div>
             <div>
@@ -143,12 +151,14 @@ export default function PressurePage(){
             <div
               className="card"
               style={{
-                background: `linear-gradient(30deg, ${color.color} 10%, #000, ${color.color} 90%)`,
+                backgroundImage: `url(${require('../../assets/images/pressure/pcf/pf5.png')})`,
+                backgroundSize: 'cover', 
+                backgroundPosition: 'center', 
                 transition: "all 0.5s linear",
-                height: '350px', // Ensure card has height
-                width: '300px', // Ensure card has width
+                height: '334px', 
+                width: '299px',
                 position: 'relative',
-                cursor: 'pointer', // Ensure card looks clickable
+                cursor: 'pointer',
               }}
             ></div>
             <div>
@@ -169,12 +179,14 @@ export default function PressurePage(){
             <div
               className="card"
               style={{
-                background: `linear-gradient(30deg, ${color.color} 10%, #000, ${color.color} 90%)`,
+                backgroundImage: `url(${require('../../assets/images/pressure/pcf/pf6.png')})`,
+                backgroundSize: 'cover', 
+                backgroundPosition: 'center', 
                 transition: "all 0.5s linear",
-                height: '350px', // Ensure card has height
-                width: '300px', // Ensure card has width
+                height: '334px', 
+                width: '299px',
                 position: 'relative',
-                cursor: 'pointer', // Ensure card looks clickable
+                cursor: 'pointer',
               }}
             ></div>
             <div>
@@ -195,12 +207,14 @@ export default function PressurePage(){
             <div
               className="card"
               style={{
-                background: `linear-gradient(30deg, ${color.color} 10%, #000, ${color.color} 90%)`,
+                backgroundImage: `url(${require('../../assets/images/pressure/pcf/pf7.png')})`,
+                backgroundSize: 'cover', 
+                backgroundPosition: 'center', 
                 transition: "all 0.5s linear",
-                height: '350px', // Ensure card has height
-                width: '300px', // Ensure card has width
+                height: '334px', 
+                width: '299px',
                 position: 'relative',
-                cursor: 'pointer', // Ensure card looks clickable
+                cursor: 'pointer',
               }}
             ></div>
             <div>

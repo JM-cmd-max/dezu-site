@@ -35,12 +35,14 @@ export default function CleaningPage(){
             <div
               className="card"
               style={{
-                background: `linear-gradient(30deg, ${color.color} 10%, #000, ${color.color} 90%)`,
+                backgroundImage: `url(${require('../../assets/images/cleaning/ccf/cf1.png')})`,
+                backgroundSize: 'cover', 
+                backgroundPosition: 'center', 
                 transition: "all 0.5s linear",
-                height: '350px', // Ensure card has height
-                width: '300px', // Ensure card has width
+                height: '334px', 
+                width: '299px',
                 position: 'relative',
-                cursor: 'pointer', // Ensure card looks clickable
+                cursor: 'pointer',
               }}
             ></div>
             <div>
@@ -64,12 +66,14 @@ export default function CleaningPage(){
             <div
               className="card"
               style={{
-                background: `linear-gradient(30deg, ${color.color} 10%, #000, ${color.color} 90%)`,
+                backgroundImage: `url(${require('../../assets/images/cleaning/ccf/cf2.png')})`,
+                backgroundSize: 'cover', 
+                backgroundPosition: 'center', 
                 transition: "all 0.5s linear",
-                height: '350px', // Ensure card has height
-                width: '300px', // Ensure card has width
+                height: '334px', 
+                width: '299px',
                 position: 'relative',
-                cursor: 'pointer', // Ensure card looks clickable
+                cursor: 'pointer',
               }}
             ></div>
             <div>
@@ -92,12 +96,14 @@ export default function CleaningPage(){
             <div
               className="card"
               style={{
-                background: `linear-gradient(30deg, ${color.color} 10%, #000, ${color.color} 90%)`,
+                backgroundImage: `url(${require('../../assets/images/cleaning/ccf/cf3.png')})`,
+                backgroundSize: 'cover', 
+                backgroundPosition: 'center', 
                 transition: "all 0.5s linear",
-                height: '350px', // Ensure card has height
-                width: '300px', // Ensure card has width
+                height: '334px', 
+                width: '299px',
                 position: 'relative',
-                cursor: 'pointer', // Ensure card looks clickable
+                cursor: 'pointer',
               }}
             ></div>
             <div>
@@ -121,12 +127,14 @@ export default function CleaningPage(){
             <div
               className="card"
               style={{
-                background: `linear-gradient(30deg, ${color.color} 10%, #000, ${color.color} 90%)`,
+                backgroundImage: `url(${require('../../assets/images/cleaning/ccf/cf4.png')})`,
+                backgroundSize: 'cover', 
+                backgroundPosition: 'center', 
                 transition: "all 0.5s linear",
-                height: '350px', // Ensure card has height
-                width: '300px', // Ensure card has width
+                height: '334px', 
+                width: '299px',
                 position: 'relative',
-                cursor: 'pointer', // Ensure card looks clickable
+                cursor: 'pointer',
               }}
             ></div>
             <div>

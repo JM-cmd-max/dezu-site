@@ -734,6 +734,11 @@ img {
 }
 
 
+.main-heading{
+  text-transform: uppercase;
+}
+
+
 
 /* BARCODE HEADING TEXT COLOR */
 .column p, .column ul li {

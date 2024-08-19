@@ -109,8 +109,8 @@ const CT1 = () => {
             </tbody>
           </table>
           <div className={`glitch-ct1 ${glitch ? `glitch-active-${imageSet}` : `glitch-static-${imageSet}`}`}></div>
-          <h3 className="sub-heading orbitron" style={{ color: color.color }}>SPECIALIZED PRESSURE HANDLING</h3>
-          <h1 className="main-heading rajdhani-medium">OIL RIG PRESSURE VALVES</h1>
+          <h3 className="sub-heading orbitron" style={{ color: color.color }}>- - - </h3>
+          <h1 className="main-heading rajdhani-medium">VACUUM SOLUTION</h1>
         </div>
 
         <div className="divider"></div>
@@ -127,7 +127,7 @@ const CT1 = () => {
         <div className="product-content">
         <div className="section section-ct1">
         <div className="column image-column">
-        <p className='barcode left-spacing nlb-spacing'>HY-LOK DOUBLE VALVE</p>
+        <p className='barcode left-spacing nlb-spacing'>TYPHOON R590</p>
           <img src={require("../../assets/images/cleaning/ct1/ct11.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
         </div>
         <div className="column text-column rajdhani-semibold">
@@ -154,7 +154,7 @@ const CT1 = () => {
           </ul>
         </div>
         <div className="column image-column spir-barcode">
-            <p className='barcode'>HY-LOK BLEED VALVE</p>
+            <p className='barcode'>MAKITA DVC862LZ</p>
           <img src={require("../../assets/images/cleaning/ct1/ct12.png")} alt="Placeholder" className='p-image1'/>
         </div>
       </div>
@@ -165,7 +165,7 @@ const CT1 = () => {
       <div className="product-content">
       <div className="section section-ct1">
         <div className="column image-column">
-        <p className='barcode left-spacing nlb-spacing'>HY-LOK DOUBLE VALVE</p>
+        <p className='barcode left-spacing nlb-spacing'>KIEKENS dmf/s</p>
           <img src={require("../../assets/images/cleaning/ct1/ct13.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
         </div>
         <div className="column text-column rajdhani-semibold">

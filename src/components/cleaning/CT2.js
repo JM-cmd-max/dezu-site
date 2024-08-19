@@ -121,8 +121,8 @@ const CT2 = () => {
             </tbody>
           </table>
           <div className={`glitch7 ${glitch ? `glitch-active-${imageSet}` : `glitch-static-${imageSet}`}`}></div>
-          <h3 className="sub-heading orbitron" style={{ color: color?.color }}>PRESSURIZED OXYGEN APPLICATIONS</h3>
-          <h1 className="main-heading rajdhani-medium">OXYGEN SOLUTIONS</h1>
+          <h3 className="sub-heading orbitron" style={{ color: color?.color }}>- - -</h3>
+          <h1 className="main-heading rajdhani-medium">FLOOR CARE SYSTEMS</h1>
         </div>
 
         <div className="divider"></div>

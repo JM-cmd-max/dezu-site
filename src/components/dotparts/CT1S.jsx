@@ -14,7 +14,7 @@ export default function CT1S() {
 
     const slideTexts = [
         {
-            conjet: "CONJET ROBOT 557",
+            conjet: "KLEN 2205",
             paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit diam quam nisi ut pellentesque nec cursus habitant nec lobortis ac placerat non, urna tempus luctus lobortis sed dui nisl.",
             listItems: [
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
@@ -24,7 +24,7 @@ export default function CT1S() {
             ]
         },
         {
-            conjet: "CONJET ROBOT 101 NALTA",
+            conjet: "KLEN 1101",
             paragraph: "Slide 2: Another description for the second slide.",
             listItems: [
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
@@ -34,7 +34,7 @@ export default function CT1S() {
             ]
         },
         {
-            conjet: "NLB NCG24-535 HAND LANCE",
+            conjet: "KLEN 897",
             paragraph: "Slide 3: Yet another description for the third slide.",
             listItems: [
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
