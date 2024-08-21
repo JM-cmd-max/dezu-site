@@ -137,9 +137,9 @@ const PT7 = () => {
               <p className='list-paragraph-1 left-spacing-1'>Delivers high-purity oxygen with robust metal construction for enhanced durability and reliability. Its efficient and compact design ensures optimal performance and easy maintenance, making it ideal for diverse industrial applications.</p>
               <ul>
                 <li className='bullet-list left-spacing-1'>Metal Construction: Durable design for long-term reliability</li>
-                <li className='bullet-list left-spacing-1'>High Purity Oxygen: Produces oxygen with excellent purity levels</li>
-                <li className='bullet-list left-spacing-1'>Easy Maintenance: Simplifies servicing and upkeep procedures</li>
-                <li className='bullet-list left-spacing-1'>Versatile Applications: Suitable for various industrial oxygen needs</li>
+                <li className='bullet-list left-spacing-1'>High Purity Oxygen: Delivers exceptional purity levels.</li>
+                <li className='bullet-list left-spacing-1'>Easy Maintenance: Simplifies servicing and upkeep.</li>
+                <li className='bullet-list left-spacing-1'>Versatile Applications: Fits diverse industrial oxygen needs.</li>
               </ul>
             </div>
           </div>

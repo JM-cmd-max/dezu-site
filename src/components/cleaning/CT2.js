@@ -132,16 +132,16 @@ const CT2 = () => {
         <div className="product-content">
         <div className="section section-ct1">
         <div className="column image-column">
-        <p className='barcode left-spacing nlb-spacing'>HY-LOK DOUBLE VALVE</p>
+        <p className='barcode left-spacing nlb-spacing'>Tennant b10</p>
           <img src={require("../../assets/images/cleaning/ct2/ct1.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
         </div>
         <div className="column text-column rajdhani-semibold">
-          <p  className='list-paragraph-1 left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit diam quam nisi ut pellentesque nec cursus habitant nec lobortis ac placerat non, urna tempus luctus lobortis sed dui nisl.</p>
+          <p  className='list-paragraph-1 left-spacing-1'>Offers efficient cleaning with its powerful scrubbing and compact design, making it ideal for tight spaces. Its durable build and quiet operation ensure reliable performance, while the efficient battery and quick drying capabilities enhance overall productivity.</p>
           <ul>
-            <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-            <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-            <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-            <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li className='bullet-list left-spacing-1'>Compact Design: Maneuvers easily in tight spaces</li>
+            <li className='bullet-list left-spacing-1'>Quiet Operation: Minimizes noise during cleaning tasks</li>
+            <li className='bullet-list left-spacing-1'>Quick Drying: Leaves floors clean and dry rapidly</li>
+            <li className='bullet-list left-spacing-1'>Efficient Battery: Provides extended runtime for uninterrupted operation</li>
           </ul>
         </div>
       </div>
@@ -150,16 +150,16 @@ const CT2 = () => {
       <div className="divider"></div>
       <div className="section section-ct2">
       <div className="column text-column rajdhani-semibold">
-          <p  className='list-paragraph-2 left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit diam quam nisi ut pellentesque nec cursus habitant nec lobortis ac placerat non, urna tempus luctus lobortis sed dui nisl.</p>
+          <p  className='list-paragraph-2 left-spacing-2'>Combines high-performance cleaning with advanced scrubbing technology, making it ideal for large commercial spaces. Its robust build, user-friendly controls, and efficient water recovery system ensure reliable, efficient, and quiet operation.</p>
           <ul>
-            <li className='bullet-list left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-            <li className='bullet-list left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-            <li className='bullet-list left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-            <li className='bullet-list left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li className='bullet-list left-spacing-2'>High Performance: Delivers exceptional cleaning power for large areas</li>
+            <li className='bullet-list left-spacing-2'>Advanced Scrubbing Technology: Ensures thorough cleaning with superior brush action</li>
+            <li className='bullet-list left-spacing-2'>Large Capacity Tanks: Reduces downtime with extended cleaning intervals</li>
+            <li className='bullet-list left-spacing-2'>Efficient Water Recovery: Maximizes water usage with effective recovery system</li>
           </ul>
         </div>
         <div className="column image-column spir-barcode">
-            <p className='barcode'>HY-LOK BLEED VALVE</p>
+            <p className='barcode'>Tennant T260</p>
           <img src={require("../../assets/images/cleaning/ct2/ct2.png")} alt="Placeholder" className='p-image1'/>
         </div>
       </div>
@@ -170,16 +170,16 @@ const CT2 = () => {
       <div className="product-content">
       <div className="section section-ct1">
         <div className="column image-column">
-        <p className='barcode left-spacing nlb-spacing'>HY-LOK DOUBLE VALVE</p>
+        <p className='barcode left-spacing nlb-spacing'>Tempest MS900</p>
           <img src={require("../../assets/images/cleaning/ct2/ct3.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
         </div>
         <div className="column text-column rajdhani-semibold">
-          <p  className='list-paragraph-1 left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit diam quam nisi ut pellentesque nec cursus habitant nec lobortis ac placerat non, urna tempus luctus lobortis sed dui nisl.</p>
+          <p  className='list-paragraph-1 left-spacing-1'>Offers powerful suction and advanced filtration, making it ideal for deep cleaning and allergen control. Its ergonomic design and large capacity ensure comfort and efficiency, while durable construction and versatile attachments enhance its performance across various cleaning tasks.</p>
           <ul>
-            <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-            <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-            <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-            <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li className='bullet-list left-spacing-1'>Powerful Suction: Removes dirt and debris effectively</li>
+            <li className='bullet-list left-spacing-1'>Advanced Filtration: Captures fine dust and allergens efficiently</li>
+            <li className='bullet-list left-spacing-1'>Ergonomic Design: Provides comfort and ease during use</li>
+            <li className='bullet-list left-spacing-1'>Large Capacity: Handles more waste for extended cleaning</li>
           </ul>
         </div>
       </div>

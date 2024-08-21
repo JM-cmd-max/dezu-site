@@ -129,16 +129,16 @@ const EV2 = () => {
         <div className="product-content">
         <div className="section section-ct1">
         <div className="column image-column">
-        <p className='barcode left-spacing nlb-spacing'>HY-LOK DOUBLE VALVE</p>
+        <p className='barcode left-spacing nlb-spacing'>Seal Assemblies</p>
           <img src={require("../../assets/images/environmental/envr1/ev11.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
         </div>
         <div className="column text-column rajdhani-semibold">
-          <p  className='list-paragraph-1 left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit diam quam nisi ut pellentesque nec cursus habitant nec lobortis ac placerat non, urna tempus luctus lobortis sed dui nisl.</p>
+          <p  className='list-paragraph-1 left-spacing-1'>Designed to offer a secure, leak-proof seal while being easy to install and lightweight for improved maneuverability.</p>
           <ul>
-            <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-            <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-            <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-            <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li className='bullet-list left-spacing-1'>Lightweight Construction: Reduces operational strain and enhances maneuverability</li>
+            <li className='bullet-list left-spacing-1'>Effective Sealing: Provides a secure, leak-proof seal</li>
+            <li className='bullet-list left-spacing-1'>Durable Material: Resists wear and harsh environmental conditions</li>
+            <li className='bullet-list left-spacing-1'>Cost-Effective: Offers reliable sealing at an affordable price</li>
           </ul>
         </div>
       </div>

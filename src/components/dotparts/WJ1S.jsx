@@ -19,18 +19,18 @@ export default function WJ1S() {
             listItems: [
                 "Automated Operation: Advanced robotic automation for demolition",
                 "Controller Integration: Intuitive controller for precise operation",
-                "Robust Construction: Withstands harsh industrial conditions effectively",
-                "Efficient Material Removal: Powerful jets for effective material removal",
+                "Robust Construction: Withstands harsh industrial conditions.",
+                "Efficient Material Removal: Powerful jets ensure effectiveness.",
             ]
         },
         {
             conjet: "CONJET ROBOT 101 NALTA",
             paragraph: "Offers precise, efficient hydro demolition with its semi-automated control and advanced technology. Its rugged construction and intuitive design ensure reliable performance and reduced operator fatigue in demanding industrial environments.",
             listItems: [
-                "Advanced Technology: Incorporates state-of-the-art technology for precise, efficient hydro demolition",
-                "Rugged Construction: Built to endure harsh conditions for lasting performance",
-                "Semi-Automated Control: Enables precise operation with a controller, enhancing efficiency and accuracy",
-                "Versatile Applications: Ideal for various hydro demolition tasks, both manual and automated",
+                "Advanced Technology: Uses state-of-the-art methods for precise hydro demolition.",
+                "Rugged Construction: Withstands harsh conditions for lasting performance.",
+                "Semi-Automated Control: Enhances efficiency and accuracy.",
+                "Versatile Applications: Ideal for all demolition tasks.",
             ]
         },
         {
@@ -38,9 +38,9 @@ export default function WJ1S() {
             paragraph: "Premium tool for semi-automated hydro demolition, offering enhanced precision and efficiency with its advanced controller. Its robust construction, ergonomic design, and high-pressure capabilities make it ideal for demanding industrial tasks.",
             listItems: [
                 "Ergonomic Design: Reduces fatigue and enhances comfort during use",
-                "High-Pressure Capability: Delivers powerful jets for effective material removal",
-                "Durable Construction: Engineered to endure rigorous industrial environments.",
-                "Semi-Automated Control: Allows precise control with a controller, improving efficiency",
+                "High-Pressure Capability: Delivers powerful jets for effective removal.",
+                "Durable : Built to withstand rigorous industrial environments.",
+                "Semi-Automated Control: Offers precise control, boosting efficiency.",
             ]
         },
     ];

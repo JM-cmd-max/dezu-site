@@ -15,32 +15,32 @@ export default function WJ6S() {
     const slideTexts = [
         {
             conjet: "STONEAGE BANSHEE",
-            paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit diam quam nisi ut pellentesque nec cursus habitant nec lobortis ac placerat non, urna tempus luctus lobortis sed dui nisl.",
+            paragraph: "Accessory designed for internal tube cleaning, effectively removing debris from the inner surfaces. Its robust construction and innovative design ensure thorough and efficient cleaning of tubes.",
             listItems: [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "Internal Cleaning: Targets debris inside tube surfaces",
+                "Powerful Performance: Ensures thorough, efficient cleaning.",
+                "Versatile Application: Suitable for various tube sizes",
+                "Innovative Technology: Boosts cleaning effectiveness and efficiency.",
             ]
         },
         {
             conjet: "STONEAGE AUTOBOX 3L",
-            paragraph: "Slide 2: Another description for the second slide.",
+            paragraph: "Accessory designed to push and pull hoses within tubes, facilitating smooth and efficient operation. Its advanced mechanism ensures reliable hose management during cleaning tasks.",
             listItems: [
-                "Second slide list item 1.",
-                "Second slide list item 2.",
-                "Second slide list item 3.",
-                "Second slide list item 4.",
+                "Hose Management: Pushes and pulls hose smoothly",
+                "Advanced Mechanism: Boosts efficiency and reliability.",
+                "Efficient Operation: Cuts downtime, boosts productivity.",
+                "Durable Construction: Suited for tough environments.",
             ]
         },
         {
             conjet: "STONEAGE SENTINEL",
-            paragraph: "Slide 3: Yet another description for the third slide.",
+            paragraph: "Automates navigation and operation, allowing for independent functioning while being controlled by an operator. Its advanced automation enhances efficiency and precision in complex cleaning tasks.",
             listItems: [
-                "Third slide list item 1.",
-                "Third slide list item 2.",
-                "Third slide list item 3.",
-                "Third slide list item 4.",
+                "Automated Navigation: Functions independently, minimal .",
+                "Efficient Cleaning: Boosts productivity, reduces effort.",
+                "Versatile Operation: Adapts to any environment.",
+                "Reliable Performance: Consistent in demanding tasks.",
             ]
         },
     ];

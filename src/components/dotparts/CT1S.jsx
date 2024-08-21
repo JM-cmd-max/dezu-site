@@ -15,32 +15,32 @@ export default function CT1S() {
     const slideTexts = [
         {
             conjet: "KLEN 2205",
-            paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit diam quam nisi ut pellentesque nec cursus habitant nec lobortis ac placerat non, urna tempus luctus lobortis sed dui nisl.",
+            paragraph: "Designed to restore shine and remove tough stains from stainless steel surfaces. Non-abrasive, quick-drying formula ensures a streak-free finish while protecting against fingerprints.",
             listItems: [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "Polishes Stainless Steel: Restores shine and luster effectively",
+                "Removes Stains: Targets and eliminates tough stains easily",
+                "Quick Drying: Ensures a rapid, streak-free finish",
+                "Versatile Use: Effective on various stainless steel surfaces",
             ]
         },
         {
             conjet: "KLEN 1101",
-            paragraph: "Slide 2: Another description for the second slide.",
+            paragraph: "Effectively restores and revitalizes various industrial surfaces, delivering high performance in challenging conditions. Its non-abrasive, versatile formula ensures easy application and a durable finish.",
             listItems: [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "Restores Surfaces: Renovates and revitalizes industrial surfaces effectively",
+                "High Performance: Delivers strong results in tough conditions",
+                "Non-Abrasive Formula: Cleans without damaging or scratching surfaces",
+                "Durable Finish: Provides long-lasting results and protection",
             ]
         },
         {
             conjet: "KLEN 897",
-            paragraph: "Slide 3: Yet another description for the third slide.",
+            paragraph: "Engineered to tackle tough mineral deposits and scale buildup with powerful, fast-acting results. Its heavy-duty formula is safe on equipment and easy to rinse, ensuring thorough cleaning without residue or corrosion. ",
             listItems: [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "Powerful Descaling: Removes tough mineral deposits and buildup",
+                "Fast Acting: Works quickly to dissolve scale efficiently",
+                "Easy Rinsing: Rinses off easily, leaving no residue",
+                "Heavy Duty Formula: Designed for industrial-strength descaling tasks",
             ]
         },
     ];

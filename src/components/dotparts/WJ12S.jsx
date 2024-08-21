@@ -16,22 +16,22 @@ export default function WJ11S() {
     const slideTexts = [
         {
             conjet: "NLB MICROARM",
-            paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit diam quam nisi ut pellentesque nec cursus habitant nec lobortis ac placerat non, urna tempus luctus lobortis sed dui nisl.",
+            paragraph: "Accessory for robotic water jetting, allowing precise control via an operator's controller. Its compact design enables accurate cleaning in tight or hard-to-reach areas.",
             listItems: [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "Robotic Control: Operated precisely via a controller",
+                "Compact Design: Ideal for tight or restricted areas",
+                "Efficient Cleaning: Targets specific spots with precision.",
+                "Durable Construction: Withstands demanding conditions effectively.",
             ]
         },
         {
             conjet: "NLB NCG24-535 HAND LANCE",
-            paragraph: "Slide 2: Another description for the second slide.",
+            paragraph: "Premium tool for semi-automated hydro demolition, offering enhanced precision and efficiency with its advanced controller. Its robust construction, ergonomic design, and high-pressure capabilities make it ideal for demanding industrial tasks.",
             listItems: [
-                "Second slide list item 1.",
-                "Second slide list item 2.",
-                "Second slide list item 3.",
-                "Second slide list item 4.",
+                "Ergonomic Design: Reduces fatigue and enhances comfort during use",
+                "High-Pressure Capability: Delivers powerful jets for effective removal.",
+                "Durable : Built to withstand rigorous industrial environments.",
+                "Semi-Automated Control: Offers precise control, boosting efficiency.",
             ]
         }
     ];

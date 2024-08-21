@@ -14,33 +14,33 @@ export default function WJ1S() {
 
     const slideTexts = [
         {
-            conjet: "CONJET ROBOT 557",
-            paragraph: "Advanced accessory for automated robotic hydro demolition, allowing operators to achieve precise control and efficient material removal using a sophisticated controller. Its cutting-edge design ensures effective performance in challenging environments, blending automation with user-friendly operation.",
+            conjet: "GF POWER & GF SOLUTION ",
+            paragraph: "The powder provides an abrasive polish to remove scratches and boost shine, while the solution enhances the surface's luster and offers protection against stains. ",
             listItems: [
-                "Automated Operation: Advanced robotic automation for demolition",
-                "Controller Integration: Intuitive controller for precise operation",
-                "Robust Construction: Withstands harsh industrial conditions effectively",
-                "Efficient Material Removal: Powerful jets for effective material removal",
+                "Polishes Granite: Enhances shine and smoothness effectively",
+                "Enhances Shine: Boosts granite’s natural luster and brilliance",
+                "Protects Surface: Shields granite from stains and damage",
+                "Removes Scratches: Fills in minor imperfections and blemishes",
             ]
         },
         {
-            conjet: "CONJET ROBOT 101 NALTA",
-            paragraph: "Offers precise, efficient hydro demolition with its semi-automated control and advanced technology. Its rugged construction and intuitive design ensure reliable performance and reduced operator fatigue in demanding industrial environments.",
+            conjet: "MK2 - Crystallisation Solution",
+            paragraph: "Enhance and protect stone surfaces, delivering a high-gloss, mirror-like finish. Its crystallizing formula creates a durable layer that boosts color and luster while offering long-lasting protection. ",
             listItems: [
-                "Advanced Technology: Incorporates state-of-the-art technology for precise, efficient hydro demolition",
-                "Rugged Construction: Built to endure harsh conditions for lasting performance",
-                "Semi-Automated Control: Enables precise operation with a controller, enhancing efficiency and accuracy",
-                "Versatile Applications: Ideal for various hydro demolition tasks, both manual and automated",
+                "High Gloss Finish: Delivers a brilliant, mirror-like shine",
+                "Crystallizes Surfaces: Creates a durable, hard-wearing protective layer",
+                "Enhances Stone: Boosts the natural color and luster",
+                "Quick Drying: Minimizes wait time with fast results",
             ]
         },
         {
-            conjet: "NLB NCG24-535 HAND LANCE",
-            paragraph: "Premium tool for semi-automated hydro demolition, offering enhanced precision and efficiency with its advanced controller. Its robust construction, ergonomic design, and high-pressure capabilities make it ideal for demanding industrial tasks.",
+            conjet: "Klenco Marble Polish",
+            paragraph: "Delivers a brilliant shine and revitalizes marble surfaces with its effective polishing formula. It adds a protective layer to guard against stains while ensuring easy application and long-lasting results.",
             listItems: [
-                "Ergonomic Design: Reduces fatigue and enhances comfort during use",
-                "High-Pressure Capability: Delivers powerful jets for effective material removal",
-                "Durable Construction: Engineered to endure rigorous industrial environments.",
-                "Semi-Automated Control: Allows precise control with a controller, improving efficiency",
+                "Brilliant Shine: Enhances marble with a high-gloss finish",
+                "Polishes Effectively: Smooths and revitalizes marble surfaces",
+                "Protective Layer: Adds a protective coating against stains",
+                "Long-Lasting: Maintains shine and protection over time",
             ]
         },
     ];

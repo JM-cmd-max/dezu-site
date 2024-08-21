@@ -14,33 +14,33 @@ export default function EV1S() {
 
     const slideTexts = [
         {
-            conjet: "CONJET ROBOT 102 NALTA",
-            paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit diam quam nisi ut pellentesque nec cursus habitant nec lobortis ac placerat non, urna tempus luctus lobortis sed dui nisl.",
+            conjet: "Leg Cup Seals",
+            paragraph: "Designed to provide effective leak prevention and secure sealing, utilizing durable materials to resist wear and environmental stress. Their easy installation and versatile fit make them suitable for various applications, while their high resistance ensures long-lasting performance.",
             listItems: [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "Leak Prevention: Ensures secure, leak-proof sealing",
+                "Durable Material: Resists wear and environmental stress",
+                "Versatile Fit: Adapts to various leg sizes and shapes",
+                "High Resistance: Withstands chemicals and temperature fluctuations",
             ]
         },
         {
-            conjet: "CONJET ROBOT 101 NALTA",
-            paragraph: "Slide 2: Another description for the second slide.",
+            conjet: "Flexi-Composite Hose",
+            paragraph: "Engineered for flexibility and durability, making it ideal for diverse applications where bending and conforming are required. Its lightweight construction and high pressure resistance ensure reliable performance under challenging conditions, while the smooth interior promotes efficient flow.",
             listItems: [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "Flexible Design: Easily bends and conforms to various configurations",
+                "High Durability: Resists abrasion, chemicals, and extreme temperatures",
+                "High Pressure Resistance: Handles demanding pressure conditions effectively",
+                "Easy Installation: Simple to connect and integrate into systems",
             ]
         },
         {
-            conjet: "NLB NCG24-535 HAND LANCE",
-            paragraph: "Slide 3: Yet another description for the third slide.",
+            conjet: "Leg Sock",
+            paragraph: "Offer protective coverage and durability, shielding legs from damage and wear with their robust fabric. The adjustable fit and breathable material ensure comfort and versatility for various applications. ",
             listItems: [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "Protective Coverage: Shields legs from damage and wear",
+                "Durable Fabric: Resists tears and abrasions for longevity",
+                "Adjustable Fit: Accommodates various leg sizes securely",
+                "Cost-Effective: Provides high-quality protection at an affordable price",
             ]
         },
     ];

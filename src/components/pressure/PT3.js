@@ -135,9 +135,9 @@ const PT3 = () => {
               <p className='list-paragraph-1 left-spacing-1'>Essential components for handling hydrogen across pressure generation, compression, storage, transfer, and testing applications. These high-quality products ensure safe and efficient management of hydrogen in various industrial processes.</p>
               <ul>
                 <li className='bullet-list left-spacing-1'>Compression: Supports efficient hydrogen compression</li>
-                <li className='bullet-list left-spacing-1'>Storage Solutions: Facilitates secure hydrogen storage</li>
+                <li className='bullet-list left-spacing-1'>Storage Solutions: Enables secure hydrogen storage.</li>
                 <li className='bullet-list left-spacing-1'>Safe Transfer: Ensures reliable hydrogen transfer</li>
-                <li className='bullet-list left-spacing-1'>Testing Applications: Enables accurate hydrogen system testing</li>
+                <li className='bullet-list left-spacing-1'>Testing Applications: Ensures precise hydrogen system testing.</li>
               </ul>
             </div>
           </div>

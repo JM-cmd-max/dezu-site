@@ -15,32 +15,32 @@ export default function WJ7S() {
     const slideTexts = [
         {
             conjet: "STONEAGE BJV",
-            paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit diam quam nisi ut pellentesque nec cursus habitant nec lobortis ac placerat non, urna tempus luctus lobortis sed dui nisl.",
+            paragraph: "Accessory designed to clean the internal surfaces of pipes, effectively removing debris and buildup. Its robust design ensures thorough cleaning and efficient operation within various pipe sizes.",
             listItems: [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "Internal Cleaning: Removes debris from pipe surfaces",
+                "Versatile Application: Works with different pipe sizes",
+                "Efficient Operation: Boosts speed and effectiveness.",
+                "User-Friendly: Simplifies operation and maintenance",
             ]
         },
         {
             conjet: "STONEAGE AUTOBOX 500",
-            paragraph: "Slide 2: Another description for the second slide.",
+            paragraph: "Accessory designed to push and pull hoses inside pipes, facilitating smooth and efficient hose management. Its advanced mechanism ensures reliable and precise control during cleaning operations.",
             listItems: [
-                "Second slide list item 1.",
-                "Second slide list item 2.",
-                "Second slide list item 3.",
-                "Second slide list item 4.",
+                "Hose Management: Pushes and pulls hose inside pipes",
+                "Advanced Mechanism: Reliable and precise hose control",
+                "Versatile Use: Compatible with various pipe sizes",
+                "Efficient Operation: Simplifies hose management.",
             ]
         },
         {
             conjet: "STONEAGE CENTRALIZER",
-            paragraph: "Slide 3: Yet another description for the third slide.",
+            paragraph: "Positions the nozzle centrally inside the pipe, ensuring even coverage of the internal surface. Its precise design improves cleaning efficiency and effectiveness by maintaining consistent nozzle placement.",
             listItems: [
-                "Third slide list item 1.",
-                "Third slide list item 2.",
-                "Third slide list item 3.",
-                "Third slide list item 4.",
+                "Centralized Positioning: Ensures even nozzle coverage inside pipe",
+                "Improved Coverage: Uniform cleaning on surfaces.",
+                "Precise Design: Maintains consistent nozzle placement",
+                "Enhanced Efficiency: Optimizes cleaning effectiveness and speed",
             ]
         },
     ];

@@ -128,16 +128,16 @@ const EV2 = () => {
         <div className="product-content">
           <div className="section section-bg-prst3">
             <div className="column image-column">
-              <p className='barcode left-spacing nlb-spacing'>HASKEL BUTECH VALVES</p>
+              <p className='barcode left-spacing nlb-spacing'>Echo Acoustic Barriers</p>
               <img src={require("../../assets/images/environmental/envr2/ev21.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
             </div>
             <div className="column text-column rajdhani-semibold">
-              <p className='list-paragraph-1 left-spacing-1'>powerhouse in hydro demolition, expertly engineered to deliver water efficiently to the accessory for precise material removal. Its robust design ensures consistent high-pressure performance, making it an ideal choice for demanding demolition projects. </p>
+              <p className='list-paragraph-1 left-spacing-1'>Designed to significantly reduce noise levels through effective sound absorption, using durable and eco-friendly materials. Their customizable design and aesthetic appeal ensure they meet diverse architectural needs while providing easy installation and low maintenance. </p>
               <ul>
-                <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                <li className='bullet-list left-spacing-1'>Effective Sound Absorption: Reduces noise levels significantly</li>
+                <li className='bullet-list left-spacing-1'>High Durability: Withstands harsh environmental conditions</li>
+                <li className='bullet-list left-spacing-1'>Customizable Design: Adapts to various architectural needs</li>
+                <li className='bullet-list left-spacing-1'>Eco-Friendly Materials: Made from sustainable and recyclable components</li>
               </ul>
             </div>
           </div>

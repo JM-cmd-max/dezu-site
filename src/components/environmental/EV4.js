@@ -128,16 +128,16 @@ const EV4 = () => {
         <div className="product-content">
           <div className="section section-bg-prst3">
             <div className="column image-column">
-              <p className='barcode left-spacing nlb-spacing'>HASKEL BUTECH VALVES</p>
+              <p className='barcode left-spacing nlb-spacing'>Wastewater Treatment Systems</p>
               <img src={require("../../assets/images/environmental/envr4/ev41.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
             </div>
             <div className="column text-column rajdhani-semibold">
-              <p className='list-paragraph-1 left-spacing-1'>powerhouse in hydro demolition, expertly engineered to deliver water efficiently to the accessory for precise material removal. Its robust design ensures consistent high-pressure performance, making it an ideal choice for demanding demolition projects. </p>
+              <p className='list-paragraph-1 left-spacing-1'>Designed to provide advanced and efficient processing of wastewater, ensuring thorough cleaning and treatment. Their high efficiency and automated controls make them easy to operate while their durable construction ensures reliability in harsh environments.</p>
               <ul>
-                <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                <li className='bullet-list left-spacing-1'>Advanced Treatment: Effectively processes and cleans wastewater</li>
+                <li className='bullet-list left-spacing-1'>Automated Controls: Simplifies operation with advanced automation</li>
+                <li className='bullet-list left-spacing-1'>Durable Construction: Built to endure harsh treatment environments</li>
+                <li className='bullet-list left-spacing-1'>High Efficiency: Maximizes performance with minimal energy use</li>
               </ul>
             </div>
           </div>

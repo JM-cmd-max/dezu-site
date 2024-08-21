@@ -157,10 +157,10 @@ const WJ2 = () => {
         <div className="column text-column rajdhani-semibold">
           <p  className='list-paragraph-1 left-spacing-1'>Offers precise, efficient hydro demolition with its semi-automated control and advanced technology. Its rugged construction and intuitive design ensure reliable performance and reduced operator fatigue in demanding industrial environments.</p>
           <ul>
-            <li className='bullet-list left-spacing-1'>Advanced Technology: Incorporates state-of-the-art technology for precise, efficient hydro demolition</li>
-            <li className='bullet-list left-spacing-1'>Rugged Construction: Built to endure harsh conditions for lasting performance</li>
-            <li className='bullet-list left-spacing-1'>Semi-Automated Control: Enables precise operation with a controller, enhancing efficiency and accuracy</li>
-            <li className='bullet-list left-spacing-1'>Versatile Applications: Ideal for various hydro demolition tasks, both manual and automated</li>
+            <li className='bullet-list left-spacing-1'>Advanced Technology: Uses state-of-the-art methods for precise hydro demolition.</li>
+            <li className='bullet-list left-spacing-1'>Rugged Construction: Withstands harsh conditions for lasting performance.</li>
+            <li className='bullet-list left-spacing-1'>Semi-Automated Control: Enhances efficiency and accuracy.</li>
+            <li className='bullet-list left-spacing-1'>Versatile Applications: Ideal for all demolition tasks.</li>
           </ul>
         </div>
       </div>

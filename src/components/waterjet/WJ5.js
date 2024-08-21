@@ -121,41 +121,7 @@ const WJ5 = () => {
         <div className="divider"></div>
 
 
-        <div className="product-content">
-        <div className="section section-bg-prst1">
-            <div className="column">
-              <p className='barcode left-spacing nlb-spacing'>NLB 225 SERIES WATER JETTING PUMP</p>
-              <img src={require("../../assets/images/univ/x1.webp")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
-            </div>
-            <div className="column1 text-column rajdhani-semibold">
-              <p className='list-paragraph-1 left-spacing-1'>powerhouse in hydro demolition, expertly engineered to deliver water efficiently to the accessory for precise material removal. Its robust design ensures consistent high-pressure performance, making it an ideal choice for demanding demolition projects. </p>
-              <ul>
-                <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-              </ul>
-            </div>
-          </div>
-
-
-      <div className="divider"></div>
-      <div className="section section-bg">
-      <div className="section-imgtxt2 text-column rajdhani-semibold">
-          <p  className='list-paragraph-2 left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit diam quam nisi ut pellentesque nec cursus habitant nec lobortis ac placerat non, urna tempus luctus lobortis sed dui nisl.</p>
-          <ul>
-            <li className='bullet-list left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-            <li className='bullet-list left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-            <li className='bullet-list left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-            <li className='bullet-list left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-          </ul>
-        </div>
-        <div className="column image-column spir-barcode">
-            <p className='barcode'>SPIR STAR HIGH PRESSURE HOSE</p>
-          <img src={require("../../assets/images/univ/x2.webp")} alt="Placeholder" className='p-image2'/>
-        </div>
-      </div>
-
+        <H2Sec />
       
       <div className="divider"></div>
 
@@ -166,18 +132,17 @@ const WJ5 = () => {
               <img src={require("../../assets/images/hydro/hwj5/HP nozzle.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
             </div>
             <div className="column text-column rajdhani-semibold">
-              <p className='list-paragraph-1 left-spacing-1'>powerhouse in hydro demolition, expertly engineered to deliver water efficiently to the accessory for precise material removal. Its robust design ensures consistent high-pressure performance, making it an ideal choice for demanding demolition projects. </p>
+              <p className='list-paragraph-1 left-spacing-1'>Designed for robotic high-pressure cleaning, allowing precise control via an operator's controller. Its magnetic crawling capability and high-pressure nozzle ensure effective cleaning on vertical surfaces.</p>
               <ul>
-                <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                <li className='bullet-list left-spacing-1'>HP Nozzle: Delivers high-pressure cleaning power</li>
+                <li className='bullet-list left-spacing-1'>Remote Control: Precise operation via controller.</li>
+                <li className='bullet-list left-spacing-1'>Durable Construction: Built for challenging cleaning tasks</li>
+                <li className='bullet-list left-spacing-1'>Efficient Performance: Effective on various vertical surfaces</li>
               </ul>
             </div>
           </div>
     </div>
-      
-      </div>
+
       </div>
       <Contact />
       <Footer />

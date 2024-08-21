@@ -14,33 +14,33 @@ export default function CT2S() {
 
     const slideTexts = [
         {
-            conjet: "CONJET ROBOT 557",
-            paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit diam quam nisi ut pellentesque nec cursus habitant nec lobortis ac placerat non, urna tempus luctus lobortis sed dui nisl.",
+            conjet: "Action 150S",
+            paragraph: "High-performance stripper designed to quickly and effectively remove heavy buildups of floor polishes and waxes. Its powerful solvents and versatile use make it ideal for a range of floor types, while its easy application and low odor enhance user experience. ",
             listItems: [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "Powerful Stripping: Removes heavy buildups quickly and efficiently",
+                "High-Grade Solvents: Ensures effective removal of tough residues",
+                "Versatile Use: Safe for various floor types and surfaces",
+                "Fast Acting: Strips away polishes and waxes effortlessly",
             ]
         },
         {
-            conjet: "CONJET ROBOT 101 NALTA",
-            paragraph: "Slide 2: Another description for the second slide.",
+            conjet: "Action 130",
+            paragraph: "Designed to remove tough grease and grime while ensuring safety in food preparation areas. Its non-toxic, versatile formula allows for quick and efficient cleaning across various surfaces.",
             listItems: [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "Food Safe: Ensures safety for food preparation areas",
+                "Powerful Degreasing: Removes tough grease and grime effectively",
+                "Non-Toxic Formula: Safe for use in sensitive environments",
+                "Easy Rinsing: Rinses off easily without leaving residues",
             ]
         },
         {
-            conjet: "NLB NCG24-535 HAND LANCE",
-            paragraph: "Slide 3: Yet another description for the third slide.",
+            conjet: "Spotlight",
+            paragraph: "Delivers a high-gloss, durable finish that enhances the appearance of floors while resisting wear and scratches. Quick-drying, easy-application formula ensures a smooth process and long-lasting results. ",
             listItems: [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "High Gloss Finish: Provides a brilliant, long-lasting shine",
+                "Durable Formula: Resists wear and maintains appearance",
+                "Scratch Resistant: Protects surfaces from damage and abrasion",
+                "Non-Yellowing: Maintains clarity and brightness over time",
             ]
         },
     ];

@@ -20,18 +20,18 @@ export default function WJ3S() {
             listItems: [
                 "Magnetic Crawling: Sticks securely to vertical surfaces.",
                 "UHP Nozzle: Delivers ultra-high-pressure water jets",
-                "Remote Control: Operator-controlled for precise maneuvering",
-                "Advanced Design: Efficient performance in challenging environments",
+                "Remote Control: Allows precise operator maneuvering.",
+                "Advanced Design: Performs well in tough environments.",
             ]
         },
         {
             conjet: "VertiDrive V700: Abrasive Nozzle",
             paragraph: "Features an abrasive nozzle for robotic blasting, offering precise control via an operator's controller. Its magnetic system and rugged design ensure efficient performance on vertical surfaces.",
             listItems: [
-                "Enhanced Safety: Minimizes operator exposure to hazards",
+                "Enhanced Safety: Reduces operator hazard exposure.",
                 "Abrasive Nozzle: Effective for high-impact blasting",
-                "Remote Control: Precision operation with operator's controller",
-                "Durable Construction: Handles demanding blasting tasks efficiently",
+                "Remote Control: Precision operation with operator's control.",
+                "Durable Construction: Efficiently handles demanding tasks.",
             ]
         }
     ];

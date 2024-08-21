@@ -128,16 +128,16 @@ const EV5 = () => {
         <div className="product-content">
           <div className="section section-bg-prst3">
             <div className="column image-column">
-              <p className='barcode left-spacing nlb-spacing'>HASKEL BUTECH VALVES</p>
+              <p className='barcode left-spacing nlb-spacing'>Desalination Systems</p>
               <img src={require("../../assets/images/environmental/envr5/ev51.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
             </div>
             <div className="column text-column rajdhani-semibold">
-              <p className='list-paragraph-1 left-spacing-1'>powerhouse in hydro demolition, expertly engineered to deliver water efficiently to the accessory for precise material removal. Its robust design ensures consistent high-pressure performance, making it an ideal choice for demanding demolition projects. </p>
+              <p className='list-paragraph-1 left-spacing-1'>Offer efficient and high-capacity desalination of water, effectively removing salt and impurities with energy-efficient technology. Their compact design and automated operation ensure ease of use and minimal maintenance, making them suitable for diverse installation environments.</p>
               <ul>
-                <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                <li className='bullet-list left-spacing-1'>Efficient Desalination: Removes salt and impurities effectively</li>
+                <li className='bullet-list left-spacing-1'>High Capacity: Handles large volumes of water efficiently</li>
+                <li className='bullet-list left-spacing-1'>Energy Efficient: Lowers operational costs with minimal energy use</li>
+                <li className='bullet-list left-spacing-1'>Compact Design: Fits in various installation spaces easily</li>
               </ul>
             </div>
           </div>

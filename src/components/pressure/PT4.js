@@ -117,12 +117,12 @@ const PT4 = () => {
           <img src={require("../../assets/images/pressure/prst4/HLDV.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
         </div>
         <div className="column text-column rajdhani-semibold">
-          <p  className='list-paragraph-1 left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit diam quam nisi ut pellentesque nec cursus habitant nec lobortis ac placerat non, urna tempus luctus lobortis sed dui nisl.</p>
+          <p  className='list-paragraph-1 left-spacing-1'>Enhance safety by incorporating two isolation valves with an intermediate bleed feature. This configuration ensures secure operation and easy maintenance, offering reliable leak prevention and protection in demanding environments</p>
           <ul>
-            <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-            <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-            <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-            <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li className='bullet-list left-spacing-1'>Intermediate Bleed Function: Allows safe venting between valves</li>
+            <li className='bullet-list left-spacing-1'>Durable Construction: Built to withstand harsh conditions effectively</li>
+            <li className='bullet-list left-spacing-1'>Dual Isolation Valves: Provides redundant safety for critical systems</li>
+            <li className='bullet-list left-spacing-1'>Easy Maintenance: Simplifies servicing with user-friendly features</li>
           </ul>
         </div>
       </div>
@@ -135,8 +135,8 @@ const PT4 = () => {
           <ul>
             <li className='bullet-list left-spacing-2'>Intermediate Bleed Function: Allows safe venting between valves</li>
             <li className='bullet-list left-spacing-2'>Durable Construction: Built to withstand harsh conditions effectively</li>
-            <li className='bullet-list left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-            <li className='bullet-list left-spacing-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li className='bullet-list left-spacing-2'>Dual Isolation Valves: Provides redundant safety for critical systems</li>
+            <li className='bullet-list left-spacing-2'>Easy Maintenance: Simplifies servicing with user-friendly features</li>
           </ul>
         </div>
         <div className="column image-column spir-barcode">

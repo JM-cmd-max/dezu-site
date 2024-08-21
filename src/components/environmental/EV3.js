@@ -128,16 +128,16 @@ const EV3 = () => {
         <div className="product-content">
           <div className="section section-bg-prst3">
             <div className="column image-column">
-              <p className='barcode left-spacing nlb-spacing'>HASKEL BUTECH VALVES</p>
+              <p className='barcode left-spacing nlb-spacing'>Reverse Osmosis Systems</p>
               <img src={require("../../assets/images/environmental/envr3/ev31.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
             </div>
             <div className="column text-column rajdhani-semibold">
-              <p className='list-paragraph-1 left-spacing-1'>powerhouse in hydro demolition, expertly engineered to deliver water efficiently to the accessory for precise material removal. Its robust design ensures consistent high-pressure performance, making it an ideal choice for demanding demolition projects. </p>
+              <p className='list-paragraph-1 left-spacing-1'>Deliver high-purity water by removing contaminants through advanced multi-stage filtration. Their energy-efficient, compact design ensures cost-effective operation and easy installation, while durable construction guarantees reliable, long-term performance.</p>
               <ul>
-                <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                <li className='bullet-list left-spacing-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                <li className='bullet-list left-spacing-1'>High Purity: Removes contaminants for clean, pure water</li>
+                <li className='bullet-list left-spacing-1'>Advanced Filtration: Utilizes multiple stages for thorough purification</li>
+                <li className='bullet-list left-spacing-1'>Easy Installation: Streamlined setup for quick deployment</li>
+                <li className='bullet-list left-spacing-1'>Energy Efficient: Minimizes energy consumption for cost savings</li>
               </ul>
             </div>
           </div>

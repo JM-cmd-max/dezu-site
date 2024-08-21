@@ -14,33 +14,33 @@ export default function CT3S() {
 
     const slideTexts = [
         {
-            conjet: "CONJET ROBOT 557",
-            paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit diam quam nisi ut pellentesque nec cursus habitant nec lobortis ac placerat non, urna tempus luctus lobortis sed dui nisl.",
+            conjet: "ACTION 170S",
+            paragraph: "Delivers deep cleaning power by effectively removing embedded dirt and enhancing extraction results. Its quick-drying, non-foaming formula is safe for carpets and neutralizes odors, ensuring a fresh and clean environment. ",
             listItems: [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "Deep Cleaning: Penetrates and removes embedded dirt effectively",
+                "Safe on Carpets: Gentle on various carpet types and fibers",
+                "Odor Neutralizing: Eliminates unpleasant odors for fresh spaces",
+                "Non-Foaming Formula: Prevents excessive foam during extraction",
             ]
         },
         {
-            conjet: "CONJET ROBOT 101 NALTA",
-            paragraph: "Slide 2: Another description for the second slide.",
+            conjet: "SHINE ON",
+            paragraph: "Delivers a brilliant, glossy finish while providing long-lasting protection with its silicone formula. It repels dust and conceals minor scratches, making it ideal for maintaining various furniture materials.",
             listItems: [
-                "Second slide list item 1.",
-                "Second slide list item 2.",
-                "Second slide list item 3.",
-                "Second slide list item 4.",
+                "Brilliant Shine: Enhances furniture with a glossy finish",
+                "Silicone Formula: Provides long-lasting, smooth surface protection",
+                "Dust Repellent: Helps keep surfaces clean longer",
+                "Scratch Concealing: Helps mask minor scratches and imperfections",
             ]
         },
         {
-            conjet: "NLB NCG24-535 HAND LANCE",
-            paragraph: "Slide 3: Yet another description for the third slide.",
+            conjet: "POWER BRITE",
+            paragraph: "Designed to tackle tough grime and mineral deposits with its effective acidic formula. Its fast-acting, versatile, and non-corrosive properties ensure thorough cleaning across various surfaces",
             listItems: [
-                "Third slide list item 1.",
-                "Third slide list item 2.",
-                "Third slide list item 3.",
-                "Third slide list item 4.",
+                "Effective Acidic Cleaning: Breaks down tough grime and stains",
+                "Fast Acting: Provides quick results for efficient cleaning",
+                "Concentrated Formula: Delivers powerful cleaning with minimal use",
+                "Non-Corrosive: Safe for use on delicate surfaces",
             ]
         },
     ];

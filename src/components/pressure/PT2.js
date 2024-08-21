@@ -134,10 +134,10 @@ const PT2 = () => {
             <div className="column text-column rajdhani-semibold">
               <p className='list-paragraph-1 left-spacing-1'>Designed for high-pressure fluid transfer and pressurization applications, offering efficient and reliable performance. These systems ensure precise fluid management and robust pressure boosting for various industrial needs.</p>
               <ul>
-                <li className='bullet-list left-spacing-1'>High Pressure Transfer: Efficiently handles high-pressure fluid movement</li>
-                <li className='bullet-list left-spacing-1'>Pressurization Applications: Boosts pressure for diverse applications</li>
-                <li className='bullet-list left-spacing-1'>Reliable Performance: Ensures consistent and dependable operation</li>
-                <li className='bullet-list left-spacing-1'>Advanced Technology: Utilizes cutting-edge fluid power solutions</li>
+                <li className='bullet-list left-spacing-1'>High Pressure Transfer: Handles fluid movement efficiently.</li>
+                <li className='bullet-list left-spacing-1'>Pressurization Applications: Enhances pressure for various uses.</li>
+                <li className='bullet-list left-spacing-1'>Reliable Performance: Ensures consistent, dependable operation.</li>
+                <li className='bullet-list left-spacing-1'>Advanced Technology: Uses cutting-edge fluid power.</li>
               </ul>
             </div>
           </div>
@@ -147,7 +147,7 @@ const PT2 = () => {
             <div className="column text-column rajdhani-semibold">
               <p className='list-paragraph-2 left-spacing-2'>Engineered to deliver high-pressure gas boosting with exceptional reliability and efficiency. Its compact, durable design makes it ideal for various industrial applications, providing consistent performance and easy maintenance for long-term use.</p>
               <ul>
-                <li className='bullet-list left-spacing-2'>High Pressure: Boosts gas to extreme pressures efficiently</li>
+                <li className='bullet-list left-spacing-2'>High Pressure: Boosts gas to extremes.</li>
                 <li className='bullet-list left-spacing-2'>Durable Construction: Built to withstand rigorous use</li>
                 <li className='bullet-list left-spacing-2'>Compact Design: Saves space while delivering power</li>
                 <li className='bullet-list left-spacing-2'>Versatile Applications: Suitable for various gas types</li>

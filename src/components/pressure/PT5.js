@@ -134,7 +134,7 @@ const PT5 = () => {
             <div className="column text-column rajdhani-semibold">
               <p className='list-paragraph-1 left-spacing-1'>Engineered for durability and reliability, offering corrosion-resistant and leak-proof solutions for marine environments. Designed for easy installation and high-pressure conditions, these fittings ensure secure connections and long-lasting performance on oil tankers.</p>
               <ul>
-                <li className='bullet-list left-spacing-1'>Corrosion Resistant: Withstands harsh marine environments effectively</li>
+                <li className='bullet-list left-spacing-1'>Corrosion Resistant: Withstands harsh marine environments.</li>
                 <li className='bullet-list left-spacing-1'>Leak-Proof Design: Ensures secure and reliable connections</li>
                 <li className='bullet-list left-spacing-1'>Durable Build: Engineered for long-term heavy-duty use</li>
                 <li className='bullet-list left-spacing-1'>High Pressure: Handles extreme pressure conditions safely</li>

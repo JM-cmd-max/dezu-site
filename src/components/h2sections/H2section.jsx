@@ -12,10 +12,10 @@ export default function H2Sec() {
             <div className="column1 text-column rajdhani-semibold">
               <p className='list-paragraph-1 left-spacing-1'>powerhouse in hydro demolition, expertly engineered to deliver water efficiently to the accessory for precise material removal. Its robust design ensures consistent high-pressure performance, making it an ideal choice for demanding demolition projects. </p>
               <ul>
-                <li className='bullet-list left-spacing-1'>High Efficiency: Powerful, high-pressure water for material removal</li>
-                <li className='bullet-list left-spacing-1'>Durable Construction: Built for demanding, long-lasting reliability</li>
-                <li className='bullet-list left-spacing-1'>Advanced Technology: Features cutting-edge precision and performance</li>
-                <li className='bullet-list left-spacing-1'>Versatile Applications: Suitable for maintenance and demolition tasks</li>
+                <li className='bullet-list left-spacing-1'>High Efficiency: Delivers powerful, high-pressure water.</li>
+                <li className='bullet-list left-spacing-1'>Durable: Ensures long-lasting, reliable performance.</li>
+                <li className='bullet-list left-spacing-1'>Advanced Technology: Delivers precision and performance.</li>
+                <li className='bullet-list left-spacing-1'>Versatile Applications: Ideal for maintenance and demolition.</li>
               </ul>
             </div>
           </div>
@@ -26,10 +26,10 @@ export default function H2Sec() {
       <div className="section-imgtxt2 text-column rajdhani-semibold">
           <p  className='list-paragraph-2 left-spacing-2'>Durable and flexible accessory for manual hydro demolition, ensuring precise water delivery and reliable performance in tough environments. Lightweight and easy to handle, it enhances productivity and maintains safety standards.</p>
           <ul>
-            <li className='bullet-list left-spacing-2'>High Flexibility: Enables precise, efficient water delivery in tasks</li>
-            <li className='bullet-list left-spacing-2'>Lightweight Design: Easy handling, reduces fatigue, boosts productivity</li>
-            <li className='bullet-list left-spacing-2'>User-Friendly: Simplifies operation, accessible for all skill levels.</li>
-            <li className='bullet-list left-spacing-2'>Reliable Performance: Consistently delivers high-pressure water for demolition</li>
+            <li className='bullet-list left-spacing-2'>High Flexibility: Ensures precise, efficient water delivery.</li>
+            <li className='bullet-list left-spacing-2'>Lightweight Design: Eases handling, reduces fatigue.</li>
+            <li className='bullet-list left-spacing-2'>User-Friendly: Simplifies operation for all skill levels.</li>
+            <li className='bullet-list left-spacing-2'>Reliable : Consistently delivers high-pressure water for demolition.</li>
           </ul>
         </div>
         <div className="column image-column spir-barcode">
