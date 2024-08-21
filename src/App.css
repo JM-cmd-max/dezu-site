@@ -1,6 +1,12 @@
-body{
+body {
   /* height: 100vh; */
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 2%, rgb(3, 4, 5) 20%, rgba(35, 49, 58, 1) 80%, rgba(0, 0, 0, 1) 98%);
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 1) 2%,
+    rgb(3, 4, 5) 20%,
+    rgba(35, 49, 58, 1) 80%,
+    rgba(0, 0, 0, 1) 98%
+  );
 }
 
 .App {
@@ -42,3 +48,59 @@ body{
   }
 }
 
+.view {
+  height: 100vh !important;
+}
+
+.learn-more-btn {
+  display: inline-block;
+  margin-left: 0px;
+  margin-top: 20px;
+}
+
+.top-mid {
+  top: 45%;
+}
+
+.dot-navigate {
+  transition: all 0.2s ease-out;
+}
+
+.dot-navigate-active {
+  background-color: red;
+}
+
+.dot-navigate:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+.go-back-btn {
+  border-bottom: 0.5px dotted red;
+}
+
+.go-back-btn:hover {
+  cursor: pointer;
+}
+
+.contact-slide {
+  background: linear-gradient(rgba(194, 194, 214, 0.1), transparent);
+  height: 50%;
+}
+
+.header-text {
+  font-size: 4.5rem;
+  font-family: rajdhani;
+  font-weight: 600;
+  font-style: normal;
+  /* text-transform: uppercase; */
+}
+
+.text-22px {
+  font-size: 22px;
+  font-weight: 200;
+}
+
+.rotate {
+  transform: rotate(0.5turn);
+}

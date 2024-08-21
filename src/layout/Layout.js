@@ -11,7 +11,7 @@ function Layout({ children }) {
   useEffect(() => {
     gsap.registerPlugin(ScrollToPlugin);
     gsap.registerPlugin(ScrollTrigger);
-  });
+  }, []);
   useGSAP(
     () => {
       if (page === "") {
@@ -51,11 +51,6 @@ function Layout({ children }) {
     <div className="layout">
       {children}
       <div className="svg-container-1">
-
-
-
-
-
         <svg
           className="line-element"
           id="Layer_2"
@@ -99,11 +94,6 @@ function Layout({ children }) {
         </svg>
       </div>
       <div className="svg-container-2">
-
-
-
-
-        
         <svg
           className="line-element"
           id="Layer_2"
@@ -147,10 +137,7 @@ function Layout({ children }) {
         </svg>
       </div>
 
-
-
-
-{/* FEATURES
+      {/* FEATURES
       {page === "" ? (
         <nav className="navigation-btn-container">
           <div className="navigation-btn">
