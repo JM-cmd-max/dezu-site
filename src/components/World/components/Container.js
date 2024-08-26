@@ -94,7 +94,7 @@ function Container({ object, setContainer, container, handleTabClick }) {
     >
       <div className="flex flex-col pt-72 px-32 h-full w-[60vw] justify-center items-start">
         <h2
-          className="text-red-600 border-b-inherit go-back-btn mb-4"
+          className="text-cyan-500 border-b-inherit go-back-btn-blue mb-4"
           onClick={handleClick}
         >
           Go back
@@ -121,10 +121,12 @@ function Container({ object, setContainer, container, handleTabClick }) {
         </div>
         <p className="text-white text-22px pt-3">
           Waterjet technology uses high-pressure water for heavy-duty cleaning
-          and precise cutting, ideal for tough jobs like concrete cutting. Our
-          advanced tools, including robots and high-pressure hoses, deliver
-          efficient and environmentally friendly results, perfect for industrial
-          and construction needs.
+          and precise cutting, ideal for tough jobs like concrete cutting.
+          <p style={{ fontSize: "14px", paddingTop: "1rem" }}>
+            Our advanced tools, including robots and high-pressure hoses,
+            deliver efficient and environmentally friendly results, perfect for
+            industrial and construction needs.
+          </p>
         </p>
         <div
           className="contact-us-btn learn-more-btn"

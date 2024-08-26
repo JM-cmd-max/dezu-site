@@ -1329,6 +1329,7 @@ textarea::placeholder {
   font-size: 8px !important;
   align-items: center;
   text-align: left;
+  padding-top: 1rem;
 }
 
 .additional-text {
