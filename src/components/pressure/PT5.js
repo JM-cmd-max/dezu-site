@@ -88,7 +88,7 @@ const PT5 = () => {
         <div>
           <table className="rajdhani-regular">
             <div
-              className="grid-lines-overlay"
+              className="grid-lines-overlay-wj4"
               style={{ zIndex: -2, backgroundImage: `url(${gridLinesImage})`, backgroundSize: '100%', opacity: 0.5 }}
             />
             <tbody>
@@ -128,7 +128,7 @@ const PT5 = () => {
         <div className="product-content">
           <div className="section section-bg-prst3">
             <div className="column image-column">
-              <p className='barcode left-spacing nlb-spacing'>INSTRUMENT FITTINGS</p>
+              <p className='barcode pt-lc-25'>INSTRUMENT FITTINGS</p>
               <img src={require("../../assets/images/pressure/prst5/NWJP.png")} alt="Placeholder" className='p-image-pt5 p-image1-spacing'/>
             </div>
             <div className="column text-column rajdhani-semibold">

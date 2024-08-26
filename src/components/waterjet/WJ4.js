@@ -118,18 +118,18 @@ const WJ4 = () => {
 
 
         <div className="product-content">
-        <div className="section section-bg-prst3">
-        <div className="column image-column">
-        <p className='barcode left-spacing nlb-spacing'>NLB StarJet SRV-7</p>
-          <img src={require("../../assets/images/hydro/hwj4/hw4.png")} alt="Placeholder" className='p-image-sl p-image-sl-spacing'/>
-        </div>
-        <div className="column text-column rajdhani-semibold">
-          <p  className='list-paragraph-1 left-spacing-1'>Powerful prime mover designed to pump water to hydro demolition accessories. Its robust performance and high efficiency ensure reliable water delivery for optimal accessory operation.</p>
-          <ul>
-            <li className='bullet-list left-spacing-1'>High Pressure: Delivers powerful water flow efficiently</li>
-            <li className='bullet-list left-spacing-1'>Reliable Performance: Consistent for demanding tasks.</li>
-            <li className='bullet-list left-spacing-1'>Efficient Pumping: Maximizes water delivery to accessories</li>
-            <li className='bullet-list left-spacing-1'>Versatile Application: Fits various hydro demolition needs.</li>
+        <div className="section section-bg-prst2">
+        <div className="column">
+              <p className='barcode wj-brcd14'>NLB StarJet SRV-7</p>
+              <img src={require("../../assets/images/hydro/hwj4/hw4.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
+            </div>
+            <div className="column1 text-column rajdhani-semibold">
+              <p className='list-paragraph-1'>Powerful prime mover designed to pump water to hydro demolition accessories. Its robust performance and high efficiency ensure reliable water delivery for optimal accessory operation.</p>
+              <ul>
+            <li className='bullet-list'>High Pressure: Delivers powerful water flow efficiently</li>
+            <li className='bullet-list'>Reliable Performance: Consistent for demanding tasks.</li>
+            <li className='bullet-list'>Efficient Pumping: Maximizes water delivery to accessories</li>
+            <li className='bullet-list'>Versatile Application: Fits various hydro demolition needs.</li>
           </ul>
         </div>
       </div>

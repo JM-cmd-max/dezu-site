@@ -90,7 +90,7 @@ const PT7 = () => {
         <div>
           <table className="rajdhani-regular">
             <div
-              className="grid-lines-overlay"
+              className="grid-lines-overlay-wj4"
               style={{ zIndex: -2, backgroundImage: `url(${gridLinesImage})`, backgroundSize: '100%', opacity: 0.5 }}
             />
             <tbody>
@@ -130,7 +130,7 @@ const PT7 = () => {
         <div className="product-content">
           <div className="section section-bg-prst3">
             <div className="column image-column">
-              <p className='barcode left-spacing nlb-spacing'>PSA OXYGEN PLANT</p>
+              <p className='barcode pt-lc-27'>PSA OXYGEN PLANT</p>
               <img src={require("../../assets/images/pressure/prst7/PSOP.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
             </div>
             <div className="column text-column rajdhani-semibold">

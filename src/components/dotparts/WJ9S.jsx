@@ -40,7 +40,7 @@ export default function WJ9S() {
                 "Central Positioning: Ensures nozzle is centered in tank",
                 "Even Coverage: Uniform cleaning across surfaces.",
                 "Precise Alignment: Maintains accurate nozzle placement",
-                "Enhanced Effectiveness: Improves cleaning thoroughness and consistency.",
+                "Effectiveness: Boosts cleaning consistency.",
             ]
         },
     ];
@@ -83,7 +83,7 @@ export default function WJ9S() {
                     </div>
                 </div>
                 <div className="column text-column rajdhani-semibold">
-                    <p className='list-paragraph-3'>
+                    <p className='list-dotparts-wj9'>
                         {slideTexts[currentSlide].paragraph.split('\n').map((text, index) => (
                             <React.Fragment key={index}>
                                 {text}
@@ -93,7 +93,7 @@ export default function WJ9S() {
                     </p>
                     <ul>
                         {slideTexts[currentSlide].listItems.map((item, index) => (
-                            <li key={index} className='bullet-list left-spacing-3'>{item}</li>
+                            <li key={index} className='bullet-list-wj9s'>{item}</li>
                         ))}
                     </ul>
                 </div>

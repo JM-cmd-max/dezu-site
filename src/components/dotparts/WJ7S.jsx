@@ -37,10 +37,10 @@ export default function WJ7S() {
             conjet: "STONEAGE CENTRALIZER",
             paragraph: "Positions the nozzle centrally inside the pipe, ensuring even coverage of the internal surface. Its precise design improves cleaning efficiency and effectiveness by maintaining consistent nozzle placement.",
             listItems: [
-                "Centralized Positioning: Ensures even nozzle coverage inside pipe",
+                "Centralized: Ensures even nozzle coverage inside ",
                 "Improved Coverage: Uniform cleaning on surfaces.",
                 "Precise Design: Maintains consistent nozzle placement",
-                "Enhanced Efficiency: Optimizes cleaning effectiveness and speed",
+                "Efficiency: Optimizes cleaning effectiveness and speed",
             ]
         },
     ];
@@ -83,7 +83,7 @@ export default function WJ7S() {
                     </div>
                 </div>
                 <div className="column text-column rajdhani-semibold">
-                    <p className='list-paragraph-3'>
+                    <p className='list-dotparts-wj7'>
                         {slideTexts[currentSlide].paragraph.split('\n').map((text, index) => (
                             <React.Fragment key={index}>
                                 {text}
@@ -93,7 +93,7 @@ export default function WJ7S() {
                     </p>
                     <ul>
                         {slideTexts[currentSlide].listItems.map((item, index) => (
-                            <li key={index} className='bullet-list left-spacing-3'>{item}</li>
+                            <li key={index} className='bullet-list-wj7s'>{item}</li>
                         ))}
                     </ul>
                 </div>

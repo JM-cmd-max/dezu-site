@@ -88,7 +88,7 @@ const EV5 = () => {
         <div>
           <table className="rajdhani-regular">
             <div
-              className="grid-lines-overlay"
+              className="grid-lines-overlay-wj4"
               style={{ zIndex: -2, backgroundImage: `url(${gridLinesImage})`, backgroundSize: '100%', opacity: 0.5 }}
             />
             <tbody>
@@ -128,16 +128,16 @@ const EV5 = () => {
         <div className="product-content">
           <div className="section section-bg-prst3">
             <div className="column image-column">
-              <p className='barcode left-spacing nlb-spacing'>Desalination Systems</p>
+              <p className='barcode bls-ev45'>Desalination Systems</p>
               <img src={require("../../assets/images/environmental/envr5/ev51.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
             </div>
             <div className="column text-column rajdhani-semibold">
               <p className='list-paragraph-1 left-spacing-1'>Offer efficient and high-capacity desalination of water, effectively removing salt and impurities with energy-efficient technology. Their compact design and automated operation ensure ease of use and minimal maintenance, making them suitable for diverse installation environments.</p>
               <ul>
-                <li className='bullet-list left-spacing-1'>Efficient Desalination: Removes salt and impurities effectively</li>
-                <li className='bullet-list left-spacing-1'>High Capacity: Handles large volumes of water efficiently</li>
-                <li className='bullet-list left-spacing-1'>Energy Efficient: Lowers operational costs with minimal energy use</li>
-                <li className='bullet-list left-spacing-1'>Compact Design: Fits in various installation spaces easily</li>
+                <li className='bullet-list-ev45'>Efficient Desalination: Removes salt and impurities effectively</li>
+                <li className='bullet-list-ev45'>High Capacity: Handles large volumes of water efficiently</li>
+                <li className='bullet-list-ev45'>Energy Efficient: Lowers operational costs with minimal energy use</li>
+                <li className='bullet-list-ev45'>Compact Design: Fits in various installation spaces easily</li>
               </ul>
             </div>
           </div>

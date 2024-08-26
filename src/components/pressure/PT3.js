@@ -88,7 +88,7 @@ const PT3 = () => {
         <div>
           <table className="rajdhani-regular">
             <div
-              className="grid-lines-overlay"
+              className="grid-lines-overlay-wj4"
               style={{ zIndex: -2, backgroundImage: `url(${gridLinesImage})`, backgroundSize: '100%', opacity: 0.5 }}
             />
             <tbody>
@@ -128,7 +128,7 @@ const PT3 = () => {
         <div className="product-content">
           <div className="section section-bg-prst3">
             <div className="column">
-              <p className='barcode left-spacing nlb-spacing'>HASKEL BUTECH VALVES</p>
+              <p className='barcode pt3-brcd-s1'>HASKEL BUTECH VALVES</p>
               <img src={require("../../assets/images/pressure/prst3/HBV.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
             </div>
             <div className="column text-column rajdhani-semibold">

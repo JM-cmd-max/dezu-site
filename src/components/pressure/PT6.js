@@ -88,7 +88,7 @@ const PT6 = () => {
         <div>
           <table className="rajdhani-regular">
             <div
-              className="grid-lines-overlay"
+              className="grid-lines-overlay-pt"
               style={{ zIndex: -2, backgroundImage: `url(${gridLinesImage})`, backgroundSize: '100%', opacity: 0.5 }}
             />
             <tbody>
@@ -128,7 +128,7 @@ const PT6 = () => {
         <div className="product-content">
           <div className="section section-bg-prst1">
             <div className="column image-column">
-              <p className='barcode left-spacing nlb-spacing'>AIR MANIFOLDS</p>
+              <p className='barcode pt-lc-26'>AIR MANIFOLDS</p>
               <img src={require("../../assets/images/pressure/prst6/AM.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
             </div>
             <div className="column text-column rajdhani-semibold">
@@ -145,12 +145,12 @@ const PT6 = () => {
           <div className="divider"></div>
           <div className="section section-bg-prst2">
             <div className="column text-column rajdhani-semibold">
-              <p className='list-paragraph-2 left-spacing-2'>Offer durable and secure storage solutions for sensitive instruments. With a modular design and temperature control features, these cabinets ensure optimal protection and easy access in various industrial settings.</p>
+              <p className='list-paragraph-2'>Offer durable and secure storage solutions for sensitive instruments. With a modular design and temperature control features, these cabinets ensure optimal protection and easy access in various industrial settings.</p>
               <ul>
-                <li className='bullet-list left-spacing-2'>Robust Construction: Ensures durability in harsh environments</li>
-                <li className='bullet-list left-spacing-2'>Secure Storage: Locks instruments for protection.</li>
-                <li className='bullet-list left-spacing-2'>Modular Design: Allows flexible and customizable setups</li>
-                <li className='bullet-list left-spacing-2'>Temperature Control: Keeps instruments at optimal conditions.</li>
+                <li className='bullet-list left-spacing-pt26'>Robust Construction: Ensures durability in harsh environments</li>
+                <li className='bullet-list left-spacing-pt26'>Secure Storage: Locks instruments for protection.</li>
+                <li className='bullet-list left-spacing-pt26'>Modular Design: Allows flexible and customizable setups</li>
+                <li className='bullet-list left-spacing-pt26'>Temperature Control: Keeps instruments at optimal conditions.</li>
               </ul>
             </div>
             <div className="column image-column spir-barcode">

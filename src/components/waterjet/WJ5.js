@@ -128,16 +128,16 @@ const WJ5 = () => {
       <div className="product-content">
       <div className="section section-bg-prst3">
             <div className="column image-column">
-              <p className='barcode left-spacing nlb-spacing'>VertiDrive V700: HP Nozzle</p>
+              <p className='barcode wj-brcd15'>VertiDrive V700: HP Nozzle</p>
               <img src={require("../../assets/images/hydro/hwj5/HP nozzle.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
             </div>
             <div className="column text-column rajdhani-semibold">
               <p className='list-paragraph-1 left-spacing-1'>Designed for robotic high-pressure cleaning, allowing precise control via an operator's controller. Its magnetic crawling capability and high-pressure nozzle ensure effective cleaning on vertical surfaces.</p>
               <ul>
-                <li className='bullet-list left-spacing-1'>HP Nozzle: Delivers high-pressure cleaning power</li>
-                <li className='bullet-list left-spacing-1'>Remote Control: Precise operation via controller.</li>
-                <li className='bullet-list left-spacing-1'>Durable Construction: Built for challenging cleaning tasks</li>
-                <li className='bullet-list left-spacing-1'>Efficient Performance: Effective on various vertical surfaces</li>
+                <li className='bullet-list left-spacing-wj15'>HP Nozzle: Delivers high-pressure cleaning power</li>
+                <li className='bullet-list left-spacing-wj15'>Remote Control: Precise operation via controller.</li>
+                <li className='bullet-list left-spacing-wj15'>Durable Construction: Built for challenging cleaning tasks</li>
+                <li className='bullet-list left-spacing-wj15'>Efficient Performance: Effective on various vertical surfaces</li>
               </ul>
             </div>
           </div>

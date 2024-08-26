@@ -89,7 +89,7 @@ const EV2 = () => {
         <div>
           <table className="rajdhani-regular">
             <div
-              className="grid-lines-overlay"
+              className="grid-lines-overlay-pt"
               style={{ zIndex: -2, backgroundImage: `url(${gridLinesImage})`, backgroundSize: '100%', opacity: 0.5 }}
             />
             <tbody>
@@ -129,16 +129,16 @@ const EV2 = () => {
         <div className="product-content">
         <div className="section section-ct1">
         <div className="column image-column">
-        <p className='barcode left-spacing nlb-spacing'>Seal Assemblies</p>
+        <p className='barcode bls-ev41'>Seal Assemblies</p>
           <img src={require("../../assets/images/environmental/envr1/ev11.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
         </div>
         <div className="column text-column rajdhani-semibold">
-          <p  className='list-paragraph-1 left-spacing-1'>Designed to offer a secure, leak-proof seal while being easy to install and lightweight for improved maneuverability.</p>
+          <p  className='list-paragraph-1'>Designed to offer a secure, leak-proof seal while being easy to install and lightweight for improved maneuverability.</p>
           <ul>
-            <li className='bullet-list left-spacing-1'>Lightweight Construction: Reduces operational strain and enhances maneuverability</li>
-            <li className='bullet-list left-spacing-1'>Effective Sealing: Provides a secure, leak-proof seal</li>
-            <li className='bullet-list left-spacing-1'>Durable Material: Resists wear and harsh environmental conditions</li>
-            <li className='bullet-list left-spacing-1'>Cost-Effective: Offers reliable sealing at an affordable price</li>
+            <li className='bullet-list-ev41'>Lightweight : Reduces operational strain and enhances maneuverability</li>
+            <li className='bullet-list-ev41'>Sealing: Provides a secure, leak-proof seal</li>
+            <li className='bullet-list-ev41'>Durable : Resists harsh environmental conditions</li>
+            <li className='bullet-list-ev41'>Cost-Effective: Reliable sealing at an affordable price</li>
           </ul>
         </div>
       </div>

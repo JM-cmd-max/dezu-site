@@ -15,13 +15,13 @@ export default function WJ8S() {
     // Updated slideTexts array with only two sets of text
     const slideTexts = [
         {
-            conjet: "STONEAGE BJV",
-            paragraph: "Accessory designed to clean the internal surfaces of pipes, effectively removing debris and buildup. Its robust design ensures thorough cleaning and efficient operation within various pipe sizes.",
+            conjet: "StoneAge Warthog",
+            paragraph: "Accessory designed for internal pipe cleaning, effectively removing debris and buildup. Its robust design ensures thorough cleaning and efficient operation in various pipe sizes.",
             listItems: [
-                "Internal Cleaning: Removes debris from pipe surfaces",
-                "Versatile Application: Works with different pipe sizes",
-                "Efficient Operation: Boosts speed and effectiveness.",
                 "User-Friendly: Simplifies operation and maintenance",
+                "Durable Design: Built for demanding cleaning tasks",
+                "Powerful Operation: Ensures thorough cleaning.",
+                "Efficient Performance: Enhances speed and efficiency.",
             ]
         },
         {
@@ -74,7 +74,7 @@ export default function WJ8S() {
                     </div>
                 </div>
                 <div className="column text-column rajdhani-semibold">
-                    <p className='list-paragraph-3'>
+                    <p className='list-dotparts-wj8'>
                         {slideTexts[currentSlide].paragraph.split('\n').map((text, index) => (
                             <React.Fragment key={index}>
                                 {text}
@@ -84,7 +84,7 @@ export default function WJ8S() {
                     </p>
                     <ul>
                         {slideTexts[currentSlide].listItems.map((item, index) => (
-                            <li key={index} className='bullet-list left-spacing-3'>{item}</li>
+                            <li key={index} className='bullet-list-wj8s'>{item}</li>
                         ))}
                     </ul>
                 </div>

@@ -28,10 +28,10 @@ export default function WJ11S() {
             conjet: "NLB NCG24-535 HAND LANCE",
             paragraph: "Premium tool for semi-automated hydro demolition, offering enhanced precision and efficiency with its advanced controller. Its robust construction, ergonomic design, and high-pressure capabilities make it ideal for demanding industrial tasks.",
             listItems: [
-                "Ergonomic Design: Reduces fatigue and enhances comfort during use",
-                "High-Pressure Capability: Delivers powerful jets for effective removal.",
-                "Durable : Built to withstand rigorous industrial environments.",
-                "Semi-Automated Control: Offers precise control, boosting efficiency.",
+                "Ergonomic: Reduces fatigue and enhances comfort during use",
+                "High-Pressure: Delivers powerful jets for effective removal.",
+                "Durable : Can withstand rigorous industrial environments.",
+                "Semi-Automated: Offers precise control, boosting efficiency.",
             ]
         }
     ];
@@ -74,7 +74,7 @@ export default function WJ11S() {
                     </div>
                 </div>
                 <div className="column text-column rajdhani-semibold">
-                    <p className='list-paragraph-3'>
+                    <p className='list-dotparts-wj11'>
                         {slideTexts[currentSlide].paragraph.split('\n').map((text, index) => (
                             <React.Fragment key={index}>
                                 {text}
@@ -84,7 +84,7 @@ export default function WJ11S() {
                     </p>
                     <ul>
                         {slideTexts[currentSlide].listItems.map((item, index) => (
-                            <li key={index} className='bullet-list left-spacing-3'>{item}</li>
+                            <li key={index} className='bullet-list-wj11s'>{item}</li>
                         ))}
                     </ul>
                 </div>
