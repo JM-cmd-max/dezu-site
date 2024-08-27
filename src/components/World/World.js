@@ -361,7 +361,12 @@ function World() {
       <img
         alt="random bar graph"
         className="absolute bar-graph"
-        style={{ width: "15rem", height: "3rem", opacity: "0.3" }}
+        style={{
+          width: "13.5rem",
+          height: "3rem",
+          opacity: "0.3",
+          filter: "grayscale(100%)",
+        }}
         src={barGraph}
       />
 
