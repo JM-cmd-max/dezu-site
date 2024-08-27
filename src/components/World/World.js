@@ -10,10 +10,19 @@ import PageContext from "../../context/PageContext";
 import ColorContext from "../../context/ColorContext";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
-import barGraph from "../../assets/images/bar.gif";
 import lineGraph from "../../assets/images/line.gif";
+import MouseTracker from "./components/MouseTracker";
+import Tilt from "react-parallax-tilt";
+import barGraph from "../../assets/images/bar.gif";
+import circle1 from "../../assets/images/circle1.png";
+import circle2 from "../../assets/images/circle2.png";
+
+import Overlay from "./components/Overlay";
 
 function World() {
+  const coordsRef = useRef({ x: 0, y: 0 });
+  let x = 0;
+  let y = 0;
   const navigate = useNavigate();
   const logo = useRef();
   const bridge = useRef();
@@ -28,11 +37,14 @@ function World() {
   const [pressureCon, setPressureCon] = useState(false);
   const [contactCon, setContactCon] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
+
+  const [dummyState, setDummyState] = useState(false);
   // const [hovered, setHovered] = useState(true);
 
   const { color, setColor } = useContext(ColorContext);
   const { page, setPage, activeTab, setActiveTab } = useContext(PageContext);
   const tl = gsap.timeline({ paused: true, reversed: true });
+  const tl2 = gsap.timeline({ paused: true, reversed: true });
 
   const handleTabClick = (tabName, color, bgColor) => {
     setColor({ color, bgColor });
@@ -52,9 +64,15 @@ function World() {
   // };
   console.log(`PARAMS: ${params}`);
 
+  const [coords, setCoords] = useState({ x: 0, y: 0 });
+
+  function updateCoordinates(e) {
+    setCoords({ x: e.pageX, y: e.pageY });
+  }
+
   function handleTick(e) {
-    console.log(`X: ${e.clientX}`);
-    console.log(`Y: ${e.clientY}`);
+    console.log(`X: ${x}`);
+    console.log(`Y: ${y}`);
   }
 
   // useEffect(() => {
@@ -65,6 +83,11 @@ function World() {
   function handleStart() {
     console.log(logo);
     logo.current.emitEvent("mouseDown");
+    tl2.to(document.querySelector(".dots-container"), {
+      opacity: 1,
+    });
+    tl2.play();
+
     tl.to(document.querySelector("#start"), {
       opacity: "0",
       duration: 0.1,
@@ -206,6 +229,30 @@ function World() {
     setIsLoading(false);
   }
 
+  // function onCoordinatesUpdate(e) {
+  //   let x = e.pageX.toFixed(3);
+  //   let y = e.pageY.toFixed(3);
+  //   console.log(`${x}, ${y}`);
+  //   setCoords({ x: x, y: y });
+  // }
+
+  useGSAP(() => {
+    gsap.to(".circles", {
+      duration: 2,
+      rotation: "+=360cw",
+      repeat: -1,
+      ease: "none",
+    });
+  });
+  useGSAP(() => {
+    gsap.to(".circles2", {
+      duration: 5,
+      rotation: "+=360cw",
+      repeat: -1,
+      ease: "none",
+    });
+  });
+
   useGSAP(() => {
     gsap.fromTo(
       "#start",
@@ -222,48 +269,98 @@ function World() {
           <p style={{ color: "white" }}>Loading...</p>
         </div>
       )}
+      <span>
+        <MouseTracker />
+        <img
+          alt="random bar graph"
+          className="absolute bar-graph"
+          style={{
+            width: "13.5rem",
+            height: "3rem",
+            opacity: "0.3",
+            filter: "grayscale(100%)",
+          }}
+          src={barGraph}
+        />
+        <img
+          alt="random bar graph"
+          className="absolute circles"
+          style={{
+            height: "2.5rem",
+            width: "2.5rem",
+            opacity: "0.15",
+            filter: "grayscale(100%)",
+          }}
+          src={circle1}
+        />
+        <img
+          alt="random bar graph"
+          className="absolute circles2"
+          style={{
+            height: "5rem",
+            width: "5rem",
+            opacity: "0.15",
+            filter: "grayscale(100%)",
+          }}
+          src={circle2}
+        />
 
-      <svg
-        className="absolute z-100 top-10 line-effect"
-        id="Layer_2"
-        xmlns="http://www.w3.org/2000/svg"
-        width="1730"
-        height="37.858"
-        viewBox="0 0 1730 37.858"
-      >
-        <g id="Layer_3">
-          <polyline
-            points="1730 36.858 1494 36.858 1461.952 4.811 273.857 1.001 238 36.858 0 36.858"
-            fill="none"
-            stroke="#ffffff33"
-            stroke-miterlimit="10"
-            stroke-width="2"
-          />
-        </g>
-      </svg>
-      <svg
-        className="absolute z-100 bottom-10 line-effect rotate"
-        id="Layer_2"
-        xmlns="http://www.w3.org/2000/svg"
-        width="1730"
-        height="37.858"
-        viewBox="0 0 1730 37.858"
-      >
-        <g id="Layer_3">
-          <polyline
-            points="1730 36.858 1494 36.858 1461.952 4.811 273.857 1.001 238 36.858 0 36.858"
-            fill="none"
-            stroke="#ffffff33"
-            stroke-miterlimit="10"
-            stroke-width="2"
-          />
-        </g>
-      </svg>
+        <span className="rajdhani-semibold absolute dezu-header">
+          DEZU CORPORATION
+        </span>
+        <span>
+          <div className="overlay-for-world absolute">
+            <svg
+              className="absolute z-50 top-10 line-effect"
+              id="Layer_2"
+              xmlns="http://www.w3.org/2000/svg"
+              width="1730"
+              height="37.858"
+              viewBox="0 0 1730 37.858"
+            >
+              <g id="Layer_3">
+                <polyline
+                  points="1730 36.858 1494 36.858 1461.952 4.811 273.857 1.001 238 36.858 0 36.858"
+                  fill="none"
+                  stroke="#ffffff33"
+                  stroke-miterlimit="10"
+                  stroke-width="2"
+                />
+              </g>
+            </svg>
+            <svg
+              className="absolute z-100 bottom-10 line-effect rotate"
+              id="Layer_2"
+              xmlns="http://www.w3.org/2000/svg"
+              width="1730"
+              height="37.858"
+              viewBox="0 0 1730 37.858"
+            >
+              <g id="Layer_3">
+                <polyline
+                  points="1730 36.858 1494 36.858 1461.952 4.811 273.857 1.001 238 36.858 0 36.858"
+                  fill="none"
+                  stroke="#ffffff33"
+                  stroke-miterlimit="10"
+                  stroke-width="2"
+                />
+              </g>
+            </svg>
+          </div>
+        </span>
+      </span>
+      {/* 
+      <MouseTracker coords={coords} updateCoordinates={updateCoordinates} /> */}
 
       <div
         id="start"
         className=" click-to-start-btn rajdhani-semibold"
-        onClick={handleStart}
+        onClick={() => {
+          if (logo.current == null) {
+            return;
+          }
+          handleStart();
+        }}
       >
         CLICK TO START
       </div>
@@ -315,7 +412,7 @@ function World() {
         style={{ backgroundColor: "red", width: "200px", height: "200px" }}
       ></div> */}
 
-      <div>
+      <div className="dots-container">
         <div className="z-50 absolute flex flex-col gap-3 left-8 top-mid">
           <div
             id="water-jet"
@@ -358,23 +455,12 @@ function World() {
           ></div>
         </div>
       </div>
-      <img
-        alt="random bar graph"
-        className="absolute bar-graph"
-        style={{
-          width: "13.5rem",
-          height: "3rem",
-          opacity: "0.3",
-          filter: "grayscale(100%)",
-        }}
-        src={barGraph}
-      />
 
       {!isLoading ? (
         <Spline
           onLoad={onLoad}
-          className="view"
-          scene="https://prod.spline.design/Ndegy5iUCaODz5H6/scene.splinecode"
+          className="view z-0"
+          scene="https://prod.spline.design/cw4bh5C3-gsnWLTf/scene.splinecode"
           onMouseDown={onMouseDown}
           onClick={handleTick}
         />
