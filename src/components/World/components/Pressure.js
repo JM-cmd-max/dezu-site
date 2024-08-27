@@ -121,14 +121,14 @@ function Pressure({ object, setContainer, container, handleTabClick }) {
           </div>
         </div>
         <p className="text-white text-22px pt-3">
-          Elegant cleaning lorem ipsum dolor sclere. Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est
-          laborum.
+          Pressure technology specializes in managing high pressures in pipes
+          and hoses, with a focus on valves, fittings, and instruments for
+          precise pressure data monitoring.
+          <p style={{ fontSize: "14px", paddingTop: "1rem" }}>
+            It's essential in environments like offshore rigs, LNG tanks,
+            factories, and power plants, ensuring safety and reliability in
+            demanding conditions.
+          </p>
         </p>
         <div
           className="contact-us-btn learn-more-btn"

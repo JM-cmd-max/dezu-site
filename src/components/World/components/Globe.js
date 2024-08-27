@@ -98,7 +98,7 @@ function Globe({ object, setContainer, container, handleTabClick }) {
     >
       <div className="flex flex-col pt-72 px-32 h-full w-[70vw] justify-center items-start">
         <h2
-          className="text-red-600 border-b-inherit go-back-btn mb-4"
+          className="text-green-600 border-b go-back-btn-green mb-4"
           onClick={handleClick}
         >
           Go back
@@ -124,14 +124,15 @@ function Globe({ object, setContainer, container, handleTabClick }) {
           </div>
         </div>
         <p className="text-white text-22px pt-3">
-          Elegant cleaning lorem ipsum dolor sclere. Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est
-          laborum.
+          Environment technology focuses on sustainable solutions for various
+          environmental challenges.
+          <p style={{ fontSize: "14px", paddingTop: "1rem" }}>
+            We specialize in handling floating roof tanks for gas storage, noise
+            pollution control in loud machine areas, and water treatment systems
+            like Reverse Osmosis, Wastewater treatment, and Desalination. These
+            technologies help protect the environment by managing gases,
+            reducing noise, and ensuring access to clean water.
+          </p>
         </p>
         <div
           className="contact-us-btn learn-more-btn"

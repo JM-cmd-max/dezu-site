@@ -69,6 +69,7 @@ function Contact({ object, setContainer, container }) {
   }
   const { color } = useContext(ColorContext);
   const { elRef, cursorRef } = useConsoleText(["CONTACT"], ["#fff"], "text");
+
   function handleClick() {
     object.current.emitEventReverse("mouseDown");
     // object.current.emitEvent("mouseUp");
