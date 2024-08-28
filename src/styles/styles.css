@@ -1861,11 +1861,12 @@ textarea::placeholder {
 .line-3 {
   position: absolute;
   width: 1px;
-  height: 140rem;
+  height: 100%;
   top: 0;
   background: rgba(255, 255, 255, 0.1);
   overflow: hidden;
 }
+
 
 .line-1::after,
 .line-2::after,
