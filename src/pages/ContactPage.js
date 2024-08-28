@@ -1,7 +1,7 @@
-import React, { useEffect, useRef, useState, useContext } from 'react';
+import React, { useEffect, useRef, useState, useContext } from "react";
 import MenuIcon from "../components/MenuIcon";
-import { useNavigate } from 'react-router-dom';
-import ColorContext from '../context/ColorContext';
+import { useNavigate } from "react-router-dom";
+import ColorContext from "../context/ColorContext";
 
 function useConsoleText(words, colors, id) {
   const elRef = useRef(null);
@@ -26,7 +26,7 @@ function useConsoleText(words, colors, id) {
           const usedWord = wordsRef.shift();
           wordsRef.push(usedWord);
           x = 1;
-          target.setAttribute('style', 'color:' + colorsRef[0]);
+          target.setAttribute("style", "color:" + colorsRef[0]);
           letterCount += x;
           waiting = false;
         }, 1000);
@@ -52,7 +52,7 @@ function useConsoleText(words, colors, id) {
     }, 120);
 
     const blinkCursor = () => {
-      cursor.classList.toggle('hidden');
+      cursor.classList.toggle("hidden");
     };
 
     const cursorInterval = setInterval(blinkCursor, 400);
@@ -68,34 +68,40 @@ function useConsoleText(words, colors, id) {
 
 export default function ContactPage() {
   const { color } = useContext(ColorContext);
-  const { elRef, cursorRef } = useConsoleText(
-    ['CONTACT'],
-    ['#fff'],
-    'text'
-  );
+  const { elRef, cursorRef } = useConsoleText(["CONTACT"], ["#fff"], "text");
 
   const navigate = useNavigate();
 
   const handleContactClick = () => {
-    navigate('/contact');
+    navigate("/contact");
   };
 
   const handleProductClick = () => {
-    navigate('/product');
+    navigate("/product");
   };
 
   return (
-    <div className='contact-bg'>
+    <div className="contact-bg">
       <MenuIcon />
-      <div className='vertical-line left-line'></div>
-      <div className='vertical-line right-line'></div>
-      <div className='contact-container'>
-        <div className='console-container' style={{ fontFamily: "rajdhani", fontWeight: "500", color: color.color,}}>
-          <span id='text' ref={elRef}></span>
-          <div className='console-underscore' id='console' ref={cursorRef}>&#95;</div>
+      <div className="vertical-line left-line"></div>
+      <div className="vertical-line right-line"></div>
+      <div className="contact-container">
+        <div
+          className="console-container"
+          style={{
+            fontFamily: "rajdhani",
+            fontWeight: "500",
+            color: color.color,
+          }}
+        >
+          <span id="text" ref={elRef}></span>
+          <div className="console-underscore" id="console" ref={cursorRef}>
+            &#95;
+          </div>
         </div>
         <p className="rajdhani-medium-contact contact-detail">
-          Whether new partners or interested parties - we look forward to hearing from you and <br /> exchanging ideas together.
+          Whether new partners or interested parties - we look forward to
+          hearing from you and <br /> exchanging ideas together.
         </p>
 
         {/* Two Containers in a Row */}
@@ -103,26 +109,54 @@ export default function ContactPage() {
           {/* Left Column - Centered Text */}
           <div className="contact-left-column">
             <p className="centered-text rajdhani-medium-contact">
-              ENTER your contact details here and We will get back to you as soon as possible.
+              ENTER your contact details here and We will get back to you as
+              soon as possible.
             </p>
           </div>
 
           {/* Right Column - Form */}
           <form className="contact-form">
             <div className="form-group">
-              <input className="rajdhani-medium-contact form-text" type="text" id="name" name="name" placeholder="Name*" />
+              <input
+                className="rajdhani-medium-contact form-text"
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Name*"
+              />
             </div>
             <div className="form-group">
-              <input className="rajdhani-medium-contact form-text" type="email" id="email" name="email" placeholder="Email*" />
+              <input
+                className="rajdhani-medium-contact form-text"
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Email*"
+              />
             </div>
             <div className="form-group">
-              <input className="rajdhani-medium-contact form-text" type="tel" id="phone" name="phone" placeholder="Phone Number*" />
+              <input
+                className="rajdhani-medium-contact form-text"
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="Phone Number*"
+              />
             </div>
             <div className="form-group">
-              <input className="rajdhani-medium-contact form-text" type="text" id="concern" name="concern" placeholder="Concern*" />
+              <input
+                className="rajdhani-medium-contact form-text"
+                type="text"
+                id="concern"
+                name="concern"
+                placeholder="Concern*"
+              />
             </div>
             <div className="form-group additional-text-row rajdhani-medium-contact">
-              <p className="additional-text">*By submitting, the data provided will be used to perform your request according to the Privacy Policy.</p>
+              <p className="additional-text">
+                *By submitting, the data provided will be used to perform your
+                request according to the Privacy Policy.
+              </p>
               <button
                 className="submit-button rajdhani-medium-contact"
                 style={{ backgroundColor: color.color }}
@@ -131,7 +165,7 @@ export default function ContactPage() {
                   e.currentTarget.style.boxShadow = `0px 0px 41px 0px ${color.color}`;
                 }}
                 onMouseOut={(e) => {
-                  e.currentTarget.style.boxShadow = 'none';
+                  e.currentTarget.style.boxShadow = "none";
                 }}
               >
                 Submit
