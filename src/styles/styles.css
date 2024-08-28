@@ -604,13 +604,8 @@ img {
   top: 100px !important;
   left: 100px !important;
   background-size: 100%;
-  opacity: 4% !important;
-  mask-image: radial-gradient(
-    circle,
-    rgba(0, 0, 0, 1) 50%,
-    rgba(0, 0, 0, 0.5) 70%,
-    rgba(0, 0, 0, 0) 100%
-  );
+  opacity: 5% !important;
+  mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0.5) 70%, rgba(0, 0, 0, 0) 100%);
   mask-size: cover;
 }
 
@@ -2523,6 +2518,5 @@ text-transform: uppercase;
 .left-spacing-pt26{
   margin-left: 20px;
 }
-
 
 
