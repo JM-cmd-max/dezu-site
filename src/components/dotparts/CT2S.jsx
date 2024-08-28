@@ -67,7 +67,7 @@ export default function CT2S() {
                     </p>
                     <ul>
                         {slideTexts[currentSlide].listItems.map((item, index) => (
-                            <li key={index} className='bullet-list '>{item}</li>
+                            <li key={index} className='bullet-list-ct2s '>{item}</li>
                         ))}
                     </ul>
                 </div>

@@ -293,14 +293,55 @@
   gap: 100px;
 }
 
+/* CARDS HOVER & SCANNER EFFECT */
 .card {
-  height: 350px;
-  width: 300px;
-    display: inline-block; /* Ensures the image-container takes only the space required */
-    overflow: hidden; /* Prevents any part of the image from overflowing outside the container */
-  
-    display: block; /* Ensures there are no gaps below the image */
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 334px;
+  width: 299px;
+  position: relative;
+  overflow: hidden;
+  display: block;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.1) translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.card:hover::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 100%; /* Makes the line as wide as the card */
+  height: 2px; /* Thickness of the line */
+  background-color: rgba(255, 255, 255, 0.8); /* Color of the line */
+  -webkit-box-shadow:0px 0px 79px 36px rgba(255,255,255,0.5);
+  -moz-box-shadow: 0px 0px 79px 36px rgba(255,255,255,0.5);
+  box-shadow: 0px 0px 79px 36px rgba(255,255,255,0.5);
+  animation: scanUpDownOnce 0.5s linear 1 forwards; /* One cycle, retains last frame */
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0; /* Initially hidden */
+  background-color: rgba(255, 255, 255, 0.8);
+  transition: height 0s; /* Ensure no line is visible until hovered */
+}
+
+@keyframes scanUpDownOnce {
+  0% {
+    top: 0; /* Start at the top of the card */
+  }
+  50% {
+    top: calc(100% - 2px); /* Move to the bottom of the card */
+  }
+  100% {
+    top: 0; /* Move back to the top of the card */
+  }
 }
 
 
@@ -597,16 +638,15 @@ img {
 
 
 
-/* GRID LINES */
+/* GRID LINES | WJ: 1,2,3,5,6,7,8,9,10,11,12 | PT4*/
 .grid-lines-overlay {
   width: 90%;
-  height: 20%;
-  /* z-index: -2; */
+  height: 21%;
   position: absolute;
   top: 100px !important;
   left: 100px !important;
   background-size: 100%;
-  opacity: 4% !important;
+  opacity: 5% !important;
   mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0.5) 70%, rgba(0, 0, 0, 0) 100%);
   mask-size: cover;
 }
@@ -615,7 +655,7 @@ img {
 
 
 
-/* GRID LINES | WJ4*/
+/* GRID LINES | WJ4 | PT: 3,5,7 | CT4 | EV: 2,3,4,5 */
 .grid-lines-overlay-wj4 {
   width: 90%;
   height: 32%;
@@ -628,6 +668,53 @@ img {
   mask-size: cover;
 }
 
+
+
+
+
+/* GRID LINES | PT: 1,2,6 | EV1 */
+.grid-lines-overlay-pt {
+  width: 90%;
+  height: 28%;
+  position: absolute;
+  top: 100px !important;
+  left: 100px !important;
+  background-size: 100%;
+  opacity: 5% !important;
+  mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0.5) 70%, rgba(0, 0, 0, 0) 100%);
+  mask-size: cover;
+}
+
+
+
+/* GRID LINES | CT: 1,2 */
+.grid-lines-overlay-ct {
+  width: 90%;
+  height: 19%;
+  position: absolute;
+  top: 100px !important;
+  left: 100px !important;
+  background-size: 100%;
+  opacity: 5% !important;
+  mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0.5) 70%, rgba(0, 0, 0, 0) 100%);
+  mask-size: cover;
+}
+
+
+
+/* GRID LINES | CT3 */
+.grid-lines-overlay-ct3 {
+  width: 90%;
+  height: 17%;
+  /* z-index: -2; */
+  position: absolute;
+  top: 100px !important;
+  left: 100px !important;
+  background-size: 100%;
+  opacity: 5% !important;
+  mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0.5) 70%, rgba(0, 0, 0, 0) 100%);
+  mask-size: cover;
+}
 
 
 
@@ -780,9 +867,8 @@ img {
   justify-content: center;
 } */
 
-/* .image-column img {
-  max-width: 100%;
-  max-height: 100%;
+/* .image-column {
+  align-items: flex-start; 
 } */
 
 
@@ -919,6 +1005,38 @@ img {
   font-weight: 400;
   font-style: normal;
   font-size: 66px;
+  display: inline;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+
+
+.barcode-dtprts {
+  font-family: "Libre Barcode 128 Text", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 66px;
+  display: inline;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-align: left;
+}
+
+
+.brcd-h2-s1{
+  margin-left: 100px;
+  margin-bottom: -60px;
+}
+
+.brcd-h2-s2{
+  margin-left: -250px;
 }
 
 
@@ -1080,40 +1198,182 @@ img {
 } */
 
 
-/* DOTPARTS SECTION | BULLET LISTS */
+/* BULLET LISTS | S1-WJ */
 .bullet-list {
   list-style-type: disc; 
-  margin-top: 60px;
+  margin-top: 58px;
+  margin-left: -250px;
+  /* text-align: left; */
+}
+
+
+
+
+/* BULLET LISTS | S1-PT4 */
+.bullet-list-pt-24 {
+  list-style-type: disc; 
+  margin-top: 58px;
+  margin-left: -170px;
+}
+
+
+.bullet-list-ev41 {
+  list-style-type: disc; 
+  margin-top: 58px;
+  margin-left: -170px;
+}
+
+.bullet-list-ev42 {
+  list-style-type: disc; 
+  margin-top: 58px;
+  margin-left: -120px;
+}
+
+.bullet-list-ev43 {
+  list-style-type: disc; 
+  margin-top: 58px;
+  margin-left: -170px;
+}
+
+.bullet-list-ev44 {
+  list-style-type: disc; 
+  margin-top: 58px;
+  margin-left: -170px;
+}
+
+.bullet-list-ev45 {
+  list-style-type: disc; 
+  margin-top: 58px;
+  margin-left: -200px;
+}
+
+
+
+
+
+
+/* DOTPARTS */
+.bullet-list-wj1s {
+  list-style-type: disc; 
+  margin-top: 58px;
+  margin-left: -180px;
+  text-align: left;
+}
+
+.bullet-list-wj3s {
+  list-style-type: disc; 
+  margin-top: 58px;
+  margin-left: -300px;
+  text-align: left;
+}
+
+.bullet-list-wj6s {
+  list-style-type: disc; 
+  margin-top: 58px;
+  margin-left: -300px;
+  text-align: left;
+}
+
+.bullet-list-wj7s {
+  list-style-type: disc; 
+  margin-top: 58px;
+  margin-left: -350px;
+  text-align: left;
+}
+
+.bullet-list-wj8s {
+  list-style-type: disc; 
+  margin-top: 58px;
+  margin-left: -350px;
+  text-align: left;
+}
+
+.bullet-list-wj9s {
+  list-style-type: disc; 
+  margin-top: 58px;
+  margin-left: -350px;
+  text-align: left;
+}
+
+.bullet-list-wj11s {
+  list-style-type: disc; 
+  margin-top: 58px;
+  margin-left: -300px;
+  text-align: left;
+}
+
+.bullet-list-wj12s {
+  list-style-type: disc; 
+  margin-top: 58px;
+  margin-left: -300px;
+  text-align: left;
+}
+
+
+.bullet-list-ev1s {
+  list-style-type: disc; 
+  margin-top: 58px;
+  margin-left: -30px;
+  text-align: left;
+}
+
+.bullet-list-ct1s {
+  list-style-type: disc; 
+  margin-top: 58px;
   margin-left: 20px;
+  text-align: left;
+}
+
+.bullet-list-ct2s {
+  list-style-type: disc; 
+  margin-top: 58px;
+  margin-left: 70px;
+  text-align: left;
+}
+
+.bullet-list-ct3s {
+  list-style-type: disc; 
+  margin-top: 58px;
+  margin-left: -100px;
+  text-align: left;
+}
+
+.bullet-list-ct4s {
+  list-style-type: disc; 
+  margin-top: 58px;
+  margin-left: -250px;
   text-align: left;
 }
 
 
 
-/* PRODUCT BULLET LISTS PARAGRAPHS */
+/* SECTION1 | LIST HEADING */
 .list-paragraph-1{
+  margin-top: 10px;
   margin-bottom: 0px;
-  width: 700px;
+  width: 730px;
   margin-left: -130px;
   text-transform: uppercase;
 }
 
+
+/* SECTION2 | LIST HEADING */
 .list-paragraph-2{
   margin-top: -10px;
   margin-bottom: 0px;
-  width: 700px;
-  margin-left: -130px;
+  width: 730px;
+  margin-left: 110px;
   text-transform: uppercase;
 }
 
-.list-paragraph-3{
+/* .list-paragraph-3{
   margin-top: -70px;
   margin-bottom: 0px;
-  width: 700px;
+  width: 750px;
   margin-left: -130px;
   text-align: justify;
   text-transform: uppercase;
-}
+} */
 
 
 
@@ -1129,7 +1389,7 @@ img {
 .list-paragraph-heading{
   margin-top: -70px;
   margin-bottom: 0px;
-  margin-left: 30px;
+  margin-left: 90px;
   width: 700px;
   text-align: justify;
   text-transform: uppercase;
@@ -1140,18 +1400,96 @@ img {
 .list-dotparts-wj1{
   margin-top: -70px;
   margin-bottom: 0px;
-  margin-left: -200px;
+  margin-left: -120px;
+  width: 730px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+
+.list-dotparts-wj3{
+  margin-top: -70px;
+  margin-bottom: 0px;
+  margin-left: -150px;
   width: 750px;
   text-align: justify;
   text-transform: uppercase;
 }
 
 
+.list-dotparts-wj6{
+  margin-top: -70px;
+  margin-bottom: 0px;
+  margin-left: -150px;
+  width: 750px;
+  text-align: justify;
+  text-transform: uppercase;
+}
 
+.list-dotparts-wj7{
+  margin-top: -70px;
+  margin-bottom: 0px;
+  margin-left: -150px;
+  width: 750px;
+  text-align: justify;
+  text-transform: uppercase;
+}
 
+.list-dotparts-wj8{
+  margin-top: -70px;
+  margin-bottom: 0px;
+  margin-left: -150px;
+  width: 750px;
+  text-align: justify;
+  text-transform: uppercase;
+}
 
+.list-dotparts-wj9{
+  margin-top: -70px;
+  margin-bottom: 0px;
+  margin-left: -150px;
+  width: 750px;
+  text-align: justify;
+  text-transform: uppercase;
+}
 
+.list-dotparts-wj11{
+  margin-top: -70px;
+  margin-bottom: 0px;
+  margin-left: -150px;
+  width: 750px;
+  text-align: justify;
+  text-transform: uppercase;
+}
 
+.list-dotparts-wj12{
+  margin-top: -70px;
+  margin-bottom: 0px;
+  margin-left: -150px;
+  width: 750px;
+  text-align: justify;
+  text-transform: uppercase;
+}
+
+.bls-ev41{
+  margin-left: -250px;
+}
+
+.bls-ev42{
+  margin-left: -120px;
+}
+
+.bls-ev43{
+  margin-left: -100px;
+}
+
+.bls-ev44{
+  margin-left: 0px;
+}
+
+.bls-ev45{
+  margin-left: -170px;
+}
 
 
 
@@ -1161,18 +1499,27 @@ img {
 /* LEFT SPACING | 1st SECTION BARCODE HEADING*/
 .left-spacing{
   margin-left: 100px;
-  /* margin-top: 20px; */
+  margin-top: 20px;
 }
 
 /* LEFT SPACING | 1st SECTION HEADING AND LIST*/
-.left-spacing-1{
+/* .left-spacing-1{
   margin-left: -20px;
+} */
+
+.left-spacing-wj12{
+  margin-left: -270px;
 }
 
-/* LEFT SPACING | 2ND SECTION HEADING AND LIST*/
-.left-spacing-2{
-  margin-left: 40px;
+.left-spacing-wj15{
+  margin-left: -270px;
 }
+
+/* LEFT SPACING | 2ND SECTION HEADING AND LIST | WATERJET */
+.left-spacing-2{
+  margin-left: 70px;
+}
+
 
 
 .left-spacing-3{
@@ -2004,3 +2351,292 @@ h1 {
   margin-bottom: 100px;
   background-color: transparent;
 }
+
+
+
+
+/* WATERJET | WJ */
+.wj4-brcd-s1{
+  margin-top: -20px;
+}
+
+.wj-brcd12{
+  margin-left: -130px;
+}
+
+.wj-brcd14{
+  margin-left: -230px;
+  margin-top: -25px;
+}
+
+.wj-brcd15{
+  margin-left: -40px;
+}
+
+.wj-brcd101{
+  margin-left: -200px;
+}
+
+
+
+/* CLEANING | CT1 */
+.ct1-bls-s1{
+  margin-left: -200px;
+}
+
+.ct1-bls-s2{
+  margin-left: 15px;
+}
+
+.ct1-bls-s3{
+  margin-left: -280px;
+}
+
+.ct1-brcd-s1{
+  margin-left: -320px;
+}
+
+.ct1-brcd-s2{
+  margin-left: -530px;
+}
+
+.ct1-brcd-s3{
+  margin-left: -300px;
+}
+
+
+/* CLEANING | CT2 */
+.ct2-bls-s1{
+  margin-left: -140px;
+}
+
+.ct2-p-s2{
+  margin-left: 150px;
+}
+
+.ct2-bls-s2{
+  margin-left: 110px;
+}
+
+.ct2-bls-s3{
+  margin-left: -220px;
+}
+
+
+.ct2-brcd-s1{
+  margin-left: -350px;
+}
+
+.ct2-brcd-s2{
+  margin-left: -600px;
+}
+
+.ct2-brcd-s3{
+  margin-left: -300px;
+}
+
+
+/* CLEANING | CT3 */
+.ct3-bls-s1{
+  margin-left: -150px;
+}
+
+.ct3-p-s2{
+  margin-left: 150px;
+}
+
+.ct3-bls-s2{
+  margin-left: 150px;
+}
+
+.ct3-bls-s3{
+  margin-left: -150px;
+}
+
+.ct3-p-s4{
+  margin-left: 150px;
+}
+
+.ct3-bls-s4{
+  margin-left: 70px;
+}
+
+.ct3-brcd-s1{
+  margin-left: -260px;
+}
+
+.ct3-brcd-s2{
+  margin-left: -340px;
+}
+
+.ct3-brcd-s3{
+  margin-left: -330px;
+}
+
+.ct3-brcd-s4{
+  margin-left: -550px;
+}
+
+
+
+/* CLEANING | CT4 */
+.ct4-bls-s1{
+  margin-left: -170px;
+}
+
+.ct1-p-s2{
+  margin-left: 150px;
+}
+
+.ct4-p-s2{
+  margin-left: 150px;
+}
+
+.ct4-bls-s2{
+  margin-left: 120px;
+}
+
+.ct4-brcd-s1{
+  margin-left: -200px;
+}
+
+.ct4-brcd-s2{
+  margin-left: -620px;
+}
+
+
+
+
+/* PRESSURE BULLETS */
+.bullet-list-pt {
+  list-style-type: disc; 
+  margin-top: 58px;
+  margin-left: -220px;
+}
+
+
+.bullet-list-pt-22 {
+  list-style-type: disc; 
+  margin-top: 58px;
+  margin-left: -200px;
+}
+
+/* PRESSURE | PT1 */
+.pt1-brcd-s1{
+  margin-left: -240px;
+}
+
+.pt1-bls-s1{
+  margin-left: -200px;
+}
+
+.pt1-brcd-s2{
+  margin-right: 0px;
+  margin-left: -450px;
+}
+
+.pt1-bls-s2{
+  margin-left: 40px;
+}
+
+
+
+/* PRESSURE | PT2 */
+.pt2-brcd-s1{
+  margin-left: -160px;
+}
+
+
+.pt2-brcd-s2{
+  margin-left: -450px;
+}
+
+
+
+/* PRESSURE | PT3 */
+.pt3-brcd-s1{
+  margin-left: -170px;
+}
+
+.pt3-bls-s1{
+  margin-left: -230px;
+}
+
+
+/* PRESSURE | PT4 */
+.pt4-brcd-s1{
+  margin-left: -170px;
+}
+
+.pt4-bls-s1{
+  margin-left: -150px;
+}
+
+.pt4-brcd-s2{
+  margin-left: -460px;
+}
+
+.pt4-brcd-s3{
+  margin-left: -220px;
+}
+
+
+/* PRESSURE | PT6 */
+.pt6-bls-s1{
+  margin-left: -210px;
+}
+
+.pt6-brcd-s2{
+  margin-left: -450px;
+}
+
+
+.pt-lc-25{
+  margin-left: -200px;
+}
+
+.pt-lc-26{
+  margin-left: -320px;
+}
+
+.pt-lc-27{
+  margin-left: -250px;
+}
+
+/* PT | RIGHT COLUMN */
+/* .pt-rc{
+  margin-bottom: 0px;
+  margin-top: 10px;
+  width: 720px;
+  margin-left: -140px;
+  text-transform: uppercase;
+  text-align: left;
+} */
+
+
+.dotparts-heading-ct3s{
+margin-right: 175px;
+text-align: left;
+margin-top: -30px;
+margin-bottom: 0px;
+margin-left: 90px;
+width: 700px;
+text-transform: uppercase;
+}
+
+
+
+.left-spacing-pt22{
+  margin-left: -50px;
+}
+
+.left-spacing-pt24{
+  margin-left: 90px;
+}
+
+.left-spacing-pt26{
+  margin-left: 20px;
+}
+
+
+

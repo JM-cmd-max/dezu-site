@@ -27,20 +27,20 @@ export default function CT1S() {
             conjet: "KLEN 1101",
             paragraph: "Effectively restores and revitalizes various industrial surfaces, delivering high performance in challenging conditions. Its non-abrasive, versatile formula ensures easy application and a durable finish.",
             listItems: [
-                "Restores Surfaces: Renovates and revitalizes industrial surfaces effectively",
-                "High Performance: Delivers strong results in tough conditions",
-                "Non-Abrasive Formula: Cleans without damaging or scratching surfaces",
-                "Durable Finish: Provides long-lasting results and protection",
+                "Restore: Renovates & revitalizes industrial surfaces effectively",
+                "Performance: Delivers strong results in tough conditions",
+                "Non-Abrasive: Cleans without damaging or scratching",
+                "Durable : Provides long-lasting results and protection",
             ]
         },
         {
             conjet: "KLEN 897",
-            paragraph: "Engineered to tackle tough mineral deposits and scale buildup with powerful, fast-acting results. Its heavy-duty formula is safe on equipment and easy to rinse, ensuring thorough cleaning without residue or corrosion. ",
+            paragraph: "Designed for tough mineral deposits and scale buildup, this heavy-duty formula delivers fast, powerful results while being safe on equipment. It rinses easily, leaving no residue or corrosion.",
             listItems: [
-                "Powerful Descaling: Removes tough mineral deposits and buildup",
-                "Fast Acting: Works quickly to dissolve scale efficiently",
+                "Descaling: Effectively removes tough mineral deposits & buildup",
+                "Fast: Works quickly to dissolve scale efficiently",
                 "Easy Rinsing: Rinses off easily, leaving no residue",
-                "Heavy Duty Formula: Designed for industrial-strength descaling tasks",
+                "Heavy Duty: Industrial-strength descaling tasks",
             ]
         },
     ];
@@ -67,7 +67,7 @@ export default function CT1S() {
                     </p>
                     <ul>
                         {slideTexts[currentSlide].listItems.map((item, index) => (
-                            <li key={index} className='bullet-list '>{item}</li>
+                            <li key={index} className='bullet-list-ct1s '>{item}</li>
                         ))}
                     </ul>
                 </div>

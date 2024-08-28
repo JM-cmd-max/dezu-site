@@ -8,6 +8,7 @@ import Haskel from "../slider/Haskel";
 import PageContext from '../../context/PageContext';
 import Footer from "../footer/Footer";
 import Contact from "../contact/Contact";
+import BarcodeEffect from "../brcd/BarcodeEffect";
 
 const PT6 = () => {
   const { color, setColor } = useContext(ColorContext); // Get color and setColor from ColorContext
@@ -88,7 +89,7 @@ const PT6 = () => {
         <div>
           <table className="rajdhani-regular">
             <div
-              className="grid-lines-overlay"
+              className="grid-lines-overlay-pt"
               style={{ zIndex: -2, backgroundImage: `url(${gridLinesImage})`, backgroundSize: '100%', opacity: 0.5 }}
             />
             <tbody>
@@ -128,16 +129,16 @@ const PT6 = () => {
         <div className="product-content">
           <div className="section section-bg-prst1">
             <div className="column image-column">
-              <p className='barcode left-spacing nlb-spacing'>AIR MANIFOLDS</p>
+              <p className='barcode pt-lc-26'>AIR MANIFOLDS</p>
               <img src={require("../../assets/images/pressure/prst6/AM.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
             </div>
             <div className="column text-column rajdhani-semibold">
-              <p className='list-paragraph-1 left-spacing-1'>Designed for efficient and reliable air distribution in various industrial applications. Their compact, durable construction and easy installation process make them ideal for optimizing airflow while ensuring leak-free operation and long-term performance.</p>
+              <p className='list-paragraph-1 left-spacing-1'>efficient and reliable air distribution in various industrial applications. durable and easy installation process ideal for optimizing airflow</p>
               <ul>
-                <li className='bullet-list left-spacing-1'>Compact Design: Efficiently integrates into tight spaces</li>
-                <li className='bullet-list left-spacing-1'>Durable Construction: Built to withstand rugged environments.</li>
-                <li className='bullet-list left-spacing-1'>Leak-Free Operation: Ensures secure and reliable connections</li>
-                <li className='bullet-list left-spacing-1'>Versatile Configuration: Adapts to various air needs</li>
+                <li className='bullet-list pt6-bls-s1'>Compact Design: Efficiently integrates into tight spaces</li>
+                <li className='bullet-list pt6-bls-s1'>Durable Construction: Built to withstand rugged environments.</li>
+                <li className='bullet-list pt6-bls-s1'>Leak-Free Operation: Ensures secure and reliable connections</li>
+                <li className='bullet-list pt6-bls-s1'>Versatile Configuration: Adapts to various air needs</li>
               </ul>
             </div>
           </div>
@@ -145,16 +146,16 @@ const PT6 = () => {
           <div className="divider"></div>
           <div className="section section-bg-prst2">
             <div className="column text-column rajdhani-semibold">
-              <p className='list-paragraph-2 left-spacing-2'>Offer durable and secure storage solutions for sensitive instruments. With a modular design and temperature control features, these cabinets ensure optimal protection and easy access in various industrial settings.</p>
+              <p className='list-paragraph-2'>Offer durable and secure storage solutions for sensitive instruments. With a modular design and temperature control features, these cabinets ensure optimal protection and easy access in various industrial settings.</p>
               <ul>
-                <li className='bullet-list left-spacing-2'>Robust Construction: Ensures durability in harsh environments</li>
-                <li className='bullet-list left-spacing-2'>Secure Storage: Locks instruments for protection.</li>
-                <li className='bullet-list left-spacing-2'>Modular Design: Allows flexible and customizable setups</li>
-                <li className='bullet-list left-spacing-2'>Temperature Control: Keeps instruments at optimal conditions.</li>
+                <li className='bullet-list left-spacing-pt26'>Robust Construction: Ensures durability in harsh environments</li>
+                <li className='bullet-list left-spacing-pt26'>Secure Storage: Locks instruments for protection.</li>
+                <li className='bullet-list left-spacing-pt26'>Modular Design: Allows flexible and customizable setups</li>
+                <li className='bullet-list left-spacing-pt26'>Temperature Control: Keeps instruments at optimal conditions.</li>
               </ul>
             </div>
             <div className="column image-column spir-barcode">
-              <p className='barcode'>INSTRUMENT CABINET</p>
+              <p className='barcode pt6-brcd-s2'>INSTRUMENT CABINET</p>
               <img src={require("../../assets/images/pressure/prst6/IC.png")} alt="Placeholder" className='p-image1'/>
             </div>
           </div>
@@ -162,6 +163,7 @@ const PT6 = () => {
       </div>
       <Contact />
       <Footer />
+      <BarcodeEffect />
     </div>
   );
 };

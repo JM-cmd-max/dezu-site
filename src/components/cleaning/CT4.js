@@ -9,6 +9,7 @@ import PageContext from '../../context/PageContext';
 import Footer from "../footer/Footer";
 import Contact from "../contact/Contact";
 import CT4S from "../dotparts/CT4S";
+import BarcodeEffect from "../brcd/BarcodeEffect";
 
 const CT4 = () => {
   const { color } = useContext(ColorContext); // Get color from ColorContext
@@ -127,16 +128,16 @@ const CT4 = () => {
         <div className="product-content">
         <div className="section section-ct1">
         <div className="column image-column">
-        <p className='barcode left-spacing nlb-spacing'>Ecobot Sweeper 111</p>
+        <p className='barcode ct4-brcd-s1'>Ecobot Sweeper 111</p>
           <img src={require("../../assets/images/cleaning/ct4/ct41.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
         </div>
         <div className="column text-column rajdhani-semibold">
-          <p  className='list-paragraph-1 left-spacing-1'>Features smart navigation and high suction power for thorough and efficient cleaning in complex environments. Its compact design, long battery life, and user-friendly controls enhance usability, while the durable construction and quiet operation ensure reliable performance. </p>
+          <p  className='list-paragraph-1'>Features smart navigation and high suction power for thorough and efficient cleaning in complex environments. Its compact design, long battery life, and user-friendly controls enhance usability.</p>
           <ul>
-            <li className='bullet-list left-spacing-1'>Smart Navigation: Efficiently maps and cleans complex areas</li>
-            <li className='bullet-list left-spacing-1'>High Suction Power: Removes dust and debris thoroughly</li>
-            <li className='bullet-list left-spacing-1'>Durable Construction: Built to handle heavy-duty cleaning tasks</li>
-            <li className='bullet-list left-spacing-1'>User-Friendly Controls: Easy-to-use interface for seamless operation</li>
+            <li className='bullet-list ct4-bls-s1'>Smart Navigation: Efficiently maps and cleans complex areas</li>
+            <li className='bullet-list ct4-bls-s1'>High Suction Power: Removes dust and debris thoroughly</li>
+            <li className='bullet-list ct4-bls-s1'>Durable Construction: Built to handle heavy-duty cleaning tasks</li>
+            <li className='bullet-list ct4-bls-s1'>User-Friendly Controls: Easy-to-use interface for seamless operation</li>
           </ul>
         </div>
       </div>
@@ -145,16 +146,16 @@ const CT4 = () => {
       <div className="divider"></div>
       <div className="section section-ct2">
       <div className="column text-column rajdhani-semibold">
-          <p  className='list-paragraph-2 left-spacing-2'>Engineered for efficiency, offering powerful sweeping and advanced dust control to handle large areas with ease. Its compact size and durable build ensure reliable performance in various environments, while the quiet operation and long battery life enhance overall user experience. </p>
+          <p  className='list-paragraph-2 ct4-p-s2'>Engineered for efficiency, offering powerful sweeping and advanced dust control to handle large areas with ease. Its compact size and durable build ensure reliable performance in various environments. </p>
           <ul>
-            <li className='bullet-list left-spacing-2'>Long Battery Life: Offers extended runtime for continuous cleaning</li>
-            <li className='bullet-list left-spacing-2'>Durable Build: Constructed for heavy-duty, long-lasting performance</li>
-            <li className='bullet-list left-spacing-2'>Efficient Sweeping: Cleans large areas quickly and effectively</li>
-            <li className='bullet-list left-spacing-2'>Compact Size: Easily navigates tight spaces and narrow aisles</li>
+            <li className='bullet-list ct4-bls-s2'>Long Battery Life: Offers extended runtime for continuous cleaning</li>
+            <li className='bullet-list ct4-bls-s2'>Durable Build: Constructed for heavy-duty, long-lasting performance</li>
+            <li className='bullet-list ct4-bls-s2'>Efficient Sweeping: Cleans large areas quickly and effectively</li>
+            <li className='bullet-list ct4-bls-s2'>Compact Size: Easily navigates tight spaces and narrow aisles</li>
           </ul>
         </div>
         <div className="column image-column spir-barcode">
-            <p className='barcode'>MADVAC LN50</p>
+            <p className='barcode ct4-brcd-s2'>MADVAC LN50</p>
           <img src={require("../../assets/images/cleaning/ct4/ct42.png")} alt="Placeholder" className='p-image1'/>
         </div>
       </div>
@@ -175,6 +176,7 @@ const CT4 = () => {
       </div>
       <Contact />
       <Footer />
+      <BarcodeEffect />
     </div>
   );
 };

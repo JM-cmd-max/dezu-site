@@ -8,6 +8,7 @@ import Hylok from "../slider/Hylok";
 import PageContext from '../../context/PageContext';
 import Footer from "../footer/Footer";
 import Contact from "../contact/Contact";
+import BarcodeEffect from "../brcd/BarcodeEffect";
 
 const PT5 = () => {
   const { color, setColor } = useContext(ColorContext); // Get color and setColor from ColorContext
@@ -88,7 +89,7 @@ const PT5 = () => {
         <div>
           <table className="rajdhani-regular">
             <div
-              className="grid-lines-overlay"
+              className="grid-lines-overlay-wj4"
               style={{ zIndex: -2, backgroundImage: `url(${gridLinesImage})`, backgroundSize: '100%', opacity: 0.5 }}
             />
             <tbody>
@@ -128,11 +129,11 @@ const PT5 = () => {
         <div className="product-content">
           <div className="section section-bg-prst3">
             <div className="column image-column">
-              <p className='barcode left-spacing nlb-spacing'>INSTRUMENT FITTINGS</p>
+              <p className='barcode pt-lc-25'>INSTRUMENT FITTINGS</p>
               <img src={require("../../assets/images/pressure/prst5/NWJP.png")} alt="Placeholder" className='p-image-pt5 p-image1-spacing'/>
             </div>
             <div className="column text-column rajdhani-semibold">
-              <p className='list-paragraph-1 left-spacing-1'>Engineered for durability and reliability, offering corrosion-resistant and leak-proof solutions for marine environments. Designed for easy installation and high-pressure conditions, these fittings ensure secure connections and long-lasting performance on oil tankers.</p>
+              <p className='list-paragraph-1'>Engineered for durability and reliability, offering corrosion-resistant and leak-proof solutions for marine environments.</p>
               <ul>
                 <li className='bullet-list left-spacing-1'>Corrosion Resistant: Withstands harsh marine environments.</li>
                 <li className='bullet-list left-spacing-1'>Leak-Proof Design: Ensures secure and reliable connections</li>
@@ -147,6 +148,7 @@ const PT5 = () => {
       </div>
       <Contact />
       <Footer />
+      <BarcodeEffect />
     </div>
   );
 };

@@ -20,17 +20,17 @@ export default function EV1S() {
                 "Leak Prevention: Ensures secure, leak-proof sealing",
                 "Durable Material: Resists wear and environmental stress",
                 "Versatile Fit: Adapts to various leg sizes and shapes",
-                "High Resistance: Withstands chemicals and temperature fluctuations",
+                "Resistance: Withstands chemicals & temperature fluctuations",
             ]
         },
         {
             conjet: "Flexi-Composite Hose",
-            paragraph: "Engineered for flexibility and durability, making it ideal for diverse applications where bending and conforming are required. Its lightweight construction and high pressure resistance ensure reliable performance under challenging conditions, while the smooth interior promotes efficient flow.",
+            paragraph: "Material is designed for versatility and strength, making it suitable for various applications that require bending and flexibility.",
             listItems: [
-                "Flexible Design: Easily bends and conforms to various configurations",
-                "High Durability: Resists abrasion, chemicals, and extreme temperatures",
-                "High Pressure Resistance: Handles demanding pressure conditions effectively",
-                "Easy Installation: Simple to connect and integrate into systems",
+                "Flexible: Bends and conforms to various configurations",
+                "Durability: Resists chemicals, and extreme temperatures",
+                "Resistance: Handles demanding pressure conditions effectively",
+                "Easy Installation: Simple to connect and integrate",
             ]
         },
         {
@@ -40,7 +40,7 @@ export default function EV1S() {
                 "Protective Coverage: Shields legs from damage and wear",
                 "Durable Fabric: Resists tears and abrasions for longevity",
                 "Adjustable Fit: Accommodates various leg sizes securely",
-                "Cost-Effective: Provides high-quality protection at an affordable price",
+                "Cost-Effective: High-quality protection at an affordable price",
             ]
         },
     ];
@@ -67,7 +67,7 @@ export default function EV1S() {
                     </p>
                     <ul>
                         {slideTexts[currentSlide].listItems.map((item, index) => (
-                            <li key={index} className='bullet-list'>{item}</li>
+                            <li key={index} className='bullet-list-ev1s'>{item}</li>
                         ))}
                     </ul>
                 </div>

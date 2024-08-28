@@ -8,6 +8,7 @@ import Haskel from "../slider/Haskel";
 import PageContext from '../../context/PageContext';
 import Footer from "../footer/Footer";
 import Contact from "../contact/Contact";
+import BarcodeEffect from "../brcd/BarcodeEffect";
 
 const PT2 = () => {
   const { color, setColor } = useContext(ColorContext); // Get color and setColor from ColorContext
@@ -88,7 +89,7 @@ const PT2 = () => {
         <div>
           <table className="rajdhani-regular">
             <div
-              className="grid-lines-overlay"
+              className="grid-lines-overlay-pt"
               style={{ zIndex: -2, backgroundImage: `url(${gridLinesImage})`, backgroundSize: '100%', opacity: 0.5 }}
             />
             <tbody>
@@ -128,16 +129,16 @@ const PT2 = () => {
         <div className="product-content">
           <div className="section section-bg-prst1">
             <div className="column">
-              <p className='barcode left-spacing nlb-spacing'>FLUID POWER SOLUTIONS</p>
+              <p className='barcode pt2-brcd-s1'>FLUID POWER SOLUTIONS</p>
               <img src={require("../../assets/images/pressure/prst2/FPS.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
             </div>
             <div className="column text-column rajdhani-semibold">
-              <p className='list-paragraph-1 left-spacing-1'>Designed for high-pressure fluid transfer and pressurization applications, offering efficient and reliable performance. These systems ensure precise fluid management and robust pressure boosting for various industrial needs.</p>
+              <p className='list-paragraph-1'>Designed for high-pressure fluid transfer and pressurization applications, offering efficient and reliable performance.</p>
               <ul>
-                <li className='bullet-list left-spacing-1'>High Pressure Transfer: Handles fluid movement efficiently.</li>
-                <li className='bullet-list left-spacing-1'>Pressurization Applications: Enhances pressure for various uses.</li>
-                <li className='bullet-list left-spacing-1'>Reliable Performance: Ensures consistent, dependable operation.</li>
-                <li className='bullet-list left-spacing-1'>Advanced Technology: Uses cutting-edge fluid power.</li>
+                <li className='bullet-list-pt-22'>High Pressure Transfer: Handles fluid movement efficiently.</li>
+                <li className='bullet-list-pt-22'>Pressurization Applications: Enhances pressure for various uses.</li>
+                <li className='bullet-list-pt-22'>Reliable Performance: Ensures consistent, dependable operation.</li>
+                <li className='bullet-list-pt-22'>Advanced Technology: Uses cutting-edge fluid power.</li>
               </ul>
             </div>
           </div>
@@ -145,16 +146,16 @@ const PT2 = () => {
           <div className="divider"></div>
           <div className="section section-bg-prst2">
             <div className="column text-column rajdhani-semibold">
-              <p className='list-paragraph-2 left-spacing-2'>Engineered to deliver high-pressure gas boosting with exceptional reliability and efficiency. Its compact, durable design makes it ideal for various industrial applications, providing consistent performance and easy maintenance for long-term use.</p>
+              <p className='list-paragraph-2'>Engineered to deliver high-pressure gas boosting with exceptional reliability and efficiency. compact durable design ideal for industrial applications.</p>
               <ul>
-                <li className='bullet-list left-spacing-2'>High Pressure: Boosts gas to extremes.</li>
-                <li className='bullet-list left-spacing-2'>Durable Construction: Built to withstand rigorous use</li>
-                <li className='bullet-list left-spacing-2'>Compact Design: Saves space while delivering power</li>
-                <li className='bullet-list left-spacing-2'>Versatile Applications: Suitable for various gas types</li>
+                <li className='bullet-list left-spacing-pt22'>High Pressure: Boosts gas to extremes.</li>
+                <li className='bullet-list left-spacing-pt22'>Durable Construction: Built to withstand rigorous use</li>
+                <li className='bullet-list left-spacing-pt22'>Compact Design: Saves space while delivering power</li>
+                <li className='bullet-list left-spacing-pt22'>Versatile Applications: Suitable for various gas types</li>
               </ul>
             </div>
             <div className="column spir-barcode">
-              <p className='barcode'>GAS BOOSTER SYSTEM</p>
+              <p className='barcode pt2-brcd-s2'>GAS BOOSTER SYSTEM</p>
               <img src={require("../../assets/images/pressure/prst2/GBS.png")} alt="Placeholder" className='p-image1'/>
             </div>
           </div>
@@ -162,6 +163,7 @@ const PT2 = () => {
       </div>
       <Contact />
       <Footer />
+      <BarcodeEffect />
     </div>
   );
 };

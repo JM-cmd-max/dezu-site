@@ -151,16 +151,16 @@ const WJ2 = () => {
       <div className="product-content">
         <div className="section section-bg-prst3">
         <div className="column image-column">
-        <p className='barcode left-spacing nlb-spacing'>Conjet Robot 101 Nalta</p>
+        <p className='barcode wj-brcd12'>Conjet Robot 101 Nalta</p>
           <img src={require("../../assets/images/univ/x4.png")} alt="Placeholder" className='p-image-sl p-image-sl-spacing'/>
         </div>
         <div className="column text-column rajdhani-semibold">
-          <p  className='list-paragraph-1 left-spacing-1'>Offers precise, efficient hydro demolition with its semi-automated control and advanced technology. Its rugged construction and intuitive design ensure reliable performance and reduced operator fatigue in demanding industrial environments.</p>
+          <p  className='list-paragraph-1'>Offers precise, efficient hydro demolition with its semi-automated control and advanced technology. Its rugged construction and intuitive design ensure reliable performance and reduced operator fatigue in demanding industrial environments.</p>
           <ul>
-            <li className='bullet-list left-spacing-1'>Advanced Technology: Uses state-of-the-art methods for precise hydro demolition.</li>
-            <li className='bullet-list left-spacing-1'>Rugged Construction: Withstands harsh conditions for lasting performance.</li>
-            <li className='bullet-list left-spacing-1'>Semi-Automated Control: Enhances efficiency and accuracy.</li>
-            <li className='bullet-list left-spacing-1'>Versatile Applications: Ideal for all demolition tasks.</li>
+            <li className='bullet-list left-spacing-wj12'>Advanced Technology: Uses state-of-the-art methods.</li>
+            <li className='bullet-list left-spacing-wj12'>Rugged Construction: Withstands harsh conditions</li>
+            <li className='bullet-list left-spacing-wj12'>Semi-Automated Control: Enhances efficiency and accuracy.</li>
+            <li className='bullet-list left-spacing-wj12'>Versatile Applications: Ideal for all demolition tasks.</li>
           </ul>
         </div>
       </div>

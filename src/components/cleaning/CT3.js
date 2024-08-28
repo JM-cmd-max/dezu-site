@@ -9,6 +9,7 @@ import PageContext from '../../context/PageContext';
 import Footer from "../footer/Footer";
 import Contact from "../contact/Contact";
 import CT3S from "../dotparts/CT3S";
+import BarcodeEffect from "../brcd/BarcodeEffect";
 
 const CT3 = () => {
   const { color } = useContext(ColorContext); // Get color from ColorContext
@@ -74,7 +75,7 @@ const CT3 = () => {
         <div>
           <table className="rajdhani-regular">
             <div
-              className="grid-lines-overlay"
+              className="grid-lines-overlay-ct3"
               style={{ zIndex: -2, backgroundImage: `url(${gridLinesImage})`, backgroundSize: '100%', opacity: 0.5 }}
             />
             <tbody>
@@ -114,16 +115,16 @@ const CT3 = () => {
         <div className="product-content">
         <div className="section section-ct1">
         <div className="column image-column">
-        <p className='barcode left-spacing nlb-spacing'>Mini Rooter Pro</p>
+        <p className='barcode ct3-brcd-s1'>Mini Rooter Pro</p>
           <img src={require("../../assets/images/cleaning/ct3/ct31.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
         </div>
         <div className="column text-column rajdhani-semibold">
-          <p  className='list-paragraph-1 left-spacing-1'>Designed to tackle tough clogs with its powerful cleansing capability and high-torque motor. Its compact size and durable construction make it perfect for both residential and commercial use, while the long cable length and user-friendly controls ensure efficiency and ease of use.</p>
+          <p  className='list-paragraph-1'>Designed to tackle tough clogs with its powerful cleansing capability and high-torque motor. Its compact size and durable construction make it perfect for both residential and commercial use.</p>
           <ul>
-            <li className='bullet-list left-spacing-1'>Powerful Cleansing: Removes tough clogs and blockages efficiently</li>
-            <li className='bullet-list left-spacing-1'>Compact Size: Easily fits into tight or confined spaces</li>
-            <li className='bullet-list left-spacing-1'>Portable Design: Lightweight and easy to transport between jobs</li>
-            <li className='bullet-list left-spacing-1'>High Torque Motor: Provides robust performance for challenging tasks</li>
+            <li className='bullet-list ct3-bls-s1'>Powerful Cleansing: Removes tough clogs and blockages efficiently</li>
+            <li className='bullet-list ct3-bls-s1'>Compact Size: Easily fits into tight or confined spaces</li>
+            <li className='bullet-list ct3-bls-s1'>Portable Design: Lightweight and easy to transport between jobs</li>
+            <li className='bullet-list ct3-bls-s1'>High Torque Motor: Provides robust performance for challenging tasks</li>
           </ul>
         </div>
       </div>
@@ -132,16 +133,16 @@ const CT3 = () => {
       <div className="divider"></div>
       <div className="section section-ct2">
       <div className="column text-column rajdhani-semibold">
-          <p  className='list-paragraph-2 left-spacing-2'>Offers high-pressure performance and advanced jet technology for efficient and precise cleaning. Constructed with durable materials and featuring versatile attachments, it is both user-friendly and easy to maneuver</p>
+          <p  className='list-paragraph-2 ct3-p-s2'>Offers high-pressure performance and advanced technology for efficient and precise cleaning. Constructed with durable materials and featuring versatile attachments, it is both user-friendly and easy to maneuver</p>
           <ul>
-            <li className='bullet-list left-spacing-2'>Advanced Jet Technology: Ensures efficient removal of tough residues</li>
-            <li className='bullet-list left-spacing-2'>Durable Materials: Built for long-lasting, reliable operation</li>
-            <li className='bullet-list left-spacing-2'>Versatile Attachments: Adapts to various cleaning and maintenance needs</li>
-            <li className='bullet-list left-spacing-2'>Quick Setup: Allows for rapid deployment and use</li>
+            <li className='bullet-list ct3-bls-s2'>Advanced Jet Technology: Ensures efficient removal of tough residues</li>
+            <li className='bullet-list ct3-bls-s2'>Durable Materials: Built for long-lasting, reliable operation</li>
+            <li className='bullet-list ct3-bls-s2'>Versatile Attachments: Adapts to various cleaning and maintenance needs</li>
+            <li className='bullet-list ct3-bls-s2'>Quick Setup: Allows for rapid deployment and use</li>
           </ul>
         </div>
         <div className="column image-column spir-barcode">
-            <p className='barcode'>Hydrajet Interpid Series </p>
+            <p className='barcode ct3-brcd-s2'>Hydrajet Interpid Series </p>
           <img src={require("../../assets/images/cleaning/ct3/ct32.png")} alt="Placeholder" className='p-image1'/>
         </div>
       </div>
@@ -152,16 +153,16 @@ const CT3 = () => {
       <div className="product-content">
       <div className="section section-ct1">
         <div className="column image-column">
-        <p className='barcode left-spacing nlb-spacing'>Monsoon ST3</p>
+        <p className='barcode ct3-brcd-s3'>Monsoon ST3</p>
           <img src={require("../../assets/images/cleaning/ct3/ct33.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
         </div>
         <div className="column text-column rajdhani-semibold">
-          <p  className='list-paragraph-1 left-spacing-1'>Deliver high efficiency and versatile operation, making them ideal for a range of cleaning tasks. With their robust construction and advanced filtration, these machines ensure durability and cleaner air. </p>
+          <p  className='list-paragraph-1'>Deliver high efficiency and versatile operation, making them ideal for a range of cleaning tasks. With their robust construction and advanced filtration, these machines ensure durability and cleaner air. </p>
           <ul>
-            <li className='bullet-list left-spacing-1'>High Efficiency: Provides effective cleaning with superior performance</li>
-            <li className='bullet-list left-spacing-1'>Versatile Operation: Adapts to various cleaning and maintenance needs</li>
-            <li className='bullet-list left-spacing-1'>Large Capacity: Accommodates more waste, reducing downtime</li>
-            <li className='bullet-list left-spacing-1'>Robust Construction: Designed for durability and long-term use</li>
+            <li className='bullet-list ct3-bls-s3'>High Efficiency: Provides effective cleaning with superior performance</li>
+            <li className='bullet-list ct3-bls-s3'>Versatile Operation: Adapts to various cleaning and maintenance needs</li>
+            <li className='bullet-list ct3-bls-s3'>Large Capacity: Accommodates more waste, reducing downtime</li>
+            <li className='bullet-list ct3-bls-s3'>Robust Construction: Designed for durability and long-term use</li>
           </ul>
         </div>
       </div>
@@ -176,16 +177,16 @@ const CT3 = () => {
     <div className="divider"></div>
       <div className="section section-ct4">
       <div className="column text-column rajdhani-semibold">
-          <p  className='list-paragraph-2 left-spacing-2'>Combines powerful suction with advanced filtration for efficient and thorough cleaning. Its compact design and durable build ensure it performs well in tight spaces and withstands frequent use.</p>
+          <p  className='list-paragraph-2 ct3-p-s4'>Combines powerful suction with advanced filtration for efficient and thorough cleaning. Its compact design and durable build ensure it performs well in tight spaces and withstands frequent use.</p>
           <ul>
-            <li className='bullet-list left-spacing-2'>Powerful Suction: Delivers robust cleaning with strong suction</li>
-            <li className='bullet-list left-spacing-2'>Advanced Filtration: Captures fine particles for cleaner air</li>
-            <li className='bullet-list left-spacing-2'>Durable Build: Engineered to withstand heavy, regular use</li>
-            <li className='bullet-list left-spacing-2'>Compact Design: Maneuvers easily in tight and narrow spaces</li>
+            <li className='bullet-list ct3-bls-s4'>Powerful Suction: Delivers robust cleaning with strong suction</li>
+            <li className='bullet-list ct3-bls-s4'>Advanced Filtration: Captures fine particles for cleaner air</li>
+            <li className='bullet-list ct3-bls-s4'>Durable Build: Engineered to withstand heavy, regular use</li>
+            <li className='bullet-list ct3-bls-s4'>Compact Design: Maneuvers easily in tight and narrow spaces</li>
           </ul>
         </div>
         <div className="column image-column spir-barcode">
-            <p className='barcode'>Typhoon SE35-D</p>
+            <p className='barcode ct3-brcd-s4'>Typhoon SE35-D</p>
           <img src={require("../../assets/images/cleaning/ct3/ct34.png")} alt="Placeholder" className='p-image1'/>
         </div>
       </div>
@@ -201,6 +202,7 @@ const CT3 = () => {
       </div>
       <Contact />
       <Footer />
+      <BarcodeEffect />
     </div>
 
   );

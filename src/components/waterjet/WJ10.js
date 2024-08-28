@@ -134,7 +134,7 @@ const WJ10 = () => {
       <div className="product-content">
       <div className="section section-bg">
         <div className="column image-column">
-        <p className='barcode left-spacing nlb-spacing'>STONEAGE JACK TRACK</p>
+        <p className='barcode wj-brcd101'>STONEAGE JACK TRACK</p>
           <img src={require("../../assets/images/hydro/hwj10/SJT.png")} alt="Placeholder" className='p-image-sl p-image-sl-spacing'/>
         </div>
         <div className="column text-column rajdhani-semibold">

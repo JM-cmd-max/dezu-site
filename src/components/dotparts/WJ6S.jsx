@@ -20,7 +20,7 @@ export default function WJ6S() {
                 "Internal Cleaning: Targets debris inside tube surfaces",
                 "Powerful Performance: Ensures thorough, efficient cleaning.",
                 "Versatile Application: Suitable for various tube sizes",
-                "Innovative Technology: Boosts cleaning effectiveness and efficiency.",
+                "Innovative: Boosts cleaning effectiveness and efficiency.",
             ]
         },
         {
@@ -59,7 +59,7 @@ export default function WJ6S() {
                 <div className="column slider-column">
                     <div className='slider-container'>
                         <div className="slider">
-                            <p className='barcode conjet-spacing'>{slideTexts[currentSlide].conjet}</p>
+                            <p className='barcode'>{slideTexts[currentSlide].conjet}</p>
                             {slides.map((image, index) => (
                                 <div
                                     key={index}
@@ -83,7 +83,7 @@ export default function WJ6S() {
                     </div>
                 </div>
                 <div className="column text-column rajdhani-semibold">
-                    <p className='list-paragraph-3'>
+                    <p className='list-dotparts-wj6'>
                         {slideTexts[currentSlide].paragraph.split('\n').map((text, index) => (
                             <React.Fragment key={index}>
                                 {text}
@@ -93,7 +93,7 @@ export default function WJ6S() {
                     </p>
                     <ul>
                         {slideTexts[currentSlide].listItems.map((item, index) => (
-                            <li key={index} className='bullet-list left-spacing-3'>{item}</li>
+                            <li key={index} className='bullet-list-wj6s'>{item}</li>
                         ))}
                     </ul>
                 </div>
