@@ -83,7 +83,7 @@ export default function CT3S() {
                     </div>
                 </div>
                 <div className="column rajdhani-semibold">
-                    <p className='list-paragraph-3'>
+                    <p className='dotparts-heading-ct3s'>
                         {slideTexts[currentSlide].paragraph.split('\n').map((text, index) => (
                             <React.Fragment key={index}>
                                 {text}
@@ -93,7 +93,7 @@ export default function CT3S() {
                     </p>
                     <ul>
                         {slideTexts[currentSlide].listItems.map((item, index) => (
-                            <li key={index} className='bullet-list left-spacing-3'>{item}</li>
+                            <li key={index} className='bullet-list-ct3s'>{item}</li>
                         ))}
                     </ul>
                 </div>

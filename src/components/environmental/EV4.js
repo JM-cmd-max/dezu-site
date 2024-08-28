@@ -8,6 +8,7 @@ import Haskel from "../slider/Haskel";
 import PageContext from '../../context/PageContext';
 import Footer from "../footer/Footer";
 import Contact from "../contact/Contact";
+import BarcodeEffect from "../brcd/BarcodeEffect";
 
 const EV4 = () => {
   const { color, setColor } = useContext(ColorContext); // Get color and setColor from ColorContext
@@ -88,7 +89,7 @@ const EV4 = () => {
         <div>
           <table className="rajdhani-regular">
             <div
-              className="grid-lines-overlay"
+              className="grid-lines-overlay-wj4"
               style={{ zIndex: -2, backgroundImage: `url(${gridLinesImage})`, backgroundSize: '100%', opacity: 0.5 }}
             />
             <tbody>
@@ -128,16 +129,16 @@ const EV4 = () => {
         <div className="product-content">
           <div className="section section-bg-prst3">
             <div className="column image-column">
-              <p className='barcode left-spacing nlb-spacing'>Wastewater Treatment Systems</p>
+              <p className='barcode bls-ev44'>Wastewater Treatment Systems</p>
               <img src={require("../../assets/images/environmental/envr4/ev41.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
             </div>
             <div className="column text-column rajdhani-semibold">
-              <p className='list-paragraph-1 left-spacing-1'>Designed to provide advanced and efficient processing of wastewater, ensuring thorough cleaning and treatment. Their high efficiency and automated controls make them easy to operate while their durable construction ensures reliability in harsh environments.</p>
+              <p className='list-paragraph-1'>Designed to provide advanced and efficient processing of wastewater, ensuring thorough cleaning and treatment. </p>
               <ul>
-                <li className='bullet-list left-spacing-1'>Advanced Treatment: Effectively processes and cleans wastewater</li>
-                <li className='bullet-list left-spacing-1'>Automated Controls: Simplifies operation with advanced automation</li>
-                <li className='bullet-list left-spacing-1'>Durable Construction: Built to endure harsh treatment environments</li>
-                <li className='bullet-list left-spacing-1'>High Efficiency: Maximizes performance with minimal energy use</li>
+                <li className='bullet-list-ev44'>Advanced Treatment: Effectively processes and cleans wastewater</li>
+                <li className='bullet-list-ev44'>Automated Controls: Simplifies operation with advanced automation</li>
+                <li className='bullet-list-ev44'>Durable Construction: Built to endure harsh treatment environments</li>
+                <li className='bullet-list-ev44'>High Efficiency: Maximizes performance with minimal energy use</li>
               </ul>
             </div>
           </div>
@@ -147,6 +148,7 @@ const EV4 = () => {
       </div>
       <Contact />
       <Footer />
+      <BarcodeEffect />
     </div>
   );
 };

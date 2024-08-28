@@ -2,12 +2,12 @@ import React, { useState, useEffect, useContext } from 'react';
 import "../../styles/prst1.css";
 import ColorContext from '../../context/ColorContext';
 import gridLinesImage from "../../assets/images/univ/grid_lines.svg";
-import Navbar from "../hero/components/Navbar";
 import UCMenu from "../UCMenu";
 import Haskel from "../slider/Haskel";
-import PageContext from '../../context/PageContext';
 import Footer from "../footer/Footer";
 import Contact from "../contact/Contact";
+import BarcodeEffect from "../brcd/BarcodeEffect";
+
 
 const PT1 = () => {
   const { color } = useContext(ColorContext); // Get color from ColorContext
@@ -73,7 +73,7 @@ const PT1 = () => {
         <div>
           <table className="rajdhani-regular">
             <div
-              className="grid-lines-overlay"
+              className="grid-lines-overlay-pt"
               style={{ zIndex: -2, backgroundImage: `url(${gridLinesImage})`, backgroundSize: '100%', opacity: 0.5 }}
             />
             <tbody>
@@ -113,16 +113,16 @@ const PT1 = () => {
         <div className="product-content">
           <div className="section section-bg-prst1">
             <div className="column ">
-              <p className='barcode left-spacing nlb-spacing'>TEST PACK SYSTEMS</p>
+              <p className='barcode pt1-brcd-s1'>TEST PACK SYSTEMS</p>
               <img src={require("../../assets/images/pressure/prst1/PTPS.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
             </div>
             <div className="column text-column rajdhani-semibold">
-              <p className='list-paragraph-1 left-spacing-1'>Designed for precise and reliable high-pressure testing across various applications. Its robust, compact design offers efficient performance while simplifying maintenance for prolonged durability.</p>
+              <p className='list-paragraph-1'>Designed for precise and reliable high-pressure testing across various applications. Its robust, compact design offers efficient performance while simplifying maintenance for prolonged durability.</p>
               <ul>
-                <li className='bullet-list left-spacing-1'>High Pressure: Delivers precise, efficient testing.</li>
-                <li className='bullet-list left-spacing-1'>Durable Construction: Built to endure demanding conditions</li>
-                <li className='bullet-list left-spacing-1'>Compact Design: Maximizes space without sacrificing performance.</li>
-                <li className='bullet-list left-spacing-1'>Easy Maintenance: Streamlines upkeep and extends lifespan</li>
+                <li className='bullet-list-pt pt1-bls-s1'>High Pressure: Delivers precise, efficient testing.</li>
+                <li className='bullet-list-pt pt1-bls-s1'>Durable Construction: Built to endure demanding conditions</li>
+                <li className='bullet-list-pt pt1-bls-s1'>Compact Design: Maximizes space without sacrificing performance.</li>
+                <li className='bullet-list-pt pt1-bls-s1'>Easy Maintenance: Streamlines upkeep and extends lifespan</li>
               </ul>
             </div>
           </div>
@@ -130,16 +130,16 @@ const PT1 = () => {
           <div className="divider"></div>
           <div className="section section-bg-prst2">
             <div className="column text-column rajdhani-semibold">
-              <p className='list-paragraph-2 left-spacing-2'>Provide a hydraulic power source for pressure generation and remote operation, ideal for pressure testing applications. Their advanced design ensures precise and reliable performance in various testing scenarios.</p>
+              <p className='list-paragraph-2'>Provide a hydraulic power source for pressure generation and remote operation, ideal for pressure testing applications. Their advanced design ensures precise and reliable performance in various testing scenarios.</p>
               <ul>
-                <li className='bullet-list left-spacing-2'>Hydraulic Power Source: Delivers steady testing pressure.</li>
-                <li className='bullet-list left-spacing-2'>Pressure Generation: Efficiently generates high pressure levels</li>
-                <li className='bullet-list left-spacing-2'>Remote Operation: Operated from a distance for convenience</li>
-                <li className='bullet-list left-spacing-2'>Reliable Performance: Ensures accurate, dependable results.</li>
+                <li className='bullet-list pt1-bls-s2'>Hydraulic Power Source: Delivers steady testing pressure.</li>
+                <li className='bullet-list pt1-bls-s2'>Pressure Generation: Efficiently generates high pressure levels</li>
+                <li className='bullet-list pt1-bls-s2'>Remote Operation: Operated from a distance for convenience</li>
+                <li className='bullet-list pt1-bls-s2'>Reliable Performance: Ensures accurate, dependable results.</li>
               </ul>
             </div>
             <div className="column spir-barcode">
-              <p className='barcode'>HASKEL MODEL J24352</p>
+              <p className='barcode pt1-brcd-s2'>HASKEL MODEL J24352</p>
               <img src={require("../../assets/images/pressure/prst1/PHM.png")} alt="Placeholder" className='p-image1'/>
             </div>
           </div>
@@ -150,6 +150,7 @@ const PT1 = () => {
       </div>
       <Contact />
       <Footer />
+      <BarcodeEffect />
     </div>
   );
 };

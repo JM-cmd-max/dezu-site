@@ -8,6 +8,7 @@ import Haskel from "../slider/Haskel";
 import PageContext from '../../context/PageContext';
 import Footer from "../footer/Footer";
 import Contact from "../contact/Contact";
+import BarcodeEffect from "../brcd/BarcodeEffect";
 
 const EV2 = () => {
   const { color, setColor } = useContext(ColorContext); // Get color and setColor from ColorContext
@@ -88,7 +89,7 @@ const EV2 = () => {
         <div>
           <table className="rajdhani-regular">
             <div
-              className="grid-lines-overlay"
+              className="grid-lines-overlay-wj4"
               style={{ zIndex: -2, backgroundImage: `url(${gridLinesImage})`, backgroundSize: '100%', opacity: 0.5 }}
             />
             <tbody>
@@ -128,16 +129,16 @@ const EV2 = () => {
         <div className="product-content">
           <div className="section section-bg-prst3">
             <div className="column image-column">
-              <p className='barcode left-spacing nlb-spacing'>Echo Acoustic Barriers</p>
+              <p className='barcode bls-ev42'>Echo Acoustic Barriers</p>
               <img src={require("../../assets/images/environmental/envr2/ev21.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
             </div>
             <div className="column text-column rajdhani-semibold">
-              <p className='list-paragraph-1 left-spacing-1'>Designed to significantly reduce noise levels through effective sound absorption, using durable and eco-friendly materials. Their customizable design and aesthetic appeal ensure they meet diverse architectural needs while providing easy installation and low maintenance. </p>
+              <p className='list-paragraph-1'>Designed to significantly reduce noise levels through effective sound absorption, using durable and eco-friendly materials.</p>
               <ul>
-                <li className='bullet-list left-spacing-1'>Effective Sound Absorption: Reduces noise levels significantly</li>
-                <li className='bullet-list left-spacing-1'>High Durability: Withstands harsh environmental conditions</li>
-                <li className='bullet-list left-spacing-1'>Customizable Design: Adapts to various architectural needs</li>
-                <li className='bullet-list left-spacing-1'>Eco-Friendly Materials: Made from sustainable and recyclable components</li>
+                <li className='bullet-list-ev42'>Effective Sound Absorption: Reduces noise levels significantly</li>
+                <li className='bullet-list-ev42'>High Durability: Withstands harsh environmental conditions</li>
+                <li className='bullet-list-ev42'>Customizable Design: Adapts to various architectural needs</li>
+                <li className='bullet-list-ev42'>Eco-Friendly Materials: Made from sustainable and recyclable components</li>
               </ul>
             </div>
           </div>
@@ -147,6 +148,7 @@ const EV2 = () => {
       </div>
       <Contact />
       <Footer />
+      <BarcodeEffect />
     </div>
   );
 };

@@ -8,6 +8,7 @@ import Newtek from "../slider/Newtek";
 import PageContext from '../../context/PageContext';
 import Footer from "../footer/Footer";
 import Contact from "../contact/Contact";
+import BarcodeEffect from "../brcd/BarcodeEffect";
 
 const PT7 = () => {
   const { color, setColor } = useContext(ColorContext); // Get color and setColor from ColorContext
@@ -90,7 +91,7 @@ const PT7 = () => {
         <div>
           <table className="rajdhani-regular">
             <div
-              className="grid-lines-overlay"
+              className="grid-lines-overlay-wj4"
               style={{ zIndex: -2, backgroundImage: `url(${gridLinesImage})`, backgroundSize: '100%', opacity: 0.5 }}
             />
             <tbody>
@@ -130,11 +131,11 @@ const PT7 = () => {
         <div className="product-content">
           <div className="section section-bg-prst3">
             <div className="column image-column">
-              <p className='barcode left-spacing nlb-spacing'>PSA OXYGEN PLANT</p>
+              <p className='barcode pt-lc-27'>PSA OXYGEN PLANT</p>
               <img src={require("../../assets/images/pressure/prst7/PSOP.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
             </div>
             <div className="column text-column rajdhani-semibold">
-              <p className='list-paragraph-1 left-spacing-1'>Delivers high-purity oxygen with robust metal construction for enhanced durability and reliability. Its efficient and compact design ensures optimal performance and easy maintenance, making it ideal for diverse industrial applications.</p>
+              <p className='list-paragraph-1 left-spacing-1'>Delivers high-purity oxygen with robust metal construction for enhanced durability and reliability. Its efficient and compact design ensures optimal performance and easy maintenance.</p>
               <ul>
                 <li className='bullet-list left-spacing-1'>Metal Construction: Durable design for long-term reliability</li>
                 <li className='bullet-list left-spacing-1'>High Purity Oxygen: Delivers exceptional purity levels.</li>
@@ -149,6 +150,7 @@ const PT7 = () => {
       </div>
       <Contact />
       <Footer />
+      <BarcodeEffect />
     </div>
   );
 };

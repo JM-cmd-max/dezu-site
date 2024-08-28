@@ -24,11 +24,11 @@ export default function WJ1S() {
             ]
         },
         {
-            conjet: "MK2 - Crystallisation Solution",
+            conjet: "MK2 Solution",
             paragraph: "Enhance and protect stone surfaces, delivering a high-gloss, mirror-like finish. Its crystallizing formula creates a durable layer that boosts color and luster while offering long-lasting protection. ",
             listItems: [
                 "High Gloss Finish: Delivers a brilliant, mirror-like shine",
-                "Crystallizes Surfaces: Creates a durable, hard-wearing protective layer",
+                "Crystallizes Surfaces:Durable, hard-wearing protective layer",
                 "Enhances Stone: Boosts the natural color and luster",
                 "Quick Drying: Minimizes wait time with fast results",
             ]
@@ -93,7 +93,7 @@ export default function WJ1S() {
                     </p>
                     <ul>
                         {slideTexts[currentSlide].listItems.map((item, index) => (
-                            <li key={index} className='bullet-list left-spacing-3'>{item}</li>
+                            <li key={index} className='bullet-list-ct4s'>{item}</li>
                         ))}
                     </ul>
                 </div>

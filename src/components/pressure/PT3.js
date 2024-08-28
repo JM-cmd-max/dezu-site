@@ -8,6 +8,7 @@ import Haskel from "../slider/Haskel";
 import PageContext from '../../context/PageContext';
 import Footer from "../footer/Footer";
 import Contact from "../contact/Contact";
+import BarcodeEffect from "../brcd/BarcodeEffect";
 
 const PT3 = () => {
   const { color, setColor } = useContext(ColorContext); // Get color and setColor from ColorContext
@@ -88,7 +89,7 @@ const PT3 = () => {
         <div>
           <table className="rajdhani-regular">
             <div
-              className="grid-lines-overlay"
+              className="grid-lines-overlay-wj4"
               style={{ zIndex: -2, backgroundImage: `url(${gridLinesImage})`, backgroundSize: '100%', opacity: 0.5 }}
             />
             <tbody>
@@ -128,16 +129,16 @@ const PT3 = () => {
         <div className="product-content">
           <div className="section section-bg-prst3">
             <div className="column">
-              <p className='barcode left-spacing nlb-spacing'>HASKEL BUTECH VALVES</p>
+              <p className='barcode pt3-brcd-s1'>HASKEL BUTECH VALVES</p>
               <img src={require("../../assets/images/pressure/prst3/HBV.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
             </div>
             <div className="column text-column rajdhani-semibold">
-              <p className='list-paragraph-1 left-spacing-1'>Essential components for handling hydrogen across pressure generation, compression, storage, transfer, and testing applications. These high-quality products ensure safe and efficient management of hydrogen in various industrial processes.</p>
+              <p className='list-paragraph-1 left-spacing-1'>Essential components for handling hydrogen across pressure generation, compression, storage, transfer, and testing applications. </p>
               <ul>
-                <li className='bullet-list left-spacing-1'>Compression: Supports efficient hydrogen compression</li>
-                <li className='bullet-list left-spacing-1'>Storage Solutions: Enables secure hydrogen storage.</li>
-                <li className='bullet-list left-spacing-1'>Safe Transfer: Ensures reliable hydrogen transfer</li>
-                <li className='bullet-list left-spacing-1'>Testing Applications: Ensures precise hydrogen system testing.</li>
+                <li className='bullet-list pt3-bls-s1'>Compression: Supports efficient hydrogen compression</li>
+                <li className='bullet-list pt3-bls-s1'>Storage Solutions: Enables secure hydrogen storage.</li>
+                <li className='bullet-list pt3-bls-s1'>Safe Transfer: Ensures reliable hydrogen transfer</li>
+                <li className='bullet-list pt3-bls-s1'>Testing Applications: Ensures precise hydrogen system testing.</li>
               </ul>
             </div>
           </div>
@@ -147,6 +148,7 @@ const PT3 = () => {
       </div>
       <Contact />
       <Footer />
+      <BarcodeEffect />
     </div>
   );
 };

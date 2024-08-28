@@ -8,6 +8,7 @@ import StaticNSC from "../slider/StaticNSC";
 import PageContext from '../../context/PageContext';
 import Footer from "../footer/Footer";
 import Contact from "../contact/Contact";
+import BarcodeEffect from "../brcd/BarcodeEffect";
 
 const PT4 = () => {
   const { color } = useContext(ColorContext); // Get color from ColorContext
@@ -113,16 +114,16 @@ const PT4 = () => {
         <div className="product-content">
       <div className="section section-bg-prst1">
         <div className="column image-column">
-        <p className='barcode left-spacing nlb-spacing'>HY-LOK DOUBLE VALVE</p>
+        <p className='barcode pt4-brcd-s1'>HY-LOK DOUBLE VALVE</p>
           <img src={require("../../assets/images/pressure/prst4/HLDV.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
         </div>
         <div className="column text-column rajdhani-semibold">
-          <p  className='list-paragraph-1 left-spacing-1'>Enhance safety by incorporating two isolation valves with an intermediate bleed feature. This configuration ensures secure operation and easy maintenance, offering reliable leak prevention and protection in demanding environments</p>
+          <p  className='list-paragraph-1 left-spacing-1'>Enhance safety by incorporating two isolation valves with an intermediate bleed feature. Ensures secure operation and easy maintenance</p>
           <ul>
-            <li className='bullet-list left-spacing-1'>Intermediate Bleed Function: Allows safe venting between valves</li>
-            <li className='bullet-list left-spacing-1'>Durable Construction: Built to withstand harsh conditions effectively</li>
-            <li className='bullet-list left-spacing-1'>Dual Isolation Valves: Provides redundant safety for critical systems</li>
-            <li className='bullet-list left-spacing-1'>Easy Maintenance: Simplifies servicing with user-friendly features</li>
+            <li className='bullet-list pt4-bls-s1'>Intermediate Bleed Function: Allows safe venting between valves</li>
+            <li className='bullet-list pt4-bls-s1'>Durable Construction: Built to withstand harsh conditions effectively</li>
+            <li className='bullet-list pt4-bls-s1'>Dual Isolation Valves: Provides redundant safety for critical systems</li>
+            <li className='bullet-list pt4-bls-s1'>Easy Maintenance: Simplifies servicing with user-friendly features</li>
           </ul>
         </div>
       </div>
@@ -131,16 +132,16 @@ const PT4 = () => {
       <div className="divider"></div>
       <div className="section section-bg-prst21">
       <div className="column text-column rajdhani-semibold">
-          <p  className='list-paragraph-2 left-spacing-2'>Enhance safety by incorporating two isolation valves with an intermediate bleed feature. This configuration ensures secure operation and easy maintenance, offering reliable leak prevention and protection in demanding environments</p>
+          <p  className='list-paragraph-2'>Enhance safety by incorporating two isolation valves with an intermediate bleed feature. TEnsures secure operation and easy maintenance</p>
           <ul>
-            <li className='bullet-list left-spacing-2'>Intermediate Bleed Function: Allows safe venting between valves</li>
-            <li className='bullet-list left-spacing-2'>Durable Construction: Built to withstand harsh conditions effectively</li>
-            <li className='bullet-list left-spacing-2'>Dual Isolation Valves: Provides redundant safety for critical systems</li>
-            <li className='bullet-list left-spacing-2'>Easy Maintenance: Simplifies servicing with user-friendly features</li>
+            <li className='bullet-list left-spacing-pt24'>Intermediate Bleed Function: Allows safe venting between valves</li>
+            <li className='bullet-list left-spacing-pt24'>Durable Construction: Built to withstand harsh conditions effectively</li>
+            <li className='bullet-list left-spacing-pt24'>Dual Isolation Valves: Provides redundant safety for critical systems</li>
+            <li className='bullet-list left-spacing-pt24'>Easy Maintenance: Simplifies servicing with user-friendly features</li>
           </ul>
         </div>
         <div className="column image-column spir-barcode">
-            <p className='barcode'>HY-LOK BLEED VALVE</p>
+            <p className='barcode pt4-brcd-s2'>HY-LOK BLEED VALVE</p>
           <img src={require("../../assets/images/pressure/prst4/HLBV.png")} alt="Placeholder" className='p-image1'/>
         </div>
       </div>
@@ -151,16 +152,16 @@ const PT4 = () => {
       <div className="product-content">
       <div className="section section-bg-prst3">
         <div className="column image-column">
-        <p className='barcode left-spacing nlb-spacing'>HY-LOK BALL VALVE</p>
+        <p className='barcode pt4-brcd-s3'>HY-LOK BALL VALVE</p>
           <img src={require("../../assets/images/pressure/prst4/HLBL.png")} alt="Placeholder" className='p-image-sl p-image-sl-spacing'/>
         </div>
         <div className="column text-column rajdhani-semibold">
-          <p  className='list-paragraph-1 left-spacing-1'>Offer superior flow control and durability for a wide range of piping applications. Their high-quality materials and leak-proof design ensure long-term reliability, while their compact size and ease of operation make them ideal for both standard and challenging environments.</p>
+          <p  className='list-paragraph-1'>superior flow control & durability for a wide range of piping applications. high-quality materials & leak-proof design ensure long-term reliability.</p>
           <ul>
-            <li className='bullet-list left-spacing-1'>Precision Control: Provides accurate and smooth flow regulation</li>
-            <li className='bullet-list left-spacing-1'>Easy Operation: Simple to adjust and maintain efficiently</li>
-            <li className='bullet-list left-spacing-1'>Leak-Proof Design: Ensures secure, reliable operation without leaks</li>
-            <li className='bullet-list left-spacing-1'>Easy Operation: Simple to adjust and maintain efficiently</li>
+            <li className='bullet-list-pt-24'>Precision Control: Provides accurate and smooth flow regulation</li>
+            <li className='bullet-list-pt-24'>Easy Operation: Simple to adjust and maintain efficiently</li>
+            <li className='bullet-list-pt-24'>Leak-Proof Design: Ensures secure, reliable operation without leaks</li>
+            <li className='bullet-list-pt-24'>Easy Operation: Simple to adjust and maintain efficiently</li>
           </ul>
         </div>
       </div>
@@ -170,6 +171,7 @@ const PT4 = () => {
       </div>
       <Contact />
       <Footer />
+      <BarcodeEffect />
     </div>
   );
 };

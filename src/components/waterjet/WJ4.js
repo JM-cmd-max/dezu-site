@@ -8,6 +8,7 @@ import StaticN from "../slider/StaticN";
 import PageContext from '../../context/PageContext';
 import Footer from "../footer/Footer";
 import Contact from "../contact/Contact";
+import BarcodeEffect from "../brcd/BarcodeEffect";
 
 const WJ4 = () => {
   const { color } = useContext(ColorContext); // Get color from ColorContext
@@ -17,9 +18,6 @@ const WJ4 = () => {
   const [nextLinkIndex, setNextLinkIndex] = useState(null); // Track next link index for automatic change
   const [timeoutId, setTimeoutId] = useState(null); // Track timeout ID for clearing
   const [isHovered, setIsHovered] = useState(false); // Track hover state
-
-
-
 
   const linkTexts = [
     { text: 'Roads', set: 'hr4' },
@@ -57,12 +55,10 @@ const WJ4 = () => {
     setIsHovered(hovered);
   };
 
-
-
-    // Scroll to top on component mount
-    useEffect(() => {
-      window.scrollTo(0, 0);
-    }, []);
+  // Scroll to top on component mount
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   // Automatically click the first featured link on page load
   useEffect(() => {
@@ -71,7 +67,6 @@ const WJ4 = () => {
     }
   }, []);
   
-
   return (
     <div className="text-table-wglitch-wj3">
       <UCMenu />
@@ -116,31 +111,27 @@ const WJ4 = () => {
         <StaticN />
         <div className="divider"></div>
 
-
         <div className="product-content">
-        <div className="section section-bg-prst3">
-        <div className="column image-column">
-        <p className='barcode left-spacing nlb-spacing'>NLB StarJet SRV-7</p>
-          <img src={require("../../assets/images/hydro/hwj4/hw4.png")} alt="Placeholder" className='p-image-sl p-image-sl-spacing'/>
+          <div className="section section-bg-prst2">
+            <div className="column">
+              <p className='barcode wj4-brcd-s1'>NLB StarJet SRV-7</p>
+              <img src={require("../../assets/images/hydro/hwj4/hw4.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
+            </div>
+            <div className="column1 text-column rajdhani-semibold">
+              <p className='list-paragraph-1'>Powerful prime mover designed to pump water to hydro demolition accessories. Its robust performance and high efficiency ensure reliable water delivery for optimal accessory operation.</p>
+              <ul>
+                <li className='bullet-list'>High Pressure: Delivers powerful water flow efficiently</li>
+                <li className='bullet-list'>Reliable Performance: Consistent for demanding tasks.</li>
+                <li className='bullet-list'>Efficient Pumping: Maximizes water delivery to accessories</li>
+                <li className='bullet-list'>Versatile Application: Fits various hydro demolition needs.</li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div className="column text-column rajdhani-semibold">
-          <p  className='list-paragraph-1 left-spacing-1'>Powerful prime mover designed to pump water to hydro demolition accessories. Its robust performance and high efficiency ensure reliable water delivery for optimal accessory operation.</p>
-          <ul>
-            <li className='bullet-list left-spacing-1'>High Pressure: Delivers powerful water flow efficiently</li>
-            <li className='bullet-list left-spacing-1'>Reliable Performance: Consistent for demanding tasks.</li>
-            <li className='bullet-list left-spacing-1'>Efficient Pumping: Maximizes water delivery to accessories</li>
-            <li className='bullet-list left-spacing-1'>Versatile Application: Fits various hydro demolition needs.</li>
-          </ul>
-        </div>
-      </div>
-
-      
-
-      
-      </div>
       </div>
       <Contact />
       <Footer />
+      <BarcodeEffect /> 
     </div>
   );
 };

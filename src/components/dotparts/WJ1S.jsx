@@ -27,8 +27,8 @@ export default function WJ1S() {
             conjet: "CONJET ROBOT 101 NALTA",
             paragraph: "Offers precise, efficient hydro demolition with its semi-automated control and advanced technology. Its rugged construction and intuitive design ensure reliable performance and reduced operator fatigue in demanding industrial environments.",
             listItems: [
-                "Advanced Technology: Uses state-of-the-art methods for precise hydro demolition.",
-                "Rugged Construction: Withstands harsh conditions for lasting performance.",
+                "Advanced Technology: Uses state-of-the-art methods.",
+                "Rugged Construction: Withstands harsh conditions",
                 "Semi-Automated Control: Enhances efficiency and accuracy.",
                 "Versatile Applications: Ideal for all demolition tasks.",
             ]
@@ -37,10 +37,10 @@ export default function WJ1S() {
             conjet: "NLB NCG24-535 HAND LANCE",
             paragraph: "Premium tool for semi-automated hydro demolition, offering enhanced precision and efficiency with its advanced controller. Its robust construction, ergonomic design, and high-pressure capabilities make it ideal for demanding industrial tasks.",
             listItems: [
-                "Ergonomic Design: Reduces fatigue and enhances comfort during use",
-                "High-Pressure Capability: Delivers powerful jets for effective removal.",
+                "Ergonomic: Reduces fatigue and enhances comfort during use",
+                "High-Pressure: Delivers powerful jets for effective removal.",
                 "Durable : Built to withstand rigorous industrial environments.",
-                "Semi-Automated Control: Offers precise control, boosting efficiency.",
+                "Semi-Automated: Offers precise control, boosting efficiency.",
             ]
         },
     ];
@@ -93,7 +93,7 @@ export default function WJ1S() {
                     </p>
                     <ul>
                         {slideTexts[currentSlide].listItems.map((item, index) => (
-                            <li key={index} className='bullet-list left-spacing-3'>{item}</li>
+                            <li key={index} className='bullet-list-wj1s'>{item}</li>
                         ))}
                     </ul>
                 </div>

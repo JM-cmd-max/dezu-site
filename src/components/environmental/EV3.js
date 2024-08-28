@@ -8,6 +8,7 @@ import Haskel from "../slider/Haskel";
 import PageContext from '../../context/PageContext';
 import Footer from "../footer/Footer";
 import Contact from "../contact/Contact";
+import BarcodeEffect from "../brcd/BarcodeEffect";
 
 const EV3 = () => {
   const { color, setColor } = useContext(ColorContext); // Get color and setColor from ColorContext
@@ -88,7 +89,7 @@ const EV3 = () => {
         <div>
           <table className="rajdhani-regular">
             <div
-              className="grid-lines-overlay"
+              className="grid-lines-overlay-wj4"
               style={{ zIndex: -2, backgroundImage: `url(${gridLinesImage})`, backgroundSize: '100%', opacity: 0.5 }}
             />
             <tbody>
@@ -128,16 +129,16 @@ const EV3 = () => {
         <div className="product-content">
           <div className="section section-bg-prst3">
             <div className="column image-column">
-              <p className='barcode left-spacing nlb-spacing'>Reverse Osmosis Systems</p>
+              <p className='barcode bls-ev43'>Reverse Osmosis Systems</p>
               <img src={require("../../assets/images/environmental/envr3/ev31.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
             </div>
             <div className="column text-column rajdhani-semibold">
-              <p className='list-paragraph-1 left-spacing-1'>Deliver high-purity water by removing contaminants through advanced multi-stage filtration. Their energy-efficient, compact design ensures cost-effective operation and easy installation, while durable construction guarantees reliable, long-term performance.</p>
+              <p className='list-paragraph-1'>Deliver high-purity water by removing contaminants through advanced multi-stage filtration. Energy-efficient, compact design and easy installation.</p>
               <ul>
-                <li className='bullet-list left-spacing-1'>High Purity: Removes contaminants for clean, pure water</li>
-                <li className='bullet-list left-spacing-1'>Advanced Filtration: Utilizes multiple stages for thorough purification</li>
-                <li className='bullet-list left-spacing-1'>Easy Installation: Streamlined setup for quick deployment</li>
-                <li className='bullet-list left-spacing-1'>Energy Efficient: Minimizes energy consumption for cost savings</li>
+                <li className='bullet-list-ev43'>High Purity: Removes contaminants for clean, pure water</li>
+                <li className='bullet-list-ev43'>Advanced Filtration: Utilizes multiple stages for thorough purification</li>
+                <li className='bullet-list-ev43'>Easy Installation: Streamlined setup for quick deployment</li>
+                <li className='bullet-list-ev43'>Energy Efficient: Minimizes energy consumption for cost savings</li>
               </ul>
             </div>
           </div>
@@ -147,6 +148,7 @@ const EV3 = () => {
       </div>
       <Contact />
       <Footer />
+      <BarcodeEffect />
     </div>
   );
 };
