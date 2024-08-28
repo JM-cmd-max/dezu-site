@@ -1,5 +1,6 @@
 import { useContext, useEffect } from "react";
 import PageContext from "../../context/PageContext";
+import World from "../World/World";
 
 function Hero() {
   const { setPage } = useContext(PageContext);
