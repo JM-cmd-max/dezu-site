@@ -35,7 +35,7 @@ export default function EnvironmentalPage(){
       <div className="line-3"></div>
 
 
-      
+
     <Link to="/ev1" style={{ textDecoration: 'none', color: 'inherit' }}>
           <div className="card-and-info">
             <div
@@ -56,7 +56,7 @@ export default function EnvironmentalPage(){
               TANK STORAGE CONTROL SOLUTIONS{" "}
               </p>
               <p className="info-subtext rajdhani-regular" style={{ color: "white" }}>
-              Roof tank assembly handling and maintenance{" "}
+              Roof assembly handling and maintenance{" "}
               </p>
             </div>
           </div>
@@ -82,10 +82,10 @@ export default function EnvironmentalPage(){
             ></div>
             <div>
               <p className="info-text rajdhani-semibold" style={{ color: "white" }}>
-              NOISE POLLUTION CONTROL SOLUTIONS{" "}
+              NOISE POLLUTION SOLUTIONS{" "}
               </p>
               <p className="info-subtext rajdhani-regular" style={{ color: "white" }}>
-              On-site noise control setup with barriers{" "}
+              On-site noise control setup {" "}
               </p>
             </div>
           </div>
@@ -115,7 +115,7 @@ export default function EnvironmentalPage(){
               REVERSE OSMOSIS SYSTEMS{" "}
               </p>
               <p className="info-subtext rajdhani-regular" style={{ color: "white" }}>
-              Filtration machines for clean drinking water{" "}
+              Filtration for clean drinking water{" "}
               </p>
             </div>
           </div>
@@ -145,7 +145,7 @@ export default function EnvironmentalPage(){
               WASTEWATER TREATMENT SYSTEMS{" "}
               </p>
               <p className="info-subtext rajdhani-regular" style={{ color: "white" }}>
-              Wastewater machines for clean tap water{" "}
+              Wastewater for clean tap water{" "}
               </p>
             </div>
           </div>
@@ -175,7 +175,7 @@ export default function EnvironmentalPage(){
               DESALINATION SYSTEMS{" "}
               </p>
               <p className="info-subtext rajdhani-regular" style={{ color: "white" }}>
-              Purification machines for salt-to-tap water{" "}
+              Purification for salt-to-tap water{" "}
               </p>
             </div>
           </div>

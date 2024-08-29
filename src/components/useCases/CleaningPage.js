@@ -57,7 +57,7 @@ export default function CleaningPage(){
               VACUUM SOLUTION{" "}
               </p>
               <p className="info-subtext rajdhani-regular" style={{ color: "white" }}>
-              Vacuums for industrial and commercial cleaning{" "}
+              Industrial and commercial cleaning{" "}
               </p>
             </div>
           </div>
@@ -118,7 +118,7 @@ export default function CleaningPage(){
               DEEP CLEANING SOLUTIONS{" "}
               </p>
               <p className="info-subtext rajdhani-regular" style={{ color: "white" }}>
-              Heavy-duty cleaning for carpets and pipes{" "}
+              Heavy-duty cleaning{" "}
               </p>
             </div>
           </div>
@@ -146,7 +146,7 @@ export default function CleaningPage(){
             ></div>
             <div>
               <p className="info-text rajdhani-semibold" style={{ color: "white" }}>
-              INNOVATIVE CLEANING TECHNOLOGIES{" "}
+              INNOVATIVE CLEANING TECHNOLOGY{" "}
               </p>
               <p className="info-subtext rajdhani-regular" style={{ color: "white" }}>
               Advanced pavement cleaning technology{" "}
