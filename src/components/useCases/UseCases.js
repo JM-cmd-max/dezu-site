@@ -52,7 +52,7 @@ export default function UseCases() {
           A NEW ERA OF HYDRO
         </h2>
         <p className="use-case-text rajdhani-regular">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit diam quam nisi ut pellentesque nec cursus habitant nec lobortis ac placerat non, urna tempus luctus lobortis sed dui nisl.
+        Leveraging advanced waterjet, pressure, cleaning, and environmental technologies, we provide innovative solutions that achieve unparalleled results in cleaning and sanitation.
         </p>
 
         <ol className="filter-tabs">
