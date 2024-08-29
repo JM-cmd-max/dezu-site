@@ -983,6 +983,7 @@ img {
   font-optical-sizing: auto;
   font-weight: 200;
   font-style: normal;
+  text-transform: uppercase;
   font-size: 27px !important;
 }
 
@@ -1861,7 +1862,7 @@ textarea::placeholder {
 .line-3 {
   position: absolute;
   width: 1px;
-  height: 100%;
+  height: 136rem;
   top: 0;
   background: rgba(255, 255, 255, 0.1);
   overflow: hidden;
@@ -1949,6 +1950,203 @@ textarea::placeholder {
     bottom: 110%;
   }
 }
+
+
+/* LINE BACKGROUND | WJ */
+.line-1-wj,
+.line-2-wj,
+.line-3-wj {
+  position: absolute;
+  width: 1px;
+  height: 199rem;
+  top: 0;
+  background: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+}
+
+
+.line-1-wj::after,
+.line-2-wj::after,
+.line-3-wj::after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 15vh;
+  width: 100%;
+  left: 0;
+}
+
+.line-1-wj::after,
+.line-3-wj::after {
+  top: -50%;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0%,
+    #ffffff 75%,
+    #ffffff 100%
+  );
+  animation: drop 40s 40s infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.97, 0.97, 0.97, 0.97);
+}
+
+.line-2-wj::after {
+  bottom: -50%;
+  background: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0) 0%,
+    #ffffff 75%,
+    #ffffff 100%
+  );
+  animation: rise 40s 40s infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.3, 0.3, 0.3, 0.3);
+}
+
+.line-1-wj {
+  left: 18%;
+}
+
+.line-1-wj::after {
+  animation-delay: 4s;
+}
+
+.line-2-wj::after {
+  animation-delay: 6s;
+}
+
+.line-2-wj {
+  left: 58%;
+  z-index: -10;
+}
+
+.line-3-wj {
+  left: 75%;
+  z-index: -10;
+}
+
+.line-3-wj::after {
+  animation-delay: 2s;
+}
+
+@keyframes drop {
+  0% {
+    top: -50%;
+  }
+  100% {
+    top: 110%;
+  }
+}
+
+@keyframes rise {
+  0% {
+    bottom: -50%;
+  }
+  100% {
+    bottom: 110%;
+  }
+}
+
+
+
+
+/* LINE BACKGROUND | PT */
+.line-1-pt,
+.line-2-pt,
+.line-3-pt {
+  position: absolute;
+  width: 1px;
+  height: 167rem;
+  top: 0;
+  background: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+}
+
+
+.line-1-pt::after,
+.line-2-pt::after,
+.line-3-pt::after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 15vh;
+  width: 100%;
+  left: 0;
+}
+
+.line-1-pt::after,
+.line-3-pt::after {
+  top: -50%;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0%,
+    #ffffff 75%,
+    #ffffff 100%
+  );
+  animation: drop 40s 40s infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.97, 0.97, 0.97, 0.97);
+}
+
+.line-2-pt::after {
+  bottom: -50%;
+  background: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0) 0%,
+    #ffffff 75%,
+    #ffffff 100%
+  );
+  animation: rise 40s 40s infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.3, 0.3, 0.3, 0.3);
+}
+
+.line-1-pt {
+  left: 18%;
+}
+
+.line-1-pt::after {
+  animation-delay: 4s;
+}
+
+.line-2-pt::after {
+  animation-delay: 6s;
+}
+
+.line-2-pt {
+  left: 58%;
+  z-index: -10;
+}
+
+.line-3-pt {
+  left: 75%;
+  z-index: -10;
+}
+
+.line-3-pt::after {
+  animation-delay: 2s;
+}
+
+@keyframes drop {
+  0% {
+    top: -50%;
+  }
+  100% {
+    top: 110%;
+  }
+}
+
+@keyframes rise {
+  0% {
+    bottom: -50%;
+  }
+  100% {
+    bottom: 110%;
+  }
+}
+
+
+
 
 /* PLANE GLITCH EFFECT */
 .filter {
@@ -2143,6 +2341,20 @@ h1 {
 .klenco {
   margin-left: 650px;
   margin-top: 30px;
+}
+
+.hkn{
+  margin-left: 350px;
+  margin-top: -30px;
+  margin-bottom: 70px;
+  width: 10%;
+}
+
+.echobar{
+  margin-left: 400px;
+  margin-top: -30px;
+  margin-bottom: 70px;
+  width: 40%;
 }
 
 /* SECTION | IMAGE -> TEXT | 1ST ROW on PRST */

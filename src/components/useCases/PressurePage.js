@@ -30,6 +30,9 @@ export default function PressurePage(){
 
     
     return <div className="card-container">
+      <div className="line-1-pt"></div>
+      <div className="line-2-pt"></div>
+      <div className="line-3-pt"></div>
     
 
     <Link to="/pt1" style={{ textDecoration: 'none', color: 'inherit' }}>
@@ -49,10 +52,10 @@ export default function PressurePage(){
             ></div>
             <div>
               <p className="info-text rajdhani-semibold" style={{ color: "white" }}>
-                Pressure Tech1{" "}
+              HYDRAULICS AND PRESSURE{" "}
               </p>
               <p className="info-subtext rajdhani-regular" style={{ color: "white" }}>
-                (Insert Waterjet Product Use Case Description){" "}
+              HYDRAULIC power for remote operation{" "}
               </p>
             </div>
           </div>
@@ -78,10 +81,10 @@ export default function PressurePage(){
             ></div>
             <div>
               <p className="info-text rajdhani-semibold" style={{ color: "white" }}>
-                Pressure Tech2{" "}
+              FLUID POWER{" "}
               </p>
               <p className="info-subtext rajdhani-regular" style={{ color: "white" }}>
-                (Insert Waterjet Product Use Case Description){" "}
+              Selective Concrete Removal for Repairs{" "}
               </p>
             </div>
           </div>
@@ -106,10 +109,10 @@ export default function PressurePage(){
             ></div>
             <div>
               <p className="info-text rajdhani-semibold" style={{ color: "white" }}>
-                Pressure Tech3{" "}
+              HYDROGEN EQUIPMENT{" "}
               </p>
               <p className="info-subtext rajdhani-regular" style={{ color: "white" }}>
-                (Insert Waterjet Product Use Case Description){" "}
+              Pressure generation, storage, testing{" "}
               </p>
             </div>
           </div>
@@ -134,10 +137,10 @@ export default function PressurePage(){
             ></div>
             <div>
               <p className="info-text rajdhani-semibold" style={{ color: "white" }}>
-                Pressure Tech4{" "}
+              OIL RIG PRESSURE VALVES{" "}
               </p>
               <p className="info-subtext rajdhani-regular" style={{ color: "white" }}>
-                (Insert Waterjet Product Use Case Description){" "}
+              Oil rig pressure valve specialists{" "}
               </p>
             </div>
           </div>
@@ -163,10 +166,10 @@ export default function PressurePage(){
             ></div>
             <div>
               <p className="info-text rajdhani-semibold" style={{ color: "white" }}>
-                Pressure Tech5{" "}
+              LIQUEFIED NATURAL GAS{" "}
               </p>
               <p className="info-subtext rajdhani-regular" style={{ color: "white" }}>
-                (Insert Waterjet Product Use Case Description){" "}
+              High pressure fittings for LNG{" "}
               </p>
             </div>
           </div>
@@ -191,10 +194,10 @@ export default function PressurePage(){
             ></div>
             <div>
               <p className="info-text rajdhani-semibold" style={{ color: "white" }}>
-                Pressure Tech6{" "}
+              POWER PLANT{" "}
               </p>
               <p className="info-subtext rajdhani-regular" style={{ color: "white" }}>
-                (Insert Waterjet Product Use Case Description){" "}
+              Maintenance for Power Plant {" "}
               </p>
             </div>
           </div>
@@ -219,10 +222,10 @@ export default function PressurePage(){
             ></div>
             <div>
               <p className="info-text rajdhani-semibold" style={{ color: "white" }}>
-                Pressure Tech7{" "}
+              OXYGEN SOLUTIONS{" "}
               </p>
               <p className="info-subtext rajdhani-regular" style={{ color: "white" }}>
-                (Insert Waterjet Product Use Case Description){" "}
+              Pressurized solutions and applications{" "}
               </p>
             </div>
           </div>

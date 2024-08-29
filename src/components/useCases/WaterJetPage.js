@@ -26,6 +26,12 @@ export default function WaterJetPage() {
 
     return (
       <div className="card-container">
+      <div className="line-1-wj"></div>
+      <div className="line-2-wj"></div>
+      <div className="line-3-wj"></div>
+
+
+
 <Link to="/wj1" style={{ textDecoration: 'none', color: 'inherit' }}>
   <div className="card-and-info">
     <div
@@ -43,10 +49,10 @@ export default function WaterJetPage() {
     ></div>
     <div>
       <p className="info-text rajdhani-semibold" style={{ color: "white" }}>
-        Waterjet Tech1{" "}
+      HYDRO DEMOLITION{" "}
       </p>
       <p className="info-subtext rajdhani-regular" style={{ color: "white" }}>
-        (Insert Waterjet Product Use Case Description){" "}
+      Selective Concrete Removal for Repairs{" "}
       </p>
     </div>
   </div>
@@ -71,10 +77,10 @@ export default function WaterJetPage() {
             ></div>
             <div>
               <p className="info-text rajdhani-semibold" style={{ color: "white" }}>
-                Waterjet Tech2{" "}
+              Concrete SURFACE PREPARATION{" "}
               </p>
               <p className="info-subtext rajdhani-regular" style={{ color: "white" }}>
-                (Insert Waterjet Product Use Case Description){" "}
+              Optimized Surface Preparation{" "}
               </p>
             </div>
           </div>
@@ -97,10 +103,10 @@ export default function WaterJetPage() {
             ></div>
             <div>
               <p className="info-text rajdhani-semibold" style={{ color: "white" }}>
-                Waterjet Tech3{" "}
+              Steel Surface Preparation{" "}
               </p>
               <p className="info-subtext rajdhani-regular" style={{ color: "white" }}>
-                (Insert Waterjet Product Use Case Description){" "}
+              Precision Steel Surface Preparation{" "}
               </p>
             </div>
           </div>
@@ -123,10 +129,10 @@ export default function WaterJetPage() {
             ></div>
             <div>
               <p className="info-text rajdhani-semibold" style={{ color: "white" }}>
-                Waterjet Tech4{" "}
+              Road Surface Preparation{" "}
               </p>
               <p className="info-subtext rajdhani-regular" style={{ color: "white" }}>
-                (Insert Waterjet Product Use Case Description){" "}
+              Removal of Markings and Deposits{" "}
               </p>
             </div>
           </div>
@@ -149,10 +155,10 @@ export default function WaterJetPage() {
             ></div>
             <div>
               <p className="info-text rajdhani-semibold" style={{ color: "white" }}>
-                Waterjet Tech5{" "}
+              Steel HIGH PRESSURE CLEANING{" "}
               </p>
               <p className="info-subtext rajdhani-regular" style={{ color: "white" }}>
-                (Insert Waterjet Product Use Case Description){" "}
+              Effective Dirt and Corrosion Removal{" "}
               </p>
             </div>
           </div>
@@ -175,10 +181,10 @@ export default function WaterJetPage() {
             ></div>
             <div>
               <p className="info-text rajdhani-semibold" style={{ color: "white" }}>
-                Waterjet Tech6{" "}
+              TUBE CLEANING{" "}
               </p>
               <p className="info-subtext rajdhani-regular" style={{ color: "white" }}>
-                (Insert Waterjet Product Use Case Description){" "}
+              Internal Tube Deposit Removal{" "}
               </p>
             </div>
           </div>
@@ -201,10 +207,10 @@ export default function WaterJetPage() {
             ></div>
             <div>
               <p className="info-text rajdhani-semibold" style={{ color: "white" }}>
-                Waterjet Tech7{" "}
+              PIPE CLEANING{" "}
               </p>
               <p className="info-subtext rajdhani-regular" style={{ color: "white" }}>
-                (Insert Waterjet Product Use Case Description){" "}
+              Internal Pipe Scaling Solutions{" "}
               </p>
             </div>
           </div>
@@ -228,10 +234,10 @@ export default function WaterJetPage() {
             ></div>
             <div>
               <p className="info-text rajdhani-semibold" style={{ color: "white" }}>
-                Waterjet Tech8{" "}
+              SEWER PIPE CLEANING{" "}
               </p>
               <p className="info-subtext rajdhani-regular" style={{ color: "white" }}>
-                (Insert Waterjet Product Use Case Description){" "}
+              Removes sewer pipe scaling{" "}
               </p>
             </div>
           </div>
@@ -255,10 +261,10 @@ export default function WaterJetPage() {
             ></div>
             <div>
               <p className="info-text rajdhani-semibold" style={{ color: "white" }}>
-                Waterjet Tech9{" "}
+              TANK AND VESSEL CLEANING{" "}
               </p>
               <p className="info-subtext rajdhani-regular" style={{ color: "white" }}>
-                (Insert Waterjet Product Use Case Description){" "}
+              Removes tank deposits{" "}
               </p>
             </div>
           </div>
@@ -282,10 +288,10 @@ export default function WaterJetPage() {
             ></div>
             <div>
               <p className="info-text rajdhani-semibold" style={{ color: "white" }}>
-                Waterjet Tech10{" "}
+              COLD CUTTING{" "}
               </p>
               <p className="info-subtext rajdhani-regular" style={{ color: "white" }}>
-                (Insert Waterjet Product Use Case Description){" "}
+              Cold cutting replaces hot work safely{" "}
               </p>
             </div>
           </div>
@@ -309,10 +315,10 @@ export default function WaterJetPage() {
             ></div>
             <div>
               <p className="info-text rajdhani-semibold" style={{ color: "white" }}>
-                Waterjet Tech11{" "}
+              PAINT BOOTH CLEANING{" "}
               </p>
               <p className="info-subtext rajdhani-regular" style={{ color: "white" }}>
-                (Insert Waterjet Product Use Case Description){" "}
+              Removes paint residues from booths{" "}
               </p>
             </div>
           </div>
@@ -336,10 +342,10 @@ export default function WaterJetPage() {
             ></div>
             <div>
               <p className="info-text rajdhani-semibold" style={{ color: "white" }}>
-                Waterjet Tech12{" "}
+              General HIGH PRESSURE CLEANING{" "}
               </p>
               <p className="info-subtext rajdhani-regular" style={{ color: "white" }}>
-                (Insert Waterjet Product Use Case Description){" "}
+              Comprehensive cleaning{" "}
               </p>
             </div>
           </div>

@@ -30,6 +30,13 @@ export default function CleaningPage(){
 
     
     return <div className="card-container">
+      <div className="line-1"></div>
+      <div className="line-2"></div>
+      <div className="line-3"></div>
+
+
+
+
     <Link to="/ct1" style={{ textDecoration: 'none', color: 'inherit' }}>
           <div className="card-and-info">
             <div
@@ -47,10 +54,10 @@ export default function CleaningPage(){
             ></div>
             <div>
               <p className="info-text rajdhani-semibold" style={{ color: "white" }}>
-                Cleaning Tech1{" "}
+              VACUUM SOLUTION{" "}
               </p>
               <p className="info-subtext rajdhani-regular" style={{ color: "white" }}>
-                (Insert Waterjet Product Use Case Description){" "}
+              Vacuums for industrial and commercial cleaning{" "}
               </p>
             </div>
           </div>
@@ -78,10 +85,10 @@ export default function CleaningPage(){
             ></div>
             <div>
               <p className="info-text rajdhani-semibold" style={{ color: "white" }}>
-                Cleaning Tech2{" "}
+              FLOOR CARE SYSTEMS{" "}
               </p>
               <p className="info-subtext rajdhani-regular" style={{ color: "white" }}>
-                (Insert Waterjet Product Use Case Description){" "}
+              Specialized tools for commercial floors{" "}
               </p>
             </div>
           </div>
@@ -108,10 +115,10 @@ export default function CleaningPage(){
             ></div>
             <div>
               <p className="info-text rajdhani-semibold" style={{ color: "white" }}>
-                Cleaning Tech3{" "}
+              DEEP CLEANING SOLUTIONS{" "}
               </p>
               <p className="info-subtext rajdhani-regular" style={{ color: "white" }}>
-                (Insert Waterjet Product Use Case Description){" "}
+              Heavy-duty cleaning for carpets and pipes{" "}
               </p>
             </div>
           </div>
@@ -139,10 +146,10 @@ export default function CleaningPage(){
             ></div>
             <div>
               <p className="info-text rajdhani-semibold" style={{ color: "white" }}>
-                Cleaning Tech4{" "}
+              INNOVATIVE CLEANING TECHNOLOGIES{" "}
               </p>
               <p className="info-subtext rajdhani-regular" style={{ color: "white" }}>
-                (Insert Waterjet Product Use Case Description){" "}
+              Advanced pavement cleaning technology{" "}
               </p>
             </div>
           </div>

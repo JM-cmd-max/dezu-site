@@ -118,7 +118,7 @@ const EV3 = () => {
             </tbody>
           </table>
           <div className={`glitch ${glitch ? `glitch-active-${imageSet}` : `glitch-static-${imageSet}`}`}></div>
-          <h3 className="sub-heading orbitron" style={{ color: color?.color }}>- - -</h3>
+          <h3 className="sub-heading orbitron" style={{ color: color?.color }}>Innovative Filtration</h3>
           <h1 className="main-heading rajdhani-medium">Reverse Osmosis Systems</h1>
         </div>
 

@@ -4,7 +4,7 @@ import ColorContext from '../../context/ColorContext';
 import gridLinesImage from "../../assets/images/univ/grid_lines.svg";
 import Navbar from "../hero/components/Navbar";
 import UCMenu from "../UCMenu";
-import Haskel from "../slider/Haskel";
+import EchoBar from "../slider/EchoBar";
 import PageContext from '../../context/PageContext';
 import Footer from "../footer/Footer";
 import Contact from "../contact/Contact";
@@ -118,12 +118,12 @@ const EV2 = () => {
             </tbody>
           </table>
           <div className={`glitch ${glitch ? `glitch-active-${imageSet}` : `glitch-static-${imageSet}`}`}></div>
-          <h3 className="sub-heading orbitron" style={{ color: color?.color }}>- - -</h3>
-          <h1 className="main-heading rajdhani-medium">Noise Pollution Control Solutions</h1>
+          <h3 className="sub-heading orbitron" style={{ color: color?.color }}>Noise Management Solution</h3>
+          <h1 className="main-heading rajdhani-medium">Noise Pollution Control</h1>
         </div>
 
         <div className="divider"></div>
-        <Haskel />
+        <EchoBar />
         <div className="divider"></div>
 
         <div className="product-content">

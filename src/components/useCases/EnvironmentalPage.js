@@ -30,6 +30,12 @@ export default function EnvironmentalPage(){
 
     
     return <div className="card-container">
+      <div className="line-1"></div>
+      <div className="line-2"></div>
+      <div className="line-3"></div>
+
+
+      
     <Link to="/ev1" style={{ textDecoration: 'none', color: 'inherit' }}>
           <div className="card-and-info">
             <div
@@ -47,10 +53,10 @@ export default function EnvironmentalPage(){
             ></div>
             <div>
               <p className="info-text rajdhani-semibold" style={{ color: "white" }}>
-                Environmental Tech1{" "}
+              TANK STORAGE CONTROL SOLUTIONS{" "}
               </p>
               <p className="info-subtext rajdhani-regular" style={{ color: "white" }}>
-                (Insert Waterjet Product Use Case Description){" "}
+              Roof tank assembly handling and maintenance{" "}
               </p>
             </div>
           </div>
@@ -76,10 +82,10 @@ export default function EnvironmentalPage(){
             ></div>
             <div>
               <p className="info-text rajdhani-semibold" style={{ color: "white" }}>
-              Environmental Tech2{" "}
+              NOISE POLLUTION CONTROL SOLUTIONS{" "}
               </p>
               <p className="info-subtext rajdhani-regular" style={{ color: "white" }}>
-                (Insert Waterjet Product Use Case Description){" "}
+              On-site noise control setup with barriers{" "}
               </p>
             </div>
           </div>
@@ -106,10 +112,10 @@ export default function EnvironmentalPage(){
             ></div>
             <div>
               <p className="info-text rajdhani-semibold" style={{ color: "white" }}>
-              Environmental Tech3{" "}
+              REVERSE OSMOSIS SYSTEMS{" "}
               </p>
               <p className="info-subtext rajdhani-regular" style={{ color: "white" }}>
-                (Insert Waterjet Product Use Case Description){" "}
+              Filtration machines for clean drinking water{" "}
               </p>
             </div>
           </div>
@@ -136,10 +142,10 @@ export default function EnvironmentalPage(){
             ></div>
             <div>
               <p className="info-text rajdhani-semibold" style={{ color: "white" }}>
-              Environmental Tech4{" "}
+              WASTEWATER TREATMENT SYSTEMS{" "}
               </p>
               <p className="info-subtext rajdhani-regular" style={{ color: "white" }}>
-                (Insert Waterjet Product Use Case Description){" "}
+              Wastewater machines for clean tap water{" "}
               </p>
             </div>
           </div>
@@ -166,10 +172,10 @@ export default function EnvironmentalPage(){
             ></div>
             <div>
               <p className="info-text rajdhani-semibold" style={{ color: "white" }}>
-              Environmental Tech5{" "}
+              DESALINATION SYSTEMS{" "}
               </p>
               <p className="info-subtext rajdhani-regular" style={{ color: "white" }}>
-                (Insert Waterjet Product Use Case Description){" "}
+              Purification machines for salt-to-tap water{" "}
               </p>
             </div>
           </div>

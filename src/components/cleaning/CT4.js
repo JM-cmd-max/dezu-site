@@ -110,7 +110,7 @@ const CT4 = () => {
             </tbody>
           </table>
           <div className={`glitch-ct1 ${glitch ? `glitch-active-${imageSet}` : `glitch-static-${imageSet}`}`}></div>
-          <h3 className="sub-heading orbitron" style={{ color: color.color }}>- - -</h3>
+          <h3 className="sub-heading orbitron" style={{ color: color.color }}>Advanced pavement cleaning technology</h3>
           <h1 className="main-heading rajdhani-medium">INNOVATIVE CLEANING TECHNOLOGIES</h1>
         </div>
 

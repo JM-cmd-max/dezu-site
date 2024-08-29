@@ -46,9 +46,7 @@ export default function UseCases() {
 
   return (
     <div className="hero use-case-bg">
-      <div className="line-1"></div>
-      <div className="line-2"></div>
-      <div className="line-3"></div>
+
       <div className="use-case-container">
         <h2 className="use-case-heading rajdhani-medium">
           A NEW ERA OF HYDRO
