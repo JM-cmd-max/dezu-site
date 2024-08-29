@@ -154,8 +154,7 @@ export default function ContactPage() {
             </div>
             <div className="form-group additional-text-row rajdhani-medium-contact">
               <p className="additional-text">
-                *By submitting, the data provided will be used to perform your
-                request according to the Privacy Policy.
+                *By submitting, the data provided will be used to fulfill your request according to the Privacy Policy.
               </p>
               <button
                 className="submit-button rajdhani-medium-contact"

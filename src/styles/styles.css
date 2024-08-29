@@ -1590,7 +1590,7 @@ img {
 }
 
 .form-text {
-  font-size: 16px !important;
+  font-size: 18px !important;
   opacity: 40%;
 }
 
@@ -1694,7 +1694,7 @@ textarea::placeholder {
 
 .additional-text-row {
   display: flex;
-  font-size: 8px !important;
+  font-size: 10px !important;
   align-items: center;
   text-align: left;
   padding-top: 1rem;
