@@ -26,7 +26,7 @@ export default function WJ11S() {
         },
         {
             conjet: "NLB NCG24-535 HAND LANCE",
-            paragraph: "Premium tool for semi-automated hydro demolition, offering enhanced precision and efficiency with its advanced controller. Its robust construction, ergonomic design, and high-pressure capabilities make it ideal for demanding industrial tasks.",
+            paragraph: "Premium tool for semi-automated hydro demolition, offering enhanced precision and efficiency with its advanced controller. Its robust construction, ergonomic design, and high-pressure capabilities.",
             listItems: [
                 "Ergonomic: Reduces fatigue and enhances comfort during use",
                 "High-Pressure: Delivers powerful jets for effective removal.",

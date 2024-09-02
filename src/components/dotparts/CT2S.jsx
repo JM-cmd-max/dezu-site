@@ -15,7 +15,7 @@ export default function CT2S() {
     const slideTexts = [
         {
             conjet: "Action 150S",
-            paragraph: "High-performance stripper designed to quickly and effectively remove heavy buildups of floor polishes and waxes. Its powerful solvents and versatile use make it ideal for a range of floor types, while its easy application and low odor enhance user experience. ",
+            paragraph: "High-performance stripper designed to quickly and effectively remove heavy buildups of floor polishes and waxes. Its powerful solvents and versatile use make it ideal for a range of floor types. ",
             listItems: [
                 "Powerful Stripping: Removes heavy buildups quickly and efficiently",
                 "High-Grade Solvents: Ensures effective removal of tough residues",

@@ -15,7 +15,7 @@ export default function EV1S() {
     const slideTexts = [
         {
             conjet: "Leg Cup Seals",
-            paragraph: "Designed to provide effective leak prevention and secure sealing, utilizing durable materials to resist wear and environmental stress. Their easy installation and versatile fit make them suitable for various applications, while their high resistance ensures long-lasting performance.",
+            paragraph: "Designed to provide effective leak prevention and secure sealing, utilizing durable materials to resist wear and environmental stress. Their easy installation and versatile fit make them suitable for various applications.",
             listItems: [
                 "Leak Prevention: Ensures secure, leak-proof sealing",
                 "Durable Material: Resists wear and environmental stress",
@@ -74,7 +74,7 @@ export default function EV1S() {
                 <div className="column">
                     <div className=''>
                         <div className="">
-                            <p className='barcode'>{slideTexts[currentSlide].conjet}</p>
+                            <p className='barcode brcd-ev1s'>{slideTexts[currentSlide].conjet}</p>
                             {slides.map((image, index) => (
                                 <div
                                     key={index}

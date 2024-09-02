@@ -15,7 +15,7 @@ export default function WJ1S() {
     const slideTexts = [
         {
             conjet: "GF POWER & GF SOLUTION ",
-            paragraph: "The powder provides an abrasive polish to remove scratches and boost shine, while the solution enhances the surface's luster and offers protection against stains. ",
+            paragraph: "The powder provides an abrasive polish to remove scratches and boost shine, enhances the surface's luster and offers protection against stains. ",
             listItems: [
                 "Polishes Granite: Enhances shine and smoothness effectively",
                 "Enhances Shine: Boosts granite’s natural luster and brilliance",

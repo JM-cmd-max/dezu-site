@@ -155,7 +155,7 @@ const WJ2 = () => {
           <img src={require("../../assets/images/univ/x4.png")} alt="Placeholder" className='p-image-sl p-image-sl-spacing'/>
         </div>
         <div className="column text-column rajdhani-semibold">
-          <p  className='list-paragraph-1'>Offers precise, efficient hydro demolition with its semi-automated control and advanced technology. Its rugged construction and intuitive design ensure reliable performance and reduced operator fatigue in demanding industrial environments.</p>
+          <p  className='list-paragraph-1'>Offers precise, efficient hydro demolition with its semi-automated control and advanced technology. Its rugged construction and intuitive design ensure reliable performance and reduced operator fatigue.</p>
           <ul>
             <li className='bullet-list left-spacing-wj12'>Advanced Technology: Uses state-of-the-art methods.</li>
             <li className='bullet-list left-spacing-wj12'>Rugged Construction: Withstands harsh conditions</li>

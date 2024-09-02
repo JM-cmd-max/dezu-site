@@ -175,7 +175,7 @@ const CT2 = () => {
           <img src={require("../../assets/images/cleaning/ct2/ct3.png")} alt="Placeholder" className='p-image1 p-image1-spacing'/>
         </div>
         <div className="column text-column rajdhani-semibold">
-          <p  className='list-paragraph-1 left-spacing-1'>Offers powerful suction and advanced filtration, making it ideal for deep cleaning and allergen control. Its ergonomic design and large capacity ensure comfort and efficiency, while durable construction and versatile attachments enhance its performance across various cleaning tasks.</p>
+          <p  className='list-paragraph-1 left-spacing-1'>Offers powerful suction and advanced filtration, making it ideal for deep cleaning and allergen control. Its ergonomic design and large capacity ensure comfort and efficiency, durable construction and versatile attachments.</p>
           <ul>
             <li className='bullet-list ct2-bls-s3'>Powerful Suction: Removes dirt and debris effectively</li>
             <li className='bullet-list ct2-bls-s3'>Advanced Filtration: Captures fine dust and allergens efficiently</li>

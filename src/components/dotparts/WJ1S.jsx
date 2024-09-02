@@ -15,7 +15,7 @@ export default function WJ1S() {
     const slideTexts = [
         {
             conjet: "CONJET ROBOT 557",
-            paragraph: "Advanced accessory for automated robotic hydro demolition, allowing operators to achieve precise control and efficient material removal using a sophisticated controller. Its cutting-edge design ensures effective performance in challenging environments, blending automation with user-friendly operation.",
+            paragraph: "Advanced accessory for automated robotic hydro demolition, allowing operators to achieve precise control and efficient material removal using a sophisticated controller.",
             listItems: [
                 "Automated Operation: Advanced robotic automation for demolition",
                 "Controller Integration: Intuitive controller for precise operation",
@@ -25,7 +25,7 @@ export default function WJ1S() {
         },
         {
             conjet: "CONJET ROBOT 101 NALTA",
-            paragraph: "Offers precise, efficient hydro demolition with its semi-automated control and advanced technology. Its rugged construction and intuitive design ensure reliable performance and reduced operator fatigue in demanding industrial environments.",
+            paragraph: "Offers precise, efficient hydro demolition with its semi-automated control and advanced technology. Its rugged construction and intuitive design ensure reliable performance and reduced operator fatigue.",
             listItems: [
                 "Advanced Technology: Uses state-of-the-art methods.",
                 "Rugged Construction: Withstands harsh conditions",
@@ -35,7 +35,7 @@ export default function WJ1S() {
         },
         {
             conjet: "NLB NCG24-535 HAND LANCE",
-            paragraph: "Premium tool for semi-automated hydro demolition, offering enhanced precision and efficiency with its advanced controller. Its robust construction, ergonomic design, and high-pressure capabilities make it ideal for demanding industrial tasks.",
+            paragraph: "Premium tool for semi-automated hydro demolition, offering enhanced precision and efficiency with its advanced controller. Its robust construction, ergonomic design, and high-pressure capabilitie.",
             listItems: [
                 "Ergonomic: Reduces fatigue and enhances comfort during use",
                 "High-Pressure: Delivers powerful jets for effective removal.",

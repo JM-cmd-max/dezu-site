@@ -15,7 +15,7 @@ export default function CT3S() {
     const slideTexts = [
         {
             conjet: "ACTION 170S",
-            paragraph: "Delivers deep cleaning power by effectively removing embedded dirt and enhancing extraction results. Its quick-drying, non-foaming formula is safe for carpets and neutralizes odors, ensuring a fresh and clean environment. ",
+            paragraph: "Delivers deep cleaning power by effectively removing embedded dirt and enhancing extraction results. Its quick-drying, non-foaming formula is safe for carpets and neutralizes odors. ",
             listItems: [
                 "Deep Cleaning: Penetrates and removes embedded dirt effectively",
                 "Safe on Carpets: Gentle on various carpet types and fibers",
