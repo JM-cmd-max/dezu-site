@@ -1,5 +1,7 @@
+import React, { useEffect, useState } from 'react';
+import '../../styles/styles.css';
 import Spline from "@splinetool/react-spline";
-import { useContext, useEffect, useRef, useState } from "react";
+import { useContext, useRef } from "react";
 import Container from "./components/Container";
 import Tank from "./components/Tank";
 import Globe from "./components/Globe";
@@ -16,10 +18,42 @@ import Tilt from "react-parallax-tilt";
 import barGraph from "../../assets/images/bar.gif";
 import circle1 from "../../assets/images/circle1.png";
 import circle2 from "../../assets/images/circle2.png";
+// import Loading from "../../components/loading/Loading"; // Import the Loading component
+import dezuImage from '../../assets/images/univ/dezu.png';
+// import Overlay from "./components/Overlay";
 
-import Overlay from "./components/Overlay";
+const Loading = ({ }) => {
+  const [moveImage, setMoveImage] = useState(false);
+  const [showLoading, setShowLoading] = useState(false);
+  const [blinkElements, setBlinkElements] = useState(false);
+  const [isLoadingComplete, setLoadingComplete] = useState(false);
 
-function World() {
+  useEffect(() => {
+    // Start moving the image and showing loading after 0.6 seconds
+    const timer1 = setTimeout(() => {
+      setMoveImage(true);
+      setShowLoading(true);
+    }, 600);
+
+    // Start blinking after loading is complete
+    const timer2 = setTimeout(() => {
+      setBlinkElements(true);
+    }, 2500); // Adjust this timing to start blinking after loading
+
+    // Notify parent component and stop blinking after 2 seconds
+    const timer3 = setTimeout(() => {
+      setBlinkElements(false);
+      setShowLoading(false);
+      setLoadingComplete(()=>true);
+    }, 3000); // 2 seconds of blinking + 1.6 seconds before blinking
+
+    return () => {
+      clearTimeout(timer1);
+      clearTimeout(timer2);
+      clearTimeout(timer3);
+    };
+  }, [setLoadingComplete]);
+
   const coordsRef = useRef({ x: 0, y: 0 });
   let x = 0;
   let y = 0;
@@ -37,6 +71,7 @@ function World() {
   const [pressureCon, setPressureCon] = useState(false);
   const [contactCon, setContactCon] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
+  // const [isLoadingComplete, setIsLoadingComplete] = useState(false);
 
   const [dummyState, setDummyState] = useState(false);
   // const [hovered, setHovered] = useState(true);
@@ -74,6 +109,14 @@ function World() {
     console.log(`X: ${x}`);
     console.log(`Y: ${y}`);
   }
+
+  useEffect(()=>{
+
+    setTimeout(()=> {
+      setLoadingComplete(true);
+
+    },2500)
+  }, []);
 
   // useEffect(() => {
   //   if (hovered) {
@@ -261,8 +304,12 @@ function World() {
     );
   });
 
+
+
+  
+
   return (
-    <div className="relative view">
+    isLoadingComplete ?(<div className="relative view">
       {isLoading && (
         <div className="loading-spinner">
           {/* Add any loading spinner or text here */}
@@ -465,8 +512,32 @@ function World() {
           onClick={handleTick}
         />
       ) : null}
+    </div>):
+
+
+
+    <div className="LD-container">
+      <div className="LD-content">
+        <img
+          
+          src={dezuImage}
+          alt="Dezu Logo"
+          className={`dezu-logo ${moveImage ? 'move-left' : ''} ${blinkElements ? 'blink' : ''}`}
+        />
+        {/* THIS PARAGRAPH WAS IRRELEVANT BUG */}
+       <p style={{"opacity": "0"}}>console.log(dezu-irrelevant-text to work)</p>
+        <div className={`loading-container ${showLoading ? 'show' : ''} ${blinkElements ? 'blink' : ''}`}>
+          <div className="loading-text">
+            LOADING STATUS: IN PROGRESS <span>.</span><span>.</span><span>.</span>
+          </div>
+          <div className="loading-bar">
+            <div className="loading-fill"></div>
+            
+          </div>
+        </div>
+      </div>
     </div>
   );
-}
+};
 
-export default World;
+export default Loading;
